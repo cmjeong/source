@@ -1,0 +1,20 @@
+Source-Makefile: package/utils/usbmode/Makefile
+Package: usb-modeswitch
+Version: 2017-05-24-453da8e540b1c53d357b897d6c70372cd4633390-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libubox +libblobmsg-json +libusb-1.0
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: USB mode switching utility
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Source: usbmode-2017-05-24-453da8e540b1c53d357b897d6c70372cd4633390.tar.xz
+License: GPL-2.0
+Type: ipkg
+Description: USB mode switching utility
+Felix Fietkau <nbd@nbd.name>
+@@
+
+

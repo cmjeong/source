@@ -1,0 +1,36 @@
+Source-Makefile: package/firmware/layerscape/dpl/Makefile
+Package: layerscape-dpl-ls1088ardb
+Version: 2017.09-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread @TARGET_layerscape
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Variant: ls1088ardb
+Section: firmware
+Category: Firmware
+Title: NXP LS1088ARDB DPL firmware
+Maintainer: 
+Source: dpl-2017.09.tar.xz
+Type: ipkg
+Description: NXP LS1088ARDB DPL firmware
+
+@@
+
+Package: layerscape-dpl-ls2088ardb
+Version: 2017.09-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread @TARGET_layerscape
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Variant: ls2088ardb
+Section: firmware
+Category: Firmware
+Title: NXP LS2088ARDB DPL firmware
+Maintainer: 
+Source: dpl-2017.09.tar.xz
+Type: ipkg
+Description: NXP LS2088ARDB DPL firmware
+
+@@
+
+
