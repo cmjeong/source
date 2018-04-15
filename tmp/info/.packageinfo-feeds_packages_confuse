@@ -9,7 +9,7 @@ Section: libs
 Category: Libraries
 Repository: packages
 Title: libConfuse is a configuration file parser library
-Maintainer: Daniel Engberg <daniel.engberg.lists@pyret.net>
+Maintainer: 
 Source: confuse-3.2.1.tar.xz
 License: ISC
 Type: ipkg
@@ -26,7 +26,7 @@ Description: 	libConfuse is a configuration file parser library, licensed under 
 	and quick to integrate with your code. libConfuse was called libcfg
 	before, but was changed to not confuse with other similar libraries.
 https://github.com/martinh/libconfuse
-Daniel Engberg <daniel.engberg.lists@pyret.net>
+
 @@
 
 

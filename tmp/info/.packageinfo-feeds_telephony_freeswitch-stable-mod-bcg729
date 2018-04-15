@@ -1,7 +1,7 @@
 Source-Makefile: package/feeds/telephony/freeswitch-stable-mod-bcg729/Makefile
 Package: freeswitch-stable-mod-bcg729
 Submenu: Telephony
-Version: 20170629-1
+Version: 20170629-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread freeswitch-stable +bcg729
 Conflicts: 
 Menu-Depends: 
@@ -17,7 +17,7 @@ LicenseFiles: LICENSE
 Type: ipkg
 Description: FreeSWITCH G.729 module using the opensource bcg729 implementation by
 Belledonne Communications.
-https://www.freeswitch.org
+https://github.com/xadhoom/mod_bcg729
 Sebastian Kemper <sebastian_ml@gmx.net>
 @@
 

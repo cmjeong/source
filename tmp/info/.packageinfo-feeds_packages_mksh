@@ -1,16 +1,17 @@
 Source-Makefile: package/feeds/packages/mksh/Makefile
 Package: mksh
-Version: 55-1
+Submenu: Shells
+Version: 56c-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Section: shells
-Category: Base system
+Section: utils
+Category: Utilities
 Repository: packages
 Title: MirBSD Korn Shell
-Maintainer: Thorsten Glaser <tg@mirbsd.org>
-Source: mksh-R55.tgz
+Maintainer: Thorsten Glaser <tg@mirbsd.org>, Alif M. Ahmad <alive4ever@live.com>
+Source: mksh-R56c.tgz
 License: MirOS
 Type: ipkg
 Description: mksh is the MirBSD enhanced version of the Public Domain Korn
@@ -28,7 +29,7 @@ ance added, and several enhancements (for extended compatibi-
 lity to other modern shells - as well as a couple of its own)
 are available. It has sensible defaults as usual with BSD.
 http://mirbsd.de/mksh
-Thorsten Glaser <tg@mirbsd.org>
+Thorsten Glaser <tg@mirbsd.org>, Alif M. Ahmad <alive4ever@live.com>
 @@
 
 

@@ -1,6 +1,6 @@
 Source-Makefile: package/feeds/packages/libvorbisidec/Makefile
 Package: libvorbisidec
-Version: 1.0.3-20150104-1
+Version: 1.0.3-20150104-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libogg
 Conflicts: 
 Menu-Depends: 
@@ -10,7 +10,7 @@ Category: Libraries
 Repository: packages
 Title: A fixed-point Ogg/Vorbis decoder library
 Maintainer: Ted Hess <thess@kitschensync.net>
-Source: libvorbisidec-1.0.3-20150104.tar.gz
+Source: libvorbisidec-1.0.3-20150104.tar.xz
 License: BSD-3-Clause
 LicenseFiles: COPYING
 Type: ipkg

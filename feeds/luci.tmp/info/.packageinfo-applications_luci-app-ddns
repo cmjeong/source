@@ -1,7 +1,7 @@
 Source-Makefile: feeds/luci/applications/luci-app-ddns/Makefile
 Package: luci-app-ddns
 Submenu: 3. Applications
-Version: 2.4.8-2
+Version: 2.4.9-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +luci-mod-admin-full +ddns-scripts
 Conflicts: 
 Menu-Depends: 
@@ -21,7 +21,7 @@ Christian Schoenebeck <christian.schoenebeck@gmail.com>
 
 Package: luci-i18n-ddns-ca
 Default: LUCI_LANG_ca||(ALL&&m)
-Version: 2.4.8-2
+Version: 2.4.9-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-ddns
 Conflicts: 
 Menu-Depends: 
@@ -42,7 +42,7 @@ Christian Schoenebeck <christian.schoenebeck@gmail.com>
 
 Package: luci-i18n-ddns-cs
 Default: LUCI_LANG_cs||(ALL&&m)
-Version: 2.4.8-2
+Version: 2.4.9-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-ddns
 Conflicts: 
 Menu-Depends: 
@@ -63,7 +63,7 @@ Christian Schoenebeck <christian.schoenebeck@gmail.com>
 
 Package: luci-i18n-ddns-de
 Default: LUCI_LANG_de||(ALL&&m)
-Version: 2.4.8-2
+Version: 2.4.9-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-ddns
 Conflicts: 
 Menu-Depends: 
@@ -84,7 +84,7 @@ Christian Schoenebeck <christian.schoenebeck@gmail.com>
 
 Package: luci-i18n-ddns-el
 Default: LUCI_LANG_el||(ALL&&m)
-Version: 2.4.8-2
+Version: 2.4.9-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-ddns
 Conflicts: 
 Menu-Depends: 
@@ -105,7 +105,7 @@ Christian Schoenebeck <christian.schoenebeck@gmail.com>
 
 Package: luci-i18n-ddns-es
 Default: LUCI_LANG_es||(ALL&&m)
-Version: 2.4.8-2
+Version: 2.4.9-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-ddns
 Conflicts: 
 Menu-Depends: 
@@ -126,7 +126,7 @@ Christian Schoenebeck <christian.schoenebeck@gmail.com>
 
 Package: luci-i18n-ddns-fr
 Default: LUCI_LANG_fr||(ALL&&m)
-Version: 2.4.8-2
+Version: 2.4.9-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-ddns
 Conflicts: 
 Menu-Depends: 
@@ -147,7 +147,7 @@ Christian Schoenebeck <christian.schoenebeck@gmail.com>
 
 Package: luci-i18n-ddns-he
 Default: LUCI_LANG_he||(ALL&&m)
-Version: 2.4.8-2
+Version: 2.4.9-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-ddns
 Conflicts: 
 Menu-Depends: 
@@ -168,7 +168,7 @@ Christian Schoenebeck <christian.schoenebeck@gmail.com>
 
 Package: luci-i18n-ddns-hu
 Default: LUCI_LANG_hu||(ALL&&m)
-Version: 2.4.8-2
+Version: 2.4.9-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-ddns
 Conflicts: 
 Menu-Depends: 
@@ -189,7 +189,7 @@ Christian Schoenebeck <christian.schoenebeck@gmail.com>
 
 Package: luci-i18n-ddns-it
 Default: LUCI_LANG_it||(ALL&&m)
-Version: 2.4.8-2
+Version: 2.4.9-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-ddns
 Conflicts: 
 Menu-Depends: 
@@ -210,7 +210,7 @@ Christian Schoenebeck <christian.schoenebeck@gmail.com>
 
 Package: luci-i18n-ddns-ja
 Default: LUCI_LANG_ja||(ALL&&m)
-Version: 2.4.8-2
+Version: 2.4.9-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-ddns
 Conflicts: 
 Menu-Depends: 
@@ -231,7 +231,7 @@ Christian Schoenebeck <christian.schoenebeck@gmail.com>
 
 Package: luci-i18n-ddns-no
 Default: LUCI_LANG_no||(ALL&&m)
-Version: 2.4.8-2
+Version: 2.4.9-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-ddns
 Conflicts: 
 Menu-Depends: 
@@ -252,7 +252,7 @@ Christian Schoenebeck <christian.schoenebeck@gmail.com>
 
 Package: luci-i18n-ddns-pl
 Default: LUCI_LANG_pl||(ALL&&m)
-Version: 2.4.8-2
+Version: 2.4.9-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-ddns
 Conflicts: 
 Menu-Depends: 
@@ -273,7 +273,7 @@ Christian Schoenebeck <christian.schoenebeck@gmail.com>
 
 Package: luci-i18n-ddns-pt
 Default: LUCI_LANG_pt||(ALL&&m)
-Version: 2.4.8-2
+Version: 2.4.9-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-ddns
 Conflicts: 
 Menu-Depends: 
@@ -294,7 +294,7 @@ Christian Schoenebeck <christian.schoenebeck@gmail.com>
 
 Package: luci-i18n-ddns-pt-br
 Default: LUCI_LANG_pt-br||(ALL&&m)
-Version: 2.4.8-2
+Version: 2.4.9-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-ddns
 Conflicts: 
 Menu-Depends: 
@@ -315,7 +315,7 @@ Christian Schoenebeck <christian.schoenebeck@gmail.com>
 
 Package: luci-i18n-ddns-ro
 Default: LUCI_LANG_ro||(ALL&&m)
-Version: 2.4.8-2
+Version: 2.4.9-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-ddns
 Conflicts: 
 Menu-Depends: 
@@ -336,7 +336,7 @@ Christian Schoenebeck <christian.schoenebeck@gmail.com>
 
 Package: luci-i18n-ddns-ru
 Default: LUCI_LANG_ru||(ALL&&m)
-Version: 2.4.8-2
+Version: 2.4.9-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-ddns
 Conflicts: 
 Menu-Depends: 
@@ -357,7 +357,7 @@ Christian Schoenebeck <christian.schoenebeck@gmail.com>
 
 Package: luci-i18n-ddns-sv
 Default: LUCI_LANG_sv||(ALL&&m)
-Version: 2.4.8-2
+Version: 2.4.9-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-ddns
 Conflicts: 
 Menu-Depends: 
@@ -378,7 +378,7 @@ Christian Schoenebeck <christian.schoenebeck@gmail.com>
 
 Package: luci-i18n-ddns-tr
 Default: LUCI_LANG_tr||(ALL&&m)
-Version: 2.4.8-2
+Version: 2.4.9-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-ddns
 Conflicts: 
 Menu-Depends: 
@@ -399,7 +399,7 @@ Christian Schoenebeck <christian.schoenebeck@gmail.com>
 
 Package: luci-i18n-ddns-uk
 Default: LUCI_LANG_uk||(ALL&&m)
-Version: 2.4.8-2
+Version: 2.4.9-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-ddns
 Conflicts: 
 Menu-Depends: 
@@ -420,7 +420,7 @@ Christian Schoenebeck <christian.schoenebeck@gmail.com>
 
 Package: luci-i18n-ddns-vi
 Default: LUCI_LANG_vi||(ALL&&m)
-Version: 2.4.8-2
+Version: 2.4.9-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-ddns
 Conflicts: 
 Menu-Depends: 
@@ -441,7 +441,7 @@ Christian Schoenebeck <christian.schoenebeck@gmail.com>
 
 Package: luci-i18n-ddns-zh-cn
 Default: LUCI_LANG_zh-cn||(ALL&&m)
-Version: 2.4.8-2
+Version: 2.4.9-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-ddns
 Conflicts: 
 Menu-Depends: 
@@ -462,7 +462,7 @@ Christian Schoenebeck <christian.schoenebeck@gmail.com>
 
 Package: luci-i18n-ddns-zh-tw
 Default: LUCI_LANG_zh-tw||(ALL&&m)
-Version: 2.4.8-2
+Version: 2.4.9-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-ddns
 Conflicts: 
 Menu-Depends: 

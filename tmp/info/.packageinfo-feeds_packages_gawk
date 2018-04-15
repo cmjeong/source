@@ -1,6 +1,6 @@
 Source-Makefile: package/feeds/packages/gawk/Makefile
 Package: gawk
-Version: 4.2.0-1
+Version: 4.2.0-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libncursesw +libreadline
 Conflicts: 
 Menu-Depends: 
@@ -15,7 +15,7 @@ License: GPL
 LicenseFiles: COPYING
 Type: ipkg
 Description: GNU awk
-http://tukaani.org/xz
+https://www.gnu.org/software/gawk/
 Daniel Golle <daniel@makrotopia.org>
 @@
 

@@ -1,6 +1,6 @@
 Source-Makefile: feeds/packages/libs/libdbi-drivers/Makefile
 Package: libdbd-mysql
-Version: 0.9.0-1
+Version: 0.9.0-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread libdbi +libmysqlclient
 Conflicts: 
 Menu-Depends: 
@@ -20,7 +20,7 @@ Nicolas Thill <nico@openwrt.org>
 @@
 
 Package: libdbd-pgsql
-Version: 0.9.0-1
+Version: 0.9.0-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread libdbi +libpq
 Conflicts: 
 Menu-Depends: 
@@ -40,7 +40,7 @@ Nicolas Thill <nico@openwrt.org>
 @@
 
 Package: libdbd-sqlite3
-Version: 0.9.0-1
+Version: 0.9.0-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread libdbi +libsqlite3
 Conflicts: 
 Menu-Depends: 

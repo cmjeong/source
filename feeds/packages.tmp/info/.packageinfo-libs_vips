@@ -1,7 +1,7 @@
 Source-Makefile: feeds/packages/libs/vips/Makefile
 Package: vips
-Version: 7.42.1-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +glib2 +libexif +libjpeg +libpng +libxml2 +BUILD_NLS:libintl-full
+Version: 8.6.1-2
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +glib2 +libexif +libexpat +libjpeg +libpng +giflib +libstdcpp +libxml2 +BUILD_NLS:libintl-full
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -11,7 +11,7 @@ Category: Multimedia
 Repository: base
 Title: An image manipulation library
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: vips-7.42.1.tar.gz
+Source: vips-8.6.1.tar.gz
 Type: ipkg
 Description: An image manipulation library
 http://www.vips.ecs.soton.ac.uk/

@@ -1,7 +1,7 @@
 Source-Makefile: feeds/packages/libs/dmx_usb_module/Makefile
 Package: kmod-usb-serial-dmx_usb_module
 Submenu: USB Support
-Version: <LINUX_VERSION>+0.1.20130818-0.1
+Version: <LINUX_VERSION>+0.1.20130818-2
 Depends:  kmod-usb-serial
 Conflicts: 
 Menu-Depends: 

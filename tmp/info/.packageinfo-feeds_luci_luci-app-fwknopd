@@ -61,4 +61,25 @@ Description:     Translation for luci-app-fwknopd - Português do Brasil (Brazia
 Jonathan Bennett <JBennett@incomsystems.biz>
 @@
 
+Package: luci-i18n-fwknopd-ru
+Default: LUCI_LANG_ru||(ALL&&m)
+Version: x-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-fwknopd
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Repository: luci
+Title: luci-app-fwknopd - ru translation
+Maintainer: Jonathan Bennett <JBennett@incomsystems.biz>
+Source: 
+License: GPLv2
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-fwknopd - Русский (Russian)
+Jonathan Bennett <JBennett@incomsystems.biz>
+@@
+
 

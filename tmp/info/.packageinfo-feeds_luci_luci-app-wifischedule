@@ -78,6 +78,26 @@ Description:     Translation for luci-app-wifischedule - Português do Brasil (B
 
 @@
 
+Package: luci-i18n-wifischedule-ru
+Default: LUCI_LANG_ru||(ALL&&m)
+Version: x-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-wifischedule
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Repository: luci
+Title: luci-app-wifischedule - ru translation
+Maintainer: 
+Source: 
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-wifischedule - Русский (Russian)
+
+@@
+
 Package: luci-i18n-wifischedule-sv
 Default: LUCI_LANG_sv||(ALL&&m)
 Version: x-1

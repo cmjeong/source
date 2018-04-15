@@ -1,7 +1,7 @@
 Source-Makefile: feeds/packages/mail/mutt/Makefile
 Package: mutt
-Version: 1.9.1-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libopenssl +libncursesw +zlib
+Version: 1.9.4-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libopenssl +libncursesw +terminfo +zlib
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -10,7 +10,7 @@ Category: Mail
 Repository: base
 Title: Console mail client
 Maintainer: Phil Eichinger <phil@zankapfel.net>
-Source: mutt-1.9.1.tar.gz
+Source: mutt-1.9.4.tar.gz
 License: GPL-2.0+
 LicenseFiles: GPL
 Type: ipkg

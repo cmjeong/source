@@ -1,8 +1,8 @@
 Source-Makefile: package/feeds/telephony/bcg729/Makefile
 Package: bcg729
 Submenu: Telephony
-Version: 1.0.2-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread @BUILD_PATENTED
+Version: 1.0.4-3
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -11,7 +11,7 @@ Category: Libraries
 Repository: telephony
 Title: Software G729A encoder and decoder library written in C
 Maintainer: Alex Samorukov <samm@os2.kiev.ua>
-Source: bcg729-1.0.2.tar.gz
+Source: bcg729-1.0.4.tar.gz
 License: GPL-2.0+
 LicenseFiles: COPYING
 Type: ipkg

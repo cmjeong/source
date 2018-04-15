@@ -2,7 +2,7 @@ Source-Makefile: package/feeds/telephony/yate/Makefile
 Package: yate
 Menu: 1
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpthread +USE_UCLIBCXX:uclibcxx +USE_LIBSTDCXX:libstdcpp
 Conflicts: 
 Menu-Depends: 
@@ -23,8 +23,8 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-collection-basic
 Submenu: Telephony
-Version: 6.0.0-1-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate +yate-sounds +yate-mod-dumbchan +yate-mod-regfile +yate-mod-regexroute +yate-mod-rmanager +yate-mod-tonegen +yate-mod-yrtpchan +yate-mod-ysipchan
+Version: 6.0.0-1-8
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate +PACKAGE_yate-collection-basic:yate-sounds +PACKAGE_yate-collection-basic:yate-mod-dumbchan +PACKAGE_yate-collection-basic:yate-mod-regfile +PACKAGE_yate-collection-basic:yate-mod-regexroute +PACKAGE_yate-collection-basic:yate-mod-rmanager +PACKAGE_yate-collection-basic:yate-mod-tonegen +PACKAGE_yate-collection-basic:yate-mod-yrtpchan +PACKAGE_yate-collection-basic:yate-mod-ysipchan
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -44,8 +44,8 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-scripts-perl
 Submenu: Telephony
-Version: 6.0.0-1-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate yate-mod-extmodule +perlbase-data
+Version: 6.0.0-1-8
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate +PACKAGE_yate-scripts-perl:yate-mod-extmodule +PACKAGE_yate-scripts-perl:perlbase-data @!arc
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -65,7 +65,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-sounds
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -86,7 +86,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-accfile
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -107,8 +107,8 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-alsachan
 Submenu: Telephony
-Version: 6.0.0-1-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate +alsa-lib
+Version: 6.0.0-1-8
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate +PACKAGE_yate-mod-alsachan:alsa-lib
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -128,7 +128,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-amrnbcodec
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate @BROKEN
 Conflicts: 
 Menu-Depends: 
@@ -149,7 +149,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-analog
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -170,7 +170,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-analogdetect
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -191,7 +191,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-analyzer
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -212,7 +212,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-cache
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -233,7 +233,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-callcounters
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -254,7 +254,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-callfork
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -275,7 +275,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-callgen
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -294,9 +294,30 @@ http://yate.null.ro/
 Jiri Slachta <jiri@slachta.eu>
 @@
 
+Package: yate-mod-camel-map
+Submenu: Telephony
+Version: 6.0.0-1-8
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Repository: telephony
+Title: MAP/CAMEL TCAP <-> XML translators
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Source: yate-6.0.0-1.tar.gz
+License: GPL-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description:     MAP/CAMEL TCAP <-> XML translators module for yate
+http://yate.null.ro/
+Jiri Slachta <jiri@slachta.eu>
+@@
+
 Package: yate-mod-ccongestion
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -317,7 +338,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-cdrbuild
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -338,7 +359,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-cdrcombine
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -359,7 +380,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-cdrfile
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -380,7 +401,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-ciscosm
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -401,7 +422,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-clustering
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -422,7 +443,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-conference
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -443,7 +464,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-cpuload
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -464,7 +485,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-dbpbx
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -485,8 +506,8 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-dbwave
 Submenu: Telephony
-Version: 6.0.0-1-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate +yate-mod-wavefile
+Version: 6.0.0-1-8
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate +PACKAGE_yate-mod-dbwave:yate-mod-wavefile
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -506,7 +527,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-dumbchan
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -527,7 +548,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-enumroute
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -548,7 +569,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-eventlogs
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -569,7 +590,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-extmodule
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -590,8 +611,8 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-faxchan
 Submenu: Telephony
-Version: 6.0.0-1-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate +libspandsp
+Version: 6.0.0-1-8
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate +PACKAGE_yate-mod-faxchan:libspandsp
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -609,9 +630,30 @@ http://yate.null.ro/
 Jiri Slachta <jiri@slachta.eu>
 @@
 
+Package: yate-mod-fileinfo
+Submenu: Telephony
+Version: 6.0.0-1-8
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Repository: telephony
+Title: File Info Holder
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Source: yate-6.0.0-1.tar.gz
+License: GPL-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description:     File Info Holder module for yate
+http://yate.null.ro/
+Jiri Slachta <jiri@slachta.eu>
+@@
+
 Package: yate-mod-filetransfer
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -632,7 +674,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-gvoice
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -653,7 +695,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-heartbeat
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -674,7 +716,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-ilbccodec
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -695,7 +737,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-ilbcwebrtc
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -716,7 +758,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-isaccodec
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -737,7 +779,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-isupmangler
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -758,7 +800,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-jabberclient
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -779,7 +821,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-jabberserver
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -800,7 +842,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-javascript
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -821,7 +863,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-jbfeatures
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -842,7 +884,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-lateroute
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -863,7 +905,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-mgcpca
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -884,7 +926,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-mgcpgw
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -905,7 +947,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-moh
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -926,7 +968,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-monitoring
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -947,7 +989,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-mrcpspeech
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -968,7 +1010,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-msgsniff
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -989,7 +1031,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-mux
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -1010,8 +1052,8 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-mysqldb
 Submenu: Telephony
-Version: 6.0.0-1-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate +libmysqlclient-r
+Version: 6.0.0-1-8
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate +PACKAGE_yate-mod-mysqldb:libmysqlclient-r
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -1031,8 +1073,8 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-openssl
 Submenu: Telephony
-Version: 6.0.0-1-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate +libopenssl
+Version: 6.0.0-1-8
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate +PACKAGE_yate-mod-openssl:libopenssl
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -1052,7 +1094,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-osschan
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -1073,7 +1115,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-park
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -1094,7 +1136,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-pbx
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -1115,7 +1157,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-pbxassist
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -1136,8 +1178,8 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-pgsqldb
 Submenu: Telephony
-Version: 6.0.0-1-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate +libpq
+Version: 6.0.0-1-8
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate +PACKAGE_yate-mod-pgsqldb:libpq
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -1157,7 +1199,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-presence
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -1178,7 +1220,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-queues
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -1199,7 +1241,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-queuesnotify
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -1220,7 +1262,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-regexroute
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -1241,7 +1283,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-regfile
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -1262,7 +1304,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-register
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -1283,7 +1325,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-rmanager
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -1304,7 +1346,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-sigtransport
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -1323,9 +1365,9 @@ http://yate.null.ro/
 Jiri Slachta <jiri@slachta.eu>
 @@
 
-Package: yate-mod-sip_cnam_lnp
+Package: yate-mod-sip-cnam-lnp
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -1346,7 +1388,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-sipfeatures
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -1365,9 +1407,51 @@ http://yate.null.ro/
 Jiri Slachta <jiri@slachta.eu>
 @@
 
+Package: yate-mod-sqlitedb
+Submenu: Telephony
+Version: 6.0.0-1-8
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate +PACKAGE_yate-mod-sqlitedb:libsqlite3
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Repository: telephony
+Title: SQLite Support
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Source: yate-6.0.0-1.tar.gz
+License: GPL-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description:     SQLite Support module for yate
+http://yate.null.ro/
+Jiri Slachta <jiri@slachta.eu>
+@@
+
+Package: yate-mod-ss7-lnp-ansi
+Submenu: Telephony
+Version: 6.0.0-1-8
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Repository: telephony
+Title: Query LNP Databases
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Source: yate-6.0.0-1.tar.gz
+License: GPL-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description:     Query LNP Databases module for yate
+http://yate.null.ro/
+Jiri Slachta <jiri@slachta.eu>
+@@
+
 Package: yate-mod-subscription
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -1388,7 +1472,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-tdmcard
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate @BROKEN
 Conflicts: 
 Menu-Depends: 
@@ -1409,7 +1493,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-tonedetect
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -1430,7 +1514,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-tonegen
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -1451,7 +1535,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-users
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -1472,7 +1556,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-wavefile
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -1493,7 +1577,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-wpcard
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate @BROKEN
 Conflicts: 
 Menu-Depends: 
@@ -1514,7 +1598,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-yiaxchan
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -1535,7 +1619,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-yjinglechan
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -1556,7 +1640,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-yradius
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -1577,7 +1661,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-yrtpchan
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -1598,7 +1682,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-ysigchan
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -1619,7 +1703,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-ysipchan
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -1640,7 +1724,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-ysnmpagent
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -1661,7 +1745,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-ysockschan
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -1682,7 +1766,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: yate-mod-ystunchan
 Submenu: Telephony
-Version: 6.0.0-1-1
+Version: 6.0.0-1-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate
 Conflicts: 
 Menu-Depends: 
@@ -1701,10 +1785,31 @@ http://yate.null.ro/
 Jiri Slachta <jiri@slachta.eu>
 @@
 
+Package: yate-mod-zapcard
+Submenu: Telephony
+Version: 6.0.0-1-8
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate @!aarch64 +PACKAGE_yate-mod-zapcard:kmod-dahdi
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Repository: telephony
+Title: Zaptel PRI/TDM/FXS/FXO cards
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Source: yate-6.0.0-1.tar.gz
+License: GPL-2.0
+LicenseFiles: COPYING
+Type: ipkg
+Description:     Zaptel PRI/TDM/FXS/FXO cards module for yate
+http://yate.null.ro/
+Jiri Slachta <jiri@slachta.eu>
+@@
+
 Package: yate-mod-zlibcompress
 Submenu: Telephony
-Version: 6.0.0-1-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate +zlib
+Version: 6.0.0-1-8
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread yate +PACKAGE_yate-mod-zlibcompress:zlib
 Conflicts: 
 Menu-Depends: 
 Provides: 

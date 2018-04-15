@@ -1,8 +1,8 @@
 Source-Makefile: feeds/telephony/net/sipp/Makefile
 Package: sipp
 Submenu: Telephony
-Version: 3.5.1-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libncurses +libpthread +libstdcpp
+Version: 3.5.1-3
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +USE_UCLIBCXX:uclibcxx +USE_LIBSTDCXX:libstdcpp +libncurses +libpthread
 Conflicts: 
 Menu-Depends: 
 Provides: 

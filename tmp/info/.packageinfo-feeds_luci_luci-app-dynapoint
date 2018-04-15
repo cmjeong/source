@@ -82,4 +82,25 @@ Description:     Translation for luci-app-dynapoint - Português do Brasil (Braz
 Tobias Ilte <tobias.ilte@campus.tu-berlin.de>
 @@
 
+Package: luci-i18n-dynapoint-ru
+Default: LUCI_LANG_ru||(ALL&&m)
+Version: x-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-dynapoint
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Repository: luci
+Title: luci-app-dynapoint - ru translation
+Maintainer: Tobias Ilte <tobias.ilte@campus.tu-berlin.de>
+Source: 
+License: GPL-3.0+
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-dynapoint - Русский (Russian)
+Tobias Ilte <tobias.ilte@campus.tu-berlin.de>
+@@
+
 

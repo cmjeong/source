@@ -1,7 +1,7 @@
 Source-Makefile: feeds/packages/utils/mc/Makefile
 Package: mc
 Menu: 1
-Version: 4.8.20-1
+Version: 4.8.20-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +glib2 +libncurses +libmount +MC_VFS:libssh2 +librpc +BUILD_NLS:libiconv-full
 Conflicts: 
 Menu-Depends: 

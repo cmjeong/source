@@ -1,20 +1,20 @@
 Source-Makefile: package/feeds/packages/python3/Makefile
 Package: python3-unittest
 Submenu: Python
-Version: 3.6.3-10
+Version: 3.6.4-5
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python3-light
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: python3/host PACKAGE_bluez-libs:bluez-libs
-Build-Depends/host: bzip2/host expat/host libffi/host
+Build-Depends: python3/host
+Build-Depends/host: bzip2/host expat/host libffi/host zlib/host
 Build-Types: host
 Section: lang
 Category: Languages
 Repository: packages
 Title: Python 3.6 unittest module
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
-Source: Python-3.6.3.tar.xz
+Source: Python-3.6.4.tar.xz
 License: PSF
 LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
 Type: ipkg
@@ -25,20 +25,20 @@ Alexandru Ardelean <ardeleanalex@gmail.com>
 
 Package: python3-unittest-src
 Submenu: Python
-Version: 3.6.3-10
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python3-light-src
+Version: 3.6.4-5
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: python3/host PACKAGE_bluez-libs:bluez-libs
-Build-Depends/host: bzip2/host expat/host libffi/host
+Build-Depends: python3/host
+Build-Depends/host: bzip2/host expat/host libffi/host zlib/host
 Build-Types: host
 Section: lang
 Category: Languages
 Repository: packages
 Title: Python 3.6 unittest module (sources)
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
-Source: Python-3.6.3.tar.xz
+Source: Python-3.6.4.tar.xz
 License: PSF
 LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
 Type: ipkg
@@ -50,20 +50,20 @@ Alexandru Ardelean <ardeleanalex@gmail.com>
 
 Package: python3-lib2to3
 Submenu: Python
-Version: 3.6.3-10
+Version: 3.6.4-5
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python3
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: python3/host PACKAGE_bluez-libs:bluez-libs
-Build-Depends/host: bzip2/host expat/host libffi/host
+Build-Depends: python3/host
+Build-Depends/host: bzip2/host expat/host libffi/host zlib/host
 Build-Types: host
 Section: lang
 Category: Languages
 Repository: packages
 Title: Python 3.6 lib2to3 module
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
-Source: Python-3.6.3.tar.xz
+Source: Python-3.6.4.tar.xz
 License: PSF
 LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
 Type: ipkg
@@ -74,20 +74,20 @@ Alexandru Ardelean <ardeleanalex@gmail.com>
 
 Package: python3-lib2to3-src
 Submenu: Python
-Version: 3.6.3-10
+Version: 3.6.4-5
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: python3/host PACKAGE_bluez-libs:bluez-libs
-Build-Depends/host: bzip2/host expat/host libffi/host
+Build-Depends: python3/host
+Build-Depends/host: bzip2/host expat/host libffi/host zlib/host
 Build-Types: host
 Section: lang
 Category: Languages
 Repository: packages
 Title: Python 3.6 lib2to3 module (sources)
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
-Source: Python-3.6.3.tar.xz
+Source: Python-3.6.4.tar.xz
 License: PSF
 LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
 Type: ipkg
@@ -99,20 +99,20 @@ Alexandru Ardelean <ardeleanalex@gmail.com>
 
 Package: python3-ncurses
 Submenu: Python
-Version: 3.6.3-10
+Version: 3.6.4-5
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python3-light +libncurses
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: python3/host PACKAGE_bluez-libs:bluez-libs
-Build-Depends/host: bzip2/host expat/host libffi/host
+Build-Depends: python3/host
+Build-Depends/host: bzip2/host expat/host libffi/host zlib/host
 Build-Types: host
 Section: lang
 Category: Languages
 Repository: packages
 Title: Python 3.6 ncurses module
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
-Source: Python-3.6.3.tar.xz
+Source: Python-3.6.4.tar.xz
 License: PSF
 LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
 Type: ipkg
@@ -123,20 +123,20 @@ Alexandru Ardelean <ardeleanalex@gmail.com>
 
 Package: python3-ncurses-src
 Submenu: Python
-Version: 3.6.3-10
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python3-light-src
+Version: 3.6.4-5
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: python3/host PACKAGE_bluez-libs:bluez-libs
-Build-Depends/host: bzip2/host expat/host libffi/host
+Build-Depends: python3/host
+Build-Depends/host: bzip2/host expat/host libffi/host zlib/host
 Build-Types: host
 Section: lang
 Category: Languages
 Repository: packages
 Title: Python 3.6 ncurses module (sources)
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
-Source: Python-3.6.3.tar.xz
+Source: Python-3.6.4.tar.xz
 License: PSF
 LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
 Type: ipkg
@@ -148,20 +148,20 @@ Alexandru Ardelean <ardeleanalex@gmail.com>
 
 Package: python3-ctypes
 Submenu: Python
-Version: 3.6.3-10
+Version: 3.6.4-5
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python3-light
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: python3/host PACKAGE_bluez-libs:bluez-libs
-Build-Depends/host: bzip2/host expat/host libffi/host
+Build-Depends: python3/host
+Build-Depends/host: bzip2/host expat/host libffi/host zlib/host
 Build-Types: host
 Section: lang
 Category: Languages
 Repository: packages
 Title: Python 3.6 ctypes module
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
-Source: Python-3.6.3.tar.xz
+Source: Python-3.6.4.tar.xz
 License: PSF
 LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
 Type: ipkg
@@ -172,20 +172,20 @@ Alexandru Ardelean <ardeleanalex@gmail.com>
 
 Package: python3-ctypes-src
 Submenu: Python
-Version: 3.6.3-10
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python3-light-src
+Version: 3.6.4-5
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: python3/host PACKAGE_bluez-libs:bluez-libs
-Build-Depends/host: bzip2/host expat/host libffi/host
+Build-Depends: python3/host
+Build-Depends/host: bzip2/host expat/host libffi/host zlib/host
 Build-Types: host
 Section: lang
 Category: Languages
 Repository: packages
 Title: Python 3.6 ctypes module (sources)
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
-Source: Python-3.6.3.tar.xz
+Source: Python-3.6.4.tar.xz
 License: PSF
 LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
 Type: ipkg
@@ -197,20 +197,20 @@ Alexandru Ardelean <ardeleanalex@gmail.com>
 
 Package: python3-pydoc
 Submenu: Python
-Version: 3.6.3-10
+Version: 3.6.4-5
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python3-light
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: python3/host PACKAGE_bluez-libs:bluez-libs
-Build-Depends/host: bzip2/host expat/host libffi/host
+Build-Depends: python3/host
+Build-Depends/host: bzip2/host expat/host libffi/host zlib/host
 Build-Types: host
 Section: lang
 Category: Languages
 Repository: packages
 Title: Python 3.6 pydoc module
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
-Source: Python-3.6.3.tar.xz
+Source: Python-3.6.4.tar.xz
 License: PSF
 LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
 Type: ipkg
@@ -221,20 +221,20 @@ Alexandru Ardelean <ardeleanalex@gmail.com>
 
 Package: python3-pydoc-src
 Submenu: Python
-Version: 3.6.3-10
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python3-light-src
+Version: 3.6.4-5
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: python3/host PACKAGE_bluez-libs:bluez-libs
-Build-Depends/host: bzip2/host expat/host libffi/host
+Build-Depends: python3/host
+Build-Depends/host: bzip2/host expat/host libffi/host zlib/host
 Build-Types: host
 Section: lang
 Category: Languages
 Repository: packages
 Title: Python 3.6 pydoc module (sources)
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
-Source: Python-3.6.3.tar.xz
+Source: Python-3.6.4.tar.xz
 License: PSF
 LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
 Type: ipkg
@@ -246,20 +246,20 @@ Alexandru Ardelean <ardeleanalex@gmail.com>
 
 Package: python3-logging
 Submenu: Python
-Version: 3.6.3-10
+Version: 3.6.4-5
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python3-light
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: python3/host PACKAGE_bluez-libs:bluez-libs
-Build-Depends/host: bzip2/host expat/host libffi/host
+Build-Depends: python3/host
+Build-Depends/host: bzip2/host expat/host libffi/host zlib/host
 Build-Types: host
 Section: lang
 Category: Languages
 Repository: packages
 Title: Python 3.6 logging module
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
-Source: Python-3.6.3.tar.xz
+Source: Python-3.6.4.tar.xz
 License: PSF
 LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
 Type: ipkg
@@ -270,20 +270,20 @@ Alexandru Ardelean <ardeleanalex@gmail.com>
 
 Package: python3-logging-src
 Submenu: Python
-Version: 3.6.3-10
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python3-light-src
+Version: 3.6.4-5
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: python3/host PACKAGE_bluez-libs:bluez-libs
-Build-Depends/host: bzip2/host expat/host libffi/host
+Build-Depends: python3/host
+Build-Depends/host: bzip2/host expat/host libffi/host zlib/host
 Build-Types: host
 Section: lang
 Category: Languages
 Repository: packages
 Title: Python 3.6 logging module (sources)
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
-Source: Python-3.6.3.tar.xz
+Source: Python-3.6.4.tar.xz
 License: PSF
 LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
 Type: ipkg
@@ -295,20 +295,20 @@ Alexandru Ardelean <ardeleanalex@gmail.com>
 
 Package: python3-decimal
 Submenu: Python
-Version: 3.6.3-10
+Version: 3.6.4-5
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python3-light
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: python3/host PACKAGE_bluez-libs:bluez-libs
-Build-Depends/host: bzip2/host expat/host libffi/host
+Build-Depends: python3/host
+Build-Depends/host: bzip2/host expat/host libffi/host zlib/host
 Build-Types: host
 Section: lang
 Category: Languages
 Repository: packages
 Title: Python 3.6 decimal module
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
-Source: Python-3.6.3.tar.xz
+Source: Python-3.6.4.tar.xz
 License: PSF
 LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
 Type: ipkg
@@ -319,20 +319,20 @@ Alexandru Ardelean <ardeleanalex@gmail.com>
 
 Package: python3-decimal-src
 Submenu: Python
-Version: 3.6.3-10
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python3-light-src
+Version: 3.6.4-5
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: python3/host PACKAGE_bluez-libs:bluez-libs
-Build-Depends/host: bzip2/host expat/host libffi/host
+Build-Depends: python3/host
+Build-Depends/host: bzip2/host expat/host libffi/host zlib/host
 Build-Types: host
 Section: lang
 Category: Languages
 Repository: packages
 Title: Python 3.6 decimal module (sources)
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
-Source: Python-3.6.3.tar.xz
+Source: Python-3.6.4.tar.xz
 License: PSF
 LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
 Type: ipkg
@@ -344,20 +344,20 @@ Alexandru Ardelean <ardeleanalex@gmail.com>
 
 Package: python3-multiprocessing
 Submenu: Python
-Version: 3.6.3-10
+Version: 3.6.4-5
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python3-light
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: python3/host PACKAGE_bluez-libs:bluez-libs
-Build-Depends/host: bzip2/host expat/host libffi/host
+Build-Depends: python3/host
+Build-Depends/host: bzip2/host expat/host libffi/host zlib/host
 Build-Types: host
 Section: lang
 Category: Languages
 Repository: packages
 Title: Python 3.6 multiprocessing
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
-Source: Python-3.6.3.tar.xz
+Source: Python-3.6.4.tar.xz
 License: PSF
 LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
 Type: ipkg
@@ -368,20 +368,20 @@ Alexandru Ardelean <ardeleanalex@gmail.com>
 
 Package: python3-multiprocessing-src
 Submenu: Python
-Version: 3.6.3-10
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python3-light-src
+Version: 3.6.4-5
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: python3/host PACKAGE_bluez-libs:bluez-libs
-Build-Depends/host: bzip2/host expat/host libffi/host
+Build-Depends: python3/host
+Build-Depends/host: bzip2/host expat/host libffi/host zlib/host
 Build-Types: host
 Section: lang
 Category: Languages
 Repository: packages
 Title: Python 3.6 multiprocessing (sources)
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
-Source: Python-3.6.3.tar.xz
+Source: Python-3.6.4.tar.xz
 License: PSF
 LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
 Type: ipkg
@@ -393,20 +393,20 @@ Alexandru Ardelean <ardeleanalex@gmail.com>
 
 Package: python3-codecs
 Submenu: Python
-Version: 3.6.3-10
+Version: 3.6.4-5
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python3-light
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: python3/host PACKAGE_bluez-libs:bluez-libs
-Build-Depends/host: bzip2/host expat/host libffi/host
+Build-Depends: python3/host
+Build-Depends/host: bzip2/host expat/host libffi/host zlib/host
 Build-Types: host
 Section: lang
 Category: Languages
 Repository: packages
 Title: Python 3.6 codecs + unicode support
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
-Source: Python-3.6.3.tar.xz
+Source: Python-3.6.4.tar.xz
 License: PSF
 LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
 Type: ipkg
@@ -417,20 +417,20 @@ Alexandru Ardelean <ardeleanalex@gmail.com>
 
 Package: python3-codecs-src
 Submenu: Python
-Version: 3.6.3-10
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python3-light-src
+Version: 3.6.4-5
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: python3/host PACKAGE_bluez-libs:bluez-libs
-Build-Depends/host: bzip2/host expat/host libffi/host
+Build-Depends: python3/host
+Build-Depends/host: bzip2/host expat/host libffi/host zlib/host
 Build-Types: host
 Section: lang
 Category: Languages
 Repository: packages
 Title: Python 3.6 codecs + unicode support (sources)
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
-Source: Python-3.6.3.tar.xz
+Source: Python-3.6.4.tar.xz
 License: PSF
 LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
 Type: ipkg
@@ -447,15 +447,15 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +pytho
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: python3/host PACKAGE_bluez-libs:bluez-libs
-Build-Depends/host: bzip2/host expat/host libffi/host
+Build-Depends: python3/host
+Build-Depends/host: bzip2/host expat/host libffi/host zlib/host
 Build-Types: host
 Section: lang
 Category: Languages
 Repository: packages
 Title: Python 3.6 pip module
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
-Source: Python-3.6.3.tar.xz
+Source: Python-3.6.4.tar.xz
 License: PSF
 LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
 Type: ipkg
@@ -467,19 +467,19 @@ Alexandru Ardelean <ardeleanalex@gmail.com>
 Package: python3-pip-src
 Submenu: Python
 Version: 9.0.1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python3-setuptools-src
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: python3/host PACKAGE_bluez-libs:bluez-libs
-Build-Depends/host: bzip2/host expat/host libffi/host
+Build-Depends: python3/host
+Build-Depends/host: bzip2/host expat/host libffi/host zlib/host
 Build-Types: host
 Section: lang
 Category: Languages
 Repository: packages
 Title: Python 3.6 pip module (sources)
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
-Source: Python-3.6.3.tar.xz
+Source: Python-3.6.4.tar.xz
 License: PSF
 LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
 Type: ipkg
@@ -491,20 +491,20 @@ Alexandru Ardelean <ardeleanalex@gmail.com>
 
 Package: python3-dev
 Submenu: Python
-Version: 3.6.3-10
+Version: 3.6.4-5
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python3 +python3-lib2to3
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: python3/host PACKAGE_bluez-libs:bluez-libs
-Build-Depends/host: bzip2/host expat/host libffi/host
+Build-Depends: python3/host
+Build-Depends/host: bzip2/host expat/host libffi/host zlib/host
 Build-Types: host
 Section: lang
 Category: Languages
 Repository: packages
 Title: Python 3.6 development files
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
-Source: Python-3.6.3.tar.xz
+Source: Python-3.6.4.tar.xz
 License: PSF
 LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
 Type: ipkg
@@ -515,20 +515,20 @@ Alexandru Ardelean <ardeleanalex@gmail.com>
 
 Package: python3-dev-src
 Submenu: Python
-Version: 3.6.3-10
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python3-lib2to3-src
+Version: 3.6.4-5
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: python3/host PACKAGE_bluez-libs:bluez-libs
-Build-Depends/host: bzip2/host expat/host libffi/host
+Build-Depends: python3/host
+Build-Depends/host: bzip2/host expat/host libffi/host zlib/host
 Build-Types: host
 Section: lang
 Category: Languages
 Repository: packages
 Title: Python 3.6 development files (sources)
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
-Source: Python-3.6.3.tar.xz
+Source: Python-3.6.4.tar.xz
 License: PSF
 LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
 Type: ipkg
@@ -540,20 +540,20 @@ Alexandru Ardelean <ardeleanalex@gmail.com>
 
 Package: python3-gdbm
 Submenu: Python
-Version: 3.6.3-10
+Version: 3.6.4-5
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python3-light +libgdbm
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: python3/host PACKAGE_bluez-libs:bluez-libs
-Build-Depends/host: bzip2/host expat/host libffi/host
+Build-Depends: python3/host
+Build-Depends/host: bzip2/host expat/host libffi/host zlib/host
 Build-Types: host
 Section: lang
 Category: Languages
 Repository: packages
 Title: Python 3.6 gdbm module
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
-Source: Python-3.6.3.tar.xz
+Source: Python-3.6.4.tar.xz
 License: PSF
 LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
 Type: ipkg
@@ -564,20 +564,20 @@ Alexandru Ardelean <ardeleanalex@gmail.com>
 
 Package: python3-gdbm-src
 Submenu: Python
-Version: 3.6.3-10
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python3-light-src
+Version: 3.6.4-5
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: python3/host PACKAGE_bluez-libs:bluez-libs
-Build-Depends/host: bzip2/host expat/host libffi/host
+Build-Depends: python3/host
+Build-Depends/host: bzip2/host expat/host libffi/host zlib/host
 Build-Types: host
 Section: lang
 Category: Languages
 Repository: packages
 Title: Python 3.6 gdbm module (sources)
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
-Source: Python-3.6.3.tar.xz
+Source: Python-3.6.4.tar.xz
 License: PSF
 LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
 Type: ipkg
@@ -589,20 +589,20 @@ Alexandru Ardelean <ardeleanalex@gmail.com>
 
 Package: python3-sqlite3
 Submenu: Python
-Version: 3.6.3-10
+Version: 3.6.4-5
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python3-light +libsqlite3
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: python3/host PACKAGE_bluez-libs:bluez-libs
-Build-Depends/host: bzip2/host expat/host libffi/host
+Build-Depends: python3/host
+Build-Depends/host: bzip2/host expat/host libffi/host zlib/host
 Build-Types: host
 Section: lang
 Category: Languages
 Repository: packages
 Title: Python 3.6 sqlite3 module
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
-Source: Python-3.6.3.tar.xz
+Source: Python-3.6.4.tar.xz
 License: PSF
 LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
 Type: ipkg
@@ -613,20 +613,20 @@ Alexandru Ardelean <ardeleanalex@gmail.com>
 
 Package: python3-sqlite3-src
 Submenu: Python
-Version: 3.6.3-10
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python3-light-src
+Version: 3.6.4-5
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: python3/host PACKAGE_bluez-libs:bluez-libs
-Build-Depends/host: bzip2/host expat/host libffi/host
+Build-Depends: python3/host
+Build-Depends/host: bzip2/host expat/host libffi/host zlib/host
 Build-Types: host
 Section: lang
 Category: Languages
 Repository: packages
 Title: Python 3.6 sqlite3 module (sources)
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
-Source: Python-3.6.3.tar.xz
+Source: Python-3.6.4.tar.xz
 License: PSF
 LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
 Type: ipkg
@@ -638,20 +638,20 @@ Alexandru Ardelean <ardeleanalex@gmail.com>
 
 Package: python3-xml
 Submenu: Python
-Version: 3.6.3-10
+Version: 3.6.4-5
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python3-light
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: python3/host PACKAGE_bluez-libs:bluez-libs
-Build-Depends/host: bzip2/host expat/host libffi/host
+Build-Depends: python3/host
+Build-Depends/host: bzip2/host expat/host libffi/host zlib/host
 Build-Types: host
 Section: lang
 Category: Languages
 Repository: packages
 Title: Python 3.6 xml libs
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
-Source: Python-3.6.3.tar.xz
+Source: Python-3.6.4.tar.xz
 License: PSF
 LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
 Type: ipkg
@@ -662,20 +662,20 @@ Alexandru Ardelean <ardeleanalex@gmail.com>
 
 Package: python3-xml-src
 Submenu: Python
-Version: 3.6.3-10
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python3-light-src
+Version: 3.6.4-5
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: python3/host PACKAGE_bluez-libs:bluez-libs
-Build-Depends/host: bzip2/host expat/host libffi/host
+Build-Depends: python3/host
+Build-Depends/host: bzip2/host expat/host libffi/host zlib/host
 Build-Types: host
 Section: lang
 Category: Languages
 Repository: packages
 Title: Python 3.6 xml libs (sources)
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
-Source: Python-3.6.3.tar.xz
+Source: Python-3.6.4.tar.xz
 License: PSF
 LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
 Type: ipkg
@@ -687,20 +687,20 @@ Alexandru Ardelean <ardeleanalex@gmail.com>
 
 Package: python3-distutils
 Submenu: Python
-Version: 3.6.3-10
+Version: 3.6.4-5
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python3-light
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: python3/host PACKAGE_bluez-libs:bluez-libs
-Build-Depends/host: bzip2/host expat/host libffi/host
+Build-Depends: python3/host
+Build-Depends/host: bzip2/host expat/host libffi/host zlib/host
 Build-Types: host
 Section: lang
 Category: Languages
 Repository: packages
 Title: Python 3.6 distutils module
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
-Source: Python-3.6.3.tar.xz
+Source: Python-3.6.4.tar.xz
 License: PSF
 LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
 Type: ipkg
@@ -711,20 +711,20 @@ Alexandru Ardelean <ardeleanalex@gmail.com>
 
 Package: python3-distutils-src
 Submenu: Python
-Version: 3.6.3-10
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python3-light-src
+Version: 3.6.4-5
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: python3/host PACKAGE_bluez-libs:bluez-libs
-Build-Depends/host: bzip2/host expat/host libffi/host
+Build-Depends: python3/host
+Build-Depends/host: bzip2/host expat/host libffi/host zlib/host
 Build-Types: host
 Section: lang
 Category: Languages
 Repository: packages
 Title: Python 3.6 distutils module (sources)
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
-Source: Python-3.6.3.tar.xz
+Source: Python-3.6.4.tar.xz
 License: PSF
 LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
 Type: ipkg
@@ -736,20 +736,20 @@ Alexandru Ardelean <ardeleanalex@gmail.com>
 
 Package: python3-email
 Submenu: Python
-Version: 3.6.3-10
+Version: 3.6.4-5
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python3-light
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: python3/host PACKAGE_bluez-libs:bluez-libs
-Build-Depends/host: bzip2/host expat/host libffi/host
+Build-Depends: python3/host
+Build-Depends/host: bzip2/host expat/host libffi/host zlib/host
 Build-Types: host
 Section: lang
 Category: Languages
 Repository: packages
 Title: Python 3.6 email module
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
-Source: Python-3.6.3.tar.xz
+Source: Python-3.6.4.tar.xz
 License: PSF
 LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
 Type: ipkg
@@ -760,20 +760,20 @@ Alexandru Ardelean <ardeleanalex@gmail.com>
 
 Package: python3-email-src
 Submenu: Python
-Version: 3.6.3-10
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python3-light-src
+Version: 3.6.4-5
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: python3/host PACKAGE_bluez-libs:bluez-libs
-Build-Depends/host: bzip2/host expat/host libffi/host
+Build-Depends: python3/host
+Build-Depends/host: bzip2/host expat/host libffi/host zlib/host
 Build-Types: host
 Section: lang
 Category: Languages
 Repository: packages
 Title: Python 3.6 email module (sources)
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
-Source: Python-3.6.3.tar.xz
+Source: Python-3.6.4.tar.xz
 License: PSF
 LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
 Type: ipkg
@@ -785,20 +785,20 @@ Alexandru Ardelean <ardeleanalex@gmail.com>
 
 Package: python3-openssl
 Submenu: Python
-Version: 3.6.3-10
+Version: 3.6.4-5
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python3-light +libopenssl
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: python3/host PACKAGE_bluez-libs:bluez-libs
-Build-Depends/host: bzip2/host expat/host libffi/host
+Build-Depends: python3/host
+Build-Depends/host: bzip2/host expat/host libffi/host zlib/host
 Build-Types: host
 Section: lang
 Category: Languages
 Repository: packages
 Title: Python 3.6 SSL module
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
-Source: Python-3.6.3.tar.xz
+Source: Python-3.6.4.tar.xz
 License: PSF
 LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
 Type: ipkg
@@ -809,20 +809,20 @@ Alexandru Ardelean <ardeleanalex@gmail.com>
 
 Package: python3-openssl-src
 Submenu: Python
-Version: 3.6.3-10
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python3-light-src
+Version: 3.6.4-5
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: python3/host PACKAGE_bluez-libs:bluez-libs
-Build-Depends/host: bzip2/host expat/host libffi/host
+Build-Depends: python3/host
+Build-Depends/host: bzip2/host expat/host libffi/host zlib/host
 Build-Types: host
 Section: lang
 Category: Languages
 Repository: packages
 Title: Python 3.6 SSL module (sources)
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
-Source: Python-3.6.3.tar.xz
+Source: Python-3.6.4.tar.xz
 License: PSF
 LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
 Type: ipkg
@@ -839,15 +839,15 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +pytho
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: python3/host PACKAGE_bluez-libs:bluez-libs
-Build-Depends/host: bzip2/host expat/host libffi/host
+Build-Depends: python3/host
+Build-Depends/host: bzip2/host expat/host libffi/host zlib/host
 Build-Types: host
 Section: lang
 Category: Languages
 Repository: packages
 Title: Python 3.6 setuptools module
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
-Source: Python-3.6.3.tar.xz
+Source: Python-3.6.4.tar.xz
 License: PSF
 LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
 Type: ipkg
@@ -863,15 +863,15 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: python3/host PACKAGE_bluez-libs:bluez-libs
-Build-Depends/host: bzip2/host expat/host libffi/host
+Build-Depends: python3/host
+Build-Depends/host: bzip2/host expat/host libffi/host zlib/host
 Build-Types: host
 Section: lang
 Category: Languages
 Repository: packages
 Title: Python 3.6 setuptools module (sources)
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
-Source: Python-3.6.3.tar.xz
+Source: Python-3.6.4.tar.xz
 License: PSF
 LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
 Type: ipkg
@@ -883,20 +883,20 @@ Alexandru Ardelean <ardeleanalex@gmail.com>
 
 Package: python3-cgi
 Submenu: Python
-Version: 3.6.3-10
+Version: 3.6.4-5
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python3-light +python3-email
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: python3/host PACKAGE_bluez-libs:bluez-libs
-Build-Depends/host: bzip2/host expat/host libffi/host
+Build-Depends: python3/host
+Build-Depends/host: bzip2/host expat/host libffi/host zlib/host
 Build-Types: host
 Section: lang
 Category: Languages
 Repository: packages
 Title: Python 3.6 cgi module
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
-Source: Python-3.6.3.tar.xz
+Source: Python-3.6.4.tar.xz
 License: PSF
 LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
 Type: ipkg
@@ -907,20 +907,20 @@ Alexandru Ardelean <ardeleanalex@gmail.com>
 
 Package: python3-cgi-src
 Submenu: Python
-Version: 3.6.3-10
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python3-light-src +python3-email-src
+Version: 3.6.4-5
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: python3/host PACKAGE_bluez-libs:bluez-libs
-Build-Depends/host: bzip2/host expat/host libffi/host
+Build-Depends: python3/host
+Build-Depends/host: bzip2/host expat/host libffi/host zlib/host
 Build-Types: host
 Section: lang
 Category: Languages
 Repository: packages
 Title: Python 3.6 cgi module (sources)
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
-Source: Python-3.6.3.tar.xz
+Source: Python-3.6.4.tar.xz
 License: PSF
 LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
 Type: ipkg
@@ -932,20 +932,20 @@ Alexandru Ardelean <ardeleanalex@gmail.com>
 
 Package: python3-cgitb
 Submenu: Python
-Version: 3.6.3-10
+Version: 3.6.4-5
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python3-light +python3-cgi +python3-pydoc
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: python3/host PACKAGE_bluez-libs:bluez-libs
-Build-Depends/host: bzip2/host expat/host libffi/host
+Build-Depends: python3/host
+Build-Depends/host: bzip2/host expat/host libffi/host zlib/host
 Build-Types: host
 Section: lang
 Category: Languages
 Repository: packages
 Title: Python 3.6 cgitb module
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
-Source: Python-3.6.3.tar.xz
+Source: Python-3.6.4.tar.xz
 License: PSF
 LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
 Type: ipkg
@@ -956,20 +956,20 @@ Alexandru Ardelean <ardeleanalex@gmail.com>
 
 Package: python3-cgitb-src
 Submenu: Python
-Version: 3.6.3-10
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python3-light-src +python3-cgi-src +python3-pydoc-src
+Version: 3.6.4-5
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: python3/host PACKAGE_bluez-libs:bluez-libs
-Build-Depends/host: bzip2/host expat/host libffi/host
+Build-Depends: python3/host
+Build-Depends/host: bzip2/host expat/host libffi/host zlib/host
 Build-Types: host
 Section: lang
 Category: Languages
 Repository: packages
 Title: Python 3.6 cgitb module (sources)
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
-Source: Python-3.6.3.tar.xz
+Source: Python-3.6.4.tar.xz
 License: PSF
 LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
 Type: ipkg
@@ -981,20 +981,20 @@ Alexandru Ardelean <ardeleanalex@gmail.com>
 
 Package: python3-dbm
 Submenu: Python
-Version: 3.6.3-10
+Version: 3.6.4-5
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python3-light +libdb47
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: python3/host PACKAGE_bluez-libs:bluez-libs
-Build-Depends/host: bzip2/host expat/host libffi/host
+Build-Depends: python3/host
+Build-Depends/host: bzip2/host expat/host libffi/host zlib/host
 Build-Types: host
 Section: lang
 Category: Languages
 Repository: packages
 Title: Python 3.6 dbm module
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
-Source: Python-3.6.3.tar.xz
+Source: Python-3.6.4.tar.xz
 License: PSF
 LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
 Type: ipkg
@@ -1005,20 +1005,20 @@ Alexandru Ardelean <ardeleanalex@gmail.com>
 
 Package: python3-dbm-src
 Submenu: Python
-Version: 3.6.3-10
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python3-light-src
+Version: 3.6.4-5
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: python3/host PACKAGE_bluez-libs:bluez-libs
-Build-Depends/host: bzip2/host expat/host libffi/host
+Build-Depends: python3/host
+Build-Depends/host: bzip2/host expat/host libffi/host zlib/host
 Build-Types: host
 Section: lang
 Category: Languages
 Repository: packages
 Title: Python 3.6 dbm module (sources)
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
-Source: Python-3.6.3.tar.xz
+Source: Python-3.6.4.tar.xz
 License: PSF
 LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
 Type: ipkg
@@ -1030,20 +1030,20 @@ Alexandru Ardelean <ardeleanalex@gmail.com>
 
 Package: python3-lzma
 Submenu: Python
-Version: 3.6.3-10
+Version: 3.6.4-5
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python3-light +liblzma
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: python3/host PACKAGE_bluez-libs:bluez-libs
-Build-Depends/host: bzip2/host expat/host libffi/host
+Build-Depends: python3/host
+Build-Depends/host: bzip2/host expat/host libffi/host zlib/host
 Build-Types: host
 Section: lang
 Category: Languages
 Repository: packages
 Title: Python 3.6 lzma module
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
-Source: Python-3.6.3.tar.xz
+Source: Python-3.6.4.tar.xz
 License: PSF
 LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
 Type: ipkg
@@ -1054,20 +1054,20 @@ Alexandru Ardelean <ardeleanalex@gmail.com>
 
 Package: python3-lzma-src
 Submenu: Python
-Version: 3.6.3-10
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python3-light-src
+Version: 3.6.4-5
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: python3/host PACKAGE_bluez-libs:bluez-libs
-Build-Depends/host: bzip2/host expat/host libffi/host
+Build-Depends: python3/host
+Build-Depends/host: bzip2/host expat/host libffi/host zlib/host
 Build-Types: host
 Section: lang
 Category: Languages
 Repository: packages
 Title: Python 3.6 lzma module (sources)
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
-Source: Python-3.6.3.tar.xz
+Source: Python-3.6.4.tar.xz
 License: PSF
 LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
 Type: ipkg
@@ -1079,20 +1079,20 @@ Alexandru Ardelean <ardeleanalex@gmail.com>
 
 Package: python3-asyncio
 Submenu: Python
-Version: 3.6.3-10
+Version: 3.6.4-5
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python3-light
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: python3/host PACKAGE_bluez-libs:bluez-libs
-Build-Depends/host: bzip2/host expat/host libffi/host
+Build-Depends: python3/host
+Build-Depends/host: bzip2/host expat/host libffi/host zlib/host
 Build-Types: host
 Section: lang
 Category: Languages
 Repository: packages
 Title: Python 3.6 asyncio module
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
-Source: Python-3.6.3.tar.xz
+Source: Python-3.6.4.tar.xz
 License: PSF
 LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
 Type: ipkg
@@ -1103,20 +1103,20 @@ Alexandru Ardelean <ardeleanalex@gmail.com>
 
 Package: python3-asyncio-src
 Submenu: Python
-Version: 3.6.3-10
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python3-light-src
+Version: 3.6.4-5
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: python3/host PACKAGE_bluez-libs:bluez-libs
-Build-Depends/host: bzip2/host expat/host libffi/host
+Build-Depends: python3/host
+Build-Depends/host: bzip2/host expat/host libffi/host zlib/host
 Build-Types: host
 Section: lang
 Category: Languages
 Repository: packages
 Title: Python 3.6 asyncio module (sources)
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
-Source: Python-3.6.3.tar.xz
+Source: Python-3.6.4.tar.xz
 License: PSF
 LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
 Type: ipkg
@@ -1128,20 +1128,20 @@ Alexandru Ardelean <ardeleanalex@gmail.com>
 
 Package: python3-base
 Submenu: Python
-Version: 3.6.3-10
+Version: 3.6.4-5
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpthread +zlib
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: python3/host PACKAGE_bluez-libs:bluez-libs
-Build-Depends/host: bzip2/host expat/host libffi/host
+Build-Depends: python3/host
+Build-Depends/host: bzip2/host expat/host libffi/host zlib/host
 Build-Types: host
 Section: lang
 Category: Languages
 Repository: packages
 Title: Python 3.6 interpreter
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
-Source: Python-3.6.3.tar.xz
+Source: Python-3.6.4.tar.xz
 License: PSF
 LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
 Type: ipkg
@@ -1153,20 +1153,20 @@ Alexandru Ardelean <ardeleanalex@gmail.com>
 
 Package: python3-light
 Submenu: Python
-Version: 3.6.3-10
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python3-base +libffi +libbz2 +PACKAGE_bluez-libs:bluez-libs
+Version: 3.6.4-5
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python3-base +libffi +libbz2 +PYTHON3_BLUETOOTH_SUPPORT:bluez-libs
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: python3/host PACKAGE_bluez-libs:bluez-libs
-Build-Depends/host: bzip2/host expat/host libffi/host
+Build-Depends: python3/host
+Build-Depends/host: bzip2/host expat/host libffi/host zlib/host
 Build-Types: host
 Section: lang
 Category: Languages
 Repository: packages
 Title: Python 3.6 light installation
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
-Source: Python-3.6.3.tar.xz
+Source: Python-3.6.4.tar.xz
 License: PSF
 LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
 Type: ipkg
@@ -1176,23 +1176,26 @@ Description:   This package is essentially the python3-base package plus
 https://www.python.org/
 Alexandru Ardelean <ardeleanalex@gmail.com>
 @@
+Config:
+  source "feeds/packages/lang/python/python3/Config-python3-light.in"
+@@
 
 Package: python3
 Submenu: Python
-Version: 3.6.3-10
+Version: 3.6.4-5
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python3-light +python3-unittest +python3-ncurses +python3-ctypes +python3-pydoc +python3-logging +python3-decimal +python3-multiprocessing +python3-codecs +python3-gdbm +python3-sqlite3 +python3-xml +python3-distutils +python3-email +python3-openssl +python3-cgi +python3-cgitb +python3-dbm +python3-lzma +python3-asyncio
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: python3/host PACKAGE_bluez-libs:bluez-libs
-Build-Depends/host: bzip2/host expat/host libffi/host
+Build-Depends: python3/host
+Build-Depends/host: bzip2/host expat/host libffi/host zlib/host
 Build-Types: host
 Section: lang
 Category: Languages
 Repository: packages
 Title: Python 3.6 programming language
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
-Source: Python-3.6.3.tar.xz
+Source: Python-3.6.4.tar.xz
 License: PSF
 LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
 Type: ipkg
@@ -1204,20 +1207,20 @@ Alexandru Ardelean <ardeleanalex@gmail.com>
 
 Package: python3-base-src
 Submenu: Python
-Version: 3.6.3-10
+Version: 3.6.4-5
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: python3/host PACKAGE_bluez-libs:bluez-libs
-Build-Depends/host: bzip2/host expat/host libffi/host
+Build-Depends: python3/host
+Build-Depends/host: bzip2/host expat/host libffi/host zlib/host
 Build-Types: host
 Section: lang
 Category: Languages
 Repository: packages
 Title: Python 3.6 interpreter (sources)
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
-Source: Python-3.6.3.tar.xz
+Source: Python-3.6.4.tar.xz
 License: PSF
 LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
 Type: ipkg
@@ -1230,52 +1233,26 @@ Alexandru Ardelean <ardeleanalex@gmail.com>
 
 Package: python3-light-src
 Submenu: Python
-Version: 3.6.3-10
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python3-base-src
+Version: 3.6.4-5
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: python3/host PACKAGE_bluez-libs:bluez-libs
-Build-Depends/host: bzip2/host expat/host libffi/host
+Build-Depends: python3/host
+Build-Depends/host: bzip2/host expat/host libffi/host zlib/host
 Build-Types: host
 Section: lang
 Category: Languages
 Repository: packages
 Title: Python 3.6 light installation (sources)
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
-Source: Python-3.6.3.tar.xz
+Source: Python-3.6.4.tar.xz
 License: PSF
 LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
 Type: ipkg
 Description:       This package is essentially the python3-base package plus
   a few of the rarely used (and big) libraries stripped out
   into separate packages..
-    (Contains the Python3 sources for this package).
-https://www.python.org/
-Alexandru Ardelean <ardeleanalex@gmail.com>
-@@
-
-Package: python3-src
-Submenu: Python
-Version: 3.6.3-10
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +python3-light-src +python3-unittest-src +python3-ncurses-src +python3-ctypes-src +python3-pydoc-src +python3-logging-src +python3-decimal-src +python3-multiprocessing-src +python3-codecs-src +python3-gdbm-src +python3-sqlite3-src +python3-xml-src +python3-distutils-src +python3-email-src +python3-openssl-src +python3-cgi-src +python3-cgitb-src +python3-dbm-src +python3-lzma-src +python3-asyncio-src
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Build-Depends: python3/host PACKAGE_bluez-libs:bluez-libs
-Build-Depends/host: bzip2/host expat/host libffi/host
-Build-Types: host
-Section: lang
-Category: Languages
-Repository: packages
-Title: Python 3.6 programming language (sources)
-Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
-Source: Python-3.6.3.tar.xz
-License: PSF
-LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
-Type: ipkg
-Description:       This package contains the (almost) full Python install.
-  It's python3-light + all other packages..
     (Contains the Python3 sources for this package).
 https://www.python.org/
 Alexandru Ardelean <ardeleanalex@gmail.com>

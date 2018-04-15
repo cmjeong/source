@@ -1,7 +1,7 @@
 Source-Makefile: package/feeds/packages/php7/Makefile
 Package: php7
 Submenu: PHP
-Version: 7.1.12-2
+Version: 7.2.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpcre +zlib +PHP7_LIBXML:libxml2
 Conflicts: 
 Menu-Depends: 
@@ -12,7 +12,7 @@ Category: Languages
 Repository: packages
 Title: PHP7 Hypertext preprocessor
 Maintainer: Michael Heimpold <mhei@heimpold.de>
-Source: php-7.1.12.tar.xz
+Source: php-7.2.4.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -49,7 +49,7 @@ Config:
 
 Package: php7-cgi
 Submenu: PHP
-Version: 7.1.12-2
+Version: 7.2.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php7 +PACKAGE_php7-mod-intl:libstdcpp
 Conflicts: 
 Menu-Depends: 
@@ -60,7 +60,7 @@ Category: Languages
 Repository: packages
 Title: PHP7 Hypertext preprocessor (CGI & FastCGI)
 Maintainer: Michael Heimpold <mhei@heimpold.de>
-Source: php-7.1.12.tar.xz
+Source: php-7.2.4.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -73,7 +73,7 @@ Michael Heimpold <mhei@heimpold.de>
 
 Package: php7-cli
 Submenu: PHP
-Version: 7.1.12-2
+Version: 7.2.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php7 +PACKAGE_php7-mod-intl:libstdcpp
 Conflicts: 
 Menu-Depends: 
@@ -84,7 +84,7 @@ Category: Languages
 Repository: packages
 Title: PHP7 Hypertext preprocessor (CLI)
 Maintainer: Michael Heimpold <mhei@heimpold.de>
-Source: php-7.1.12.tar.xz
+Source: php-7.2.4.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -97,7 +97,7 @@ Michael Heimpold <mhei@heimpold.de>
 
 Package: php7-fastcgi
 Submenu: PHP
-Version: 7.1.12-2
+Version: 7.2.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php7 +php7-cgi
 Conflicts: 
 Menu-Depends: 
@@ -108,7 +108,7 @@ Category: Languages
 Repository: packages
 Title: FastCGI startup script
 Maintainer: Michael Heimpold <mhei@heimpold.de>
-Source: php-7.1.12.tar.xz
+Source: php-7.2.4.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -120,7 +120,7 @@ Michael Heimpold <mhei@heimpold.de>
 
 Package: php7-fpm
 Submenu: PHP
-Version: 7.1.12-2
+Version: 7.2.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php7 +PACKAGE_php7-mod-intl:libstdcpp
 Conflicts: 
 Menu-Depends: 
@@ -131,7 +131,7 @@ Category: Languages
 Repository: packages
 Title: PHP7 Hypertext preprocessor (FPM)
 Maintainer: Michael Heimpold <mhei@heimpold.de>
-Source: php-7.1.12.tar.xz
+Source: php-7.2.4.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -144,7 +144,7 @@ Michael Heimpold <mhei@heimpold.de>
 
 Package: php7-mod-calendar
 Submenu: PHP
-Version: 7.1.12-2
+Version: 7.2.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php7
 Conflicts: 
 Menu-Depends: 
@@ -155,7 +155,7 @@ Category: Languages
 Repository: packages
 Title: Calendar shared module
 Maintainer: Michael Heimpold <mhei@heimpold.de>
-Source: php-7.1.12.tar.xz
+Source: php-7.2.4.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -166,7 +166,7 @@ Michael Heimpold <mhei@heimpold.de>
 
 Package: php7-mod-ctype
 Submenu: PHP
-Version: 7.1.12-2
+Version: 7.2.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php7
 Conflicts: 
 Menu-Depends: 
@@ -177,7 +177,7 @@ Category: Languages
 Repository: packages
 Title: Ctype shared module
 Maintainer: Michael Heimpold <mhei@heimpold.de>
-Source: php-7.1.12.tar.xz
+Source: php-7.2.4.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -188,7 +188,7 @@ Michael Heimpold <mhei@heimpold.de>
 
 Package: php7-mod-curl
 Submenu: PHP
-Version: 7.1.12-2
+Version: 7.2.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php7 +PACKAGE_php7-mod-curl:libcurl
 Conflicts: 
 Menu-Depends: 
@@ -199,7 +199,7 @@ Category: Languages
 Repository: packages
 Title: cURL shared module
 Maintainer: Michael Heimpold <mhei@heimpold.de>
-Source: php-7.1.12.tar.xz
+Source: php-7.2.4.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -210,7 +210,7 @@ Michael Heimpold <mhei@heimpold.de>
 
 Package: php7-mod-dom
 Submenu: PHP
-Version: 7.1.12-2
+Version: 7.2.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php7 +@PHP7_LIBXML +PACKAGE_php7-mod-dom:libxml2
 Conflicts: 
 Menu-Depends: 
@@ -221,7 +221,7 @@ Category: Languages
 Repository: packages
 Title: DOM shared module
 Maintainer: Michael Heimpold <mhei@heimpold.de>
-Source: php-7.1.12.tar.xz
+Source: php-7.2.4.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -232,7 +232,7 @@ Michael Heimpold <mhei@heimpold.de>
 
 Package: php7-mod-exif
 Submenu: PHP
-Version: 7.1.12-2
+Version: 7.2.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php7
 Conflicts: 
 Menu-Depends: 
@@ -243,7 +243,7 @@ Category: Languages
 Repository: packages
 Title: EXIF shared module
 Maintainer: Michael Heimpold <mhei@heimpold.de>
-Source: php-7.1.12.tar.xz
+Source: php-7.2.4.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -254,7 +254,7 @@ Michael Heimpold <mhei@heimpold.de>
 
 Package: php7-mod-fileinfo
 Submenu: PHP
-Version: 7.1.12-2
+Version: 7.2.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php7
 Conflicts: 
 Menu-Depends: 
@@ -265,7 +265,7 @@ Category: Languages
 Repository: packages
 Title: Fileinfo shared module
 Maintainer: Michael Heimpold <mhei@heimpold.de>
-Source: php-7.1.12.tar.xz
+Source: php-7.2.4.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -276,7 +276,7 @@ Michael Heimpold <mhei@heimpold.de>
 
 Package: php7-mod-ftp
 Submenu: PHP
-Version: 7.1.12-2
+Version: 7.2.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php7 +PACKAGE_php7-mod-ftp:libopenssl
 Conflicts: 
 Menu-Depends: 
@@ -287,7 +287,7 @@ Category: Languages
 Repository: packages
 Title: FTP shared module
 Maintainer: Michael Heimpold <mhei@heimpold.de>
-Source: php-7.1.12.tar.xz
+Source: php-7.2.4.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -298,7 +298,7 @@ Michael Heimpold <mhei@heimpold.de>
 
 Package: php7-mod-gd
 Submenu: PHP
-Version: 7.1.12-2
+Version: 7.2.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php7 +PACKAGE_php7-mod-gd:libjpeg +PACKAGE_php7-mod-gd:libpng +PHP7_LIBFREETYPE:libfreetype
 Conflicts: 
 Menu-Depends: 
@@ -309,7 +309,7 @@ Category: Languages
 Repository: packages
 Title: GD graphics shared module
 Maintainer: Michael Heimpold <mhei@heimpold.de>
-Source: php-7.1.12.tar.xz
+Source: php-7.2.4.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -326,7 +326,7 @@ Config:
 
 Package: php7-mod-gettext
 Submenu: PHP
-Version: 7.1.12-2
+Version: 7.2.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php7 +PACKAGE_php7-mod-gettext:libintl-full
 Conflicts: 
 Menu-Depends: 
@@ -337,7 +337,7 @@ Category: Languages
 Repository: packages
 Title: Gettext shared module
 Maintainer: Michael Heimpold <mhei@heimpold.de>
-Source: php-7.1.12.tar.xz
+Source: php-7.2.4.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -348,7 +348,7 @@ Michael Heimpold <mhei@heimpold.de>
 
 Package: php7-mod-gmp
 Submenu: PHP
-Version: 7.1.12-2
+Version: 7.2.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php7 +PACKAGE_php7-mod-gmp:libgmp
 Conflicts: 
 Menu-Depends: 
@@ -359,7 +359,7 @@ Category: Languages
 Repository: packages
 Title: GMP shared module
 Maintainer: Michael Heimpold <mhei@heimpold.de>
-Source: php-7.1.12.tar.xz
+Source: php-7.2.4.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -370,7 +370,7 @@ Michael Heimpold <mhei@heimpold.de>
 
 Package: php7-mod-hash
 Submenu: PHP
-Version: 7.1.12-2
+Version: 7.2.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php7
 Conflicts: 
 Menu-Depends: 
@@ -381,7 +381,7 @@ Category: Languages
 Repository: packages
 Title: Hash shared module
 Maintainer: Michael Heimpold <mhei@heimpold.de>
-Source: php-7.1.12.tar.xz
+Source: php-7.2.4.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -392,7 +392,7 @@ Michael Heimpold <mhei@heimpold.de>
 
 Package: php7-mod-iconv
 Submenu: PHP
-Version: 7.1.12-2
+Version: 7.2.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php7 +BUILD_NLS:libiconv-full
 Conflicts: 
 Menu-Depends: 
@@ -403,7 +403,7 @@ Category: Languages
 Repository: packages
 Title: iConv shared module
 Maintainer: Michael Heimpold <mhei@heimpold.de>
-Source: php-7.1.12.tar.xz
+Source: php-7.2.4.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -414,7 +414,7 @@ Michael Heimpold <mhei@heimpold.de>
 
 Package: php7-mod-imap
 Submenu: PHP
-Version: 7.1.12-2
+Version: 7.2.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php7 +PACKAGE_php7-mod-imap:libopenssl +PACKAGE_libpam:libpam +PACKAGE_php7-mod-imap:uw-imap
 Conflicts: 
 Menu-Depends: 
@@ -425,7 +425,7 @@ Category: Languages
 Repository: packages
 Title: IMAP shared module
 Maintainer: Michael Heimpold <mhei@heimpold.de>
-Source: php-7.1.12.tar.xz
+Source: php-7.2.4.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -436,7 +436,7 @@ Michael Heimpold <mhei@heimpold.de>
 
 Package: php7-mod-intl
 Submenu: PHP
-Version: 7.1.12-2
+Version: 7.2.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php7 +PACKAGE_php7-mod-intl:icu
 Conflicts: 
 Menu-Depends: 
@@ -447,7 +447,7 @@ Category: Languages
 Repository: packages
 Title: Internationalization Functions shared module
 Maintainer: Michael Heimpold <mhei@heimpold.de>
-Source: php-7.1.12.tar.xz
+Source: php-7.2.4.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -458,7 +458,7 @@ Michael Heimpold <mhei@heimpold.de>
 
 Package: php7-mod-json
 Submenu: PHP
-Version: 7.1.12-2
+Version: 7.2.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php7
 Conflicts: 
 Menu-Depends: 
@@ -469,7 +469,7 @@ Category: Languages
 Repository: packages
 Title: JSON shared module
 Maintainer: Michael Heimpold <mhei@heimpold.de>
-Source: php-7.1.12.tar.xz
+Source: php-7.2.4.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -480,7 +480,7 @@ Michael Heimpold <mhei@heimpold.de>
 
 Package: php7-mod-ldap
 Submenu: PHP
-Version: 7.1.12-2
+Version: 7.2.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php7 +PACKAGE_php7-mod-ldap:libopenldap +PACKAGE_php7-mod-ldap:libsasl2
 Conflicts: 
 Menu-Depends: 
@@ -491,7 +491,7 @@ Category: Languages
 Repository: packages
 Title: LDAP shared module
 Maintainer: Michael Heimpold <mhei@heimpold.de>
-Source: php-7.1.12.tar.xz
+Source: php-7.2.4.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -502,7 +502,7 @@ Michael Heimpold <mhei@heimpold.de>
 
 Package: php7-mod-mbstring
 Submenu: PHP
-Version: 7.1.12-2
+Version: 7.2.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php7
 Conflicts: 
 Menu-Depends: 
@@ -513,7 +513,7 @@ Category: Languages
 Repository: packages
 Title: MBString shared module
 Maintainer: Michael Heimpold <mhei@heimpold.de>
-Source: php-7.1.12.tar.xz
+Source: php-7.2.4.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -522,31 +522,9 @@ http://www.php.net/
 Michael Heimpold <mhei@heimpold.de>
 @@
 
-Package: php7-mod-mcrypt
-Submenu: PHP
-Version: 7.1.12-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php7 +PACKAGE_php7-mod-mcrypt:libmcrypt +PACKAGE_php7-mod-mcrypt:libltdl
-Conflicts: 
-Menu-Depends: 
-Provides: 
-Build-Depends: libtool libintl libiconv !BUILD_NLS:libiconv !BUILD_NLS:libintl
-Section: lang
-Category: Languages
-Repository: packages
-Title: Mcrypt shared module
-Maintainer: Michael Heimpold <mhei@heimpold.de>
-Source: php-7.1.12.tar.xz
-License: PHPv3.01
-LicenseFiles: LICENSE
-Type: ipkg
-Description: Mcrypt shared module
-http://www.php.net/
-Michael Heimpold <mhei@heimpold.de>
-@@
-
 Package: php7-mod-mysqli
 Submenu: PHP
-Version: 7.1.12-2
+Version: 7.2.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php7 +PACKAGE_php7-mod-mysqli:libmysqlclient
 Conflicts: 
 Menu-Depends: 
@@ -557,7 +535,7 @@ Category: Languages
 Repository: packages
 Title: MySQL Improved Extension shared module
 Maintainer: Michael Heimpold <mhei@heimpold.de>
-Source: php-7.1.12.tar.xz
+Source: php-7.2.4.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -568,7 +546,7 @@ Michael Heimpold <mhei@heimpold.de>
 
 Package: php7-mod-opcache
 Submenu: PHP
-Version: 7.1.12-2
+Version: 7.2.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php7
 Conflicts: 
 Menu-Depends: 
@@ -579,7 +557,7 @@ Category: Languages
 Repository: packages
 Title: OPcache shared module
 Maintainer: Michael Heimpold <mhei@heimpold.de>
-Source: php-7.1.12.tar.xz
+Source: php-7.2.4.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -590,7 +568,7 @@ Michael Heimpold <mhei@heimpold.de>
 
 Package: php7-mod-openssl
 Submenu: PHP
-Version: 7.1.12-2
+Version: 7.2.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php7 +PACKAGE_php7-mod-openssl:libopenssl
 Conflicts: 
 Menu-Depends: 
@@ -601,7 +579,7 @@ Category: Languages
 Repository: packages
 Title: OpenSSL shared module
 Maintainer: Michael Heimpold <mhei@heimpold.de>
-Source: php-7.1.12.tar.xz
+Source: php-7.2.4.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -612,7 +590,7 @@ Michael Heimpold <mhei@heimpold.de>
 
 Package: php7-mod-pcntl
 Submenu: PHP
-Version: 7.1.12-2
+Version: 7.2.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php7
 Conflicts: 
 Menu-Depends: 
@@ -623,7 +601,7 @@ Category: Languages
 Repository: packages
 Title: PCNTL shared module
 Maintainer: Michael Heimpold <mhei@heimpold.de>
-Source: php-7.1.12.tar.xz
+Source: php-7.2.4.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -634,7 +612,7 @@ Michael Heimpold <mhei@heimpold.de>
 
 Package: php7-mod-pdo
 Submenu: PHP
-Version: 7.1.12-2
+Version: 7.2.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php7
 Conflicts: 
 Menu-Depends: 
@@ -645,7 +623,7 @@ Category: Languages
 Repository: packages
 Title: PHP Data Objects shared module
 Maintainer: Michael Heimpold <mhei@heimpold.de>
-Source: php-7.1.12.tar.xz
+Source: php-7.2.4.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -656,7 +634,7 @@ Michael Heimpold <mhei@heimpold.de>
 
 Package: php7-mod-pdo-mysql
 Submenu: PHP
-Version: 7.1.12-2
+Version: 7.2.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php7 +php7-mod-pdo +PACKAGE_php7-mod-pdo-mysql:libmysqlclient
 Conflicts: 
 Menu-Depends: 
@@ -667,7 +645,7 @@ Category: Languages
 Repository: packages
 Title: PDO driver for MySQL shared module
 Maintainer: Michael Heimpold <mhei@heimpold.de>
-Source: php-7.1.12.tar.xz
+Source: php-7.2.4.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -678,7 +656,7 @@ Michael Heimpold <mhei@heimpold.de>
 
 Package: php7-mod-pdo-pgsql
 Submenu: PHP
-Version: 7.1.12-2
+Version: 7.2.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php7 +php7-mod-pdo +PACKAGE_php7-mod-pdo-pgsql:libpq
 Conflicts: 
 Menu-Depends: 
@@ -689,7 +667,7 @@ Category: Languages
 Repository: packages
 Title: PDO driver for PostgreSQL shared module
 Maintainer: Michael Heimpold <mhei@heimpold.de>
-Source: php-7.1.12.tar.xz
+Source: php-7.2.4.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -700,7 +678,7 @@ Michael Heimpold <mhei@heimpold.de>
 
 Package: php7-mod-pdo-sqlite
 Submenu: PHP
-Version: 7.1.12-2
+Version: 7.2.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php7 +php7-mod-pdo +PACKAGE_php7-mod-pdo-sqlite:libsqlite3 +PACKAGE_php7-mod-pdo-sqlite:librt
 Conflicts: 
 Menu-Depends: 
@@ -711,7 +689,7 @@ Category: Languages
 Repository: packages
 Title: PDO driver for SQLite 3.x shared module
 Maintainer: Michael Heimpold <mhei@heimpold.de>
-Source: php-7.1.12.tar.xz
+Source: php-7.2.4.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -722,7 +700,7 @@ Michael Heimpold <mhei@heimpold.de>
 
 Package: php7-mod-pgsql
 Submenu: PHP
-Version: 7.1.12-2
+Version: 7.2.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php7 +PACKAGE_php7-mod-pgsql:libpq
 Conflicts: 
 Menu-Depends: 
@@ -733,7 +711,7 @@ Category: Languages
 Repository: packages
 Title: PostgreSQL shared module
 Maintainer: Michael Heimpold <mhei@heimpold.de>
-Source: php-7.1.12.tar.xz
+Source: php-7.2.4.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -744,7 +722,7 @@ Michael Heimpold <mhei@heimpold.de>
 
 Package: php7-mod-phar
 Submenu: PHP
-Version: 7.1.12-2
+Version: 7.2.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php7 +php7-mod-hash
 Conflicts: 
 Menu-Depends: 
@@ -755,7 +733,7 @@ Category: Languages
 Repository: packages
 Title: Phar Archives shared module
 Maintainer: Michael Heimpold <mhei@heimpold.de>
-Source: php-7.1.12.tar.xz
+Source: php-7.2.4.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -766,7 +744,7 @@ Michael Heimpold <mhei@heimpold.de>
 
 Package: php7-mod-session
 Submenu: PHP
-Version: 7.1.12-2
+Version: 7.2.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php7
 Conflicts: 
 Menu-Depends: 
@@ -777,7 +755,7 @@ Category: Languages
 Repository: packages
 Title: Session shared module
 Maintainer: Michael Heimpold <mhei@heimpold.de>
-Source: php-7.1.12.tar.xz
+Source: php-7.2.4.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -788,7 +766,7 @@ Michael Heimpold <mhei@heimpold.de>
 
 Package: php7-mod-shmop
 Submenu: PHP
-Version: 7.1.12-2
+Version: 7.2.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php7
 Conflicts: 
 Menu-Depends: 
@@ -799,7 +777,7 @@ Category: Languages
 Repository: packages
 Title: Shared Memory shared module
 Maintainer: Michael Heimpold <mhei@heimpold.de>
-Source: php-7.1.12.tar.xz
+Source: php-7.2.4.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -810,7 +788,7 @@ Michael Heimpold <mhei@heimpold.de>
 
 Package: php7-mod-simplexml
 Submenu: PHP
-Version: 7.1.12-2
+Version: 7.2.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php7 +@PHP7_LIBXML +PACKAGE_php7-mod-simplexml:libxml2
 Conflicts: 
 Menu-Depends: 
@@ -821,7 +799,7 @@ Category: Languages
 Repository: packages
 Title: SimpleXML shared module
 Maintainer: Michael Heimpold <mhei@heimpold.de>
-Source: php-7.1.12.tar.xz
+Source: php-7.2.4.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -832,7 +810,7 @@ Michael Heimpold <mhei@heimpold.de>
 
 Package: php7-mod-snmp
 Submenu: PHP
-Version: 7.1.12-2
+Version: 7.2.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php7 +PACKAGE_php7-mod-snmp:libnetsnmp +PACKAGE_php7-mod-snmp:libopenssl
 Conflicts: 
 Menu-Depends: 
@@ -843,7 +821,7 @@ Category: Languages
 Repository: packages
 Title: SNMP shared module
 Maintainer: Michael Heimpold <mhei@heimpold.de>
-Source: php-7.1.12.tar.xz
+Source: php-7.2.4.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -854,7 +832,7 @@ Michael Heimpold <mhei@heimpold.de>
 
 Package: php7-mod-soap
 Submenu: PHP
-Version: 7.1.12-2
+Version: 7.2.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php7 +@PHP7_LIBXML +PACKAGE_php7-mod-soap:libxml2
 Conflicts: 
 Menu-Depends: 
@@ -865,7 +843,7 @@ Category: Languages
 Repository: packages
 Title: SOAP shared module
 Maintainer: Michael Heimpold <mhei@heimpold.de>
-Source: php-7.1.12.tar.xz
+Source: php-7.2.4.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -876,7 +854,7 @@ Michael Heimpold <mhei@heimpold.de>
 
 Package: php7-mod-sockets
 Submenu: PHP
-Version: 7.1.12-2
+Version: 7.2.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php7
 Conflicts: 
 Menu-Depends: 
@@ -887,7 +865,7 @@ Category: Languages
 Repository: packages
 Title: Sockets shared module
 Maintainer: Michael Heimpold <mhei@heimpold.de>
-Source: php-7.1.12.tar.xz
+Source: php-7.2.4.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -898,7 +876,7 @@ Michael Heimpold <mhei@heimpold.de>
 
 Package: php7-mod-sqlite3
 Submenu: PHP
-Version: 7.1.12-2
+Version: 7.2.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php7 +PACKAGE_php7-mod-sqlite3:libsqlite3
 Conflicts: 
 Menu-Depends: 
@@ -909,7 +887,7 @@ Category: Languages
 Repository: packages
 Title: SQLite3 shared module
 Maintainer: Michael Heimpold <mhei@heimpold.de>
-Source: php-7.1.12.tar.xz
+Source: php-7.2.4.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -920,7 +898,7 @@ Michael Heimpold <mhei@heimpold.de>
 
 Package: php7-mod-sysvmsg
 Submenu: PHP
-Version: 7.1.12-2
+Version: 7.2.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php7
 Conflicts: 
 Menu-Depends: 
@@ -931,7 +909,7 @@ Category: Languages
 Repository: packages
 Title: System V messages shared module
 Maintainer: Michael Heimpold <mhei@heimpold.de>
-Source: php-7.1.12.tar.xz
+Source: php-7.2.4.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -942,7 +920,7 @@ Michael Heimpold <mhei@heimpold.de>
 
 Package: php7-mod-sysvsem
 Submenu: PHP
-Version: 7.1.12-2
+Version: 7.2.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php7
 Conflicts: 
 Menu-Depends: 
@@ -953,7 +931,7 @@ Category: Languages
 Repository: packages
 Title: System V shared memory shared module
 Maintainer: Michael Heimpold <mhei@heimpold.de>
-Source: php-7.1.12.tar.xz
+Source: php-7.2.4.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -964,7 +942,7 @@ Michael Heimpold <mhei@heimpold.de>
 
 Package: php7-mod-sysvshm
 Submenu: PHP
-Version: 7.1.12-2
+Version: 7.2.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php7
 Conflicts: 
 Menu-Depends: 
@@ -975,7 +953,7 @@ Category: Languages
 Repository: packages
 Title: System V semaphore shared module
 Maintainer: Michael Heimpold <mhei@heimpold.de>
-Source: php-7.1.12.tar.xz
+Source: php-7.2.4.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -986,7 +964,7 @@ Michael Heimpold <mhei@heimpold.de>
 
 Package: php7-mod-tokenizer
 Submenu: PHP
-Version: 7.1.12-2
+Version: 7.2.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php7
 Conflicts: 
 Menu-Depends: 
@@ -997,7 +975,7 @@ Category: Languages
 Repository: packages
 Title: Tokenizer shared module
 Maintainer: Michael Heimpold <mhei@heimpold.de>
-Source: php-7.1.12.tar.xz
+Source: php-7.2.4.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -1008,7 +986,7 @@ Michael Heimpold <mhei@heimpold.de>
 
 Package: php7-mod-xml
 Submenu: PHP
-Version: 7.1.12-2
+Version: 7.2.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php7 +PHP7_LIBXML:libxml2 +!PHP7_LIBXML:libexpat
 Conflicts: 
 Menu-Depends: 
@@ -1019,7 +997,7 @@ Category: Languages
 Repository: packages
 Title: XML shared module
 Maintainer: Michael Heimpold <mhei@heimpold.de>
-Source: php-7.1.12.tar.xz
+Source: php-7.2.4.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -1030,7 +1008,7 @@ Michael Heimpold <mhei@heimpold.de>
 
 Package: php7-mod-xmlreader
 Submenu: PHP
-Version: 7.1.12-2
+Version: 7.2.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php7 +@PHP7_LIBXML +PACKAGE_php7-mod-xmlreader:libxml2
 Conflicts: 
 Menu-Depends: 
@@ -1041,7 +1019,7 @@ Category: Languages
 Repository: packages
 Title: XMLReader shared module
 Maintainer: Michael Heimpold <mhei@heimpold.de>
-Source: php-7.1.12.tar.xz
+Source: php-7.2.4.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -1052,7 +1030,7 @@ Michael Heimpold <mhei@heimpold.de>
 
 Package: php7-mod-xmlwriter
 Submenu: PHP
-Version: 7.1.12-2
+Version: 7.2.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php7 +@PHP7_LIBXML +PACKAGE_php7-mod-xmlwriter:libxml2
 Conflicts: 
 Menu-Depends: 
@@ -1063,7 +1041,7 @@ Category: Languages
 Repository: packages
 Title: XMLWriter shared module
 Maintainer: Michael Heimpold <mhei@heimpold.de>
-Source: php-7.1.12.tar.xz
+Source: php-7.2.4.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg
@@ -1074,7 +1052,7 @@ Michael Heimpold <mhei@heimpold.de>
 
 Package: php7-mod-zip
 Submenu: PHP
-Version: 7.1.12-2
+Version: 7.2.4-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread php7 +PACKAGE_php7-mod-zip:zlib
 Conflicts: 
 Menu-Depends: 
@@ -1085,7 +1063,7 @@ Category: Languages
 Repository: packages
 Title: ZIP shared module
 Maintainer: Michael Heimpold <mhei@heimpold.de>
-Source: php-7.1.12.tar.xz
+Source: php-7.2.4.tar.xz
 License: PHPv3.01
 LicenseFiles: LICENSE
 Type: ipkg

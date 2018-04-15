@@ -1,6 +1,6 @@
 Source-Makefile: feeds/packages/utils/lcdproc/Makefile
 Package: lcdproc-clients
-Version: 0.5.9-1
+Version: 0.5.9-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
@@ -27,7 +27,7 @@ Harald Geyer <harald@ccbib.org>, Philip Prindeville <philipp@redfish-solutions.c
 @@
 
 Package: lcdproc-server
-Version: 0.5.9-1
+Version: 0.5.9-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpthread
 Conflicts: 
 Menu-Depends: 
@@ -55,7 +55,7 @@ Harald Geyer <harald@ccbib.org>, Philip Prindeville <philipp@redfish-solutions.c
 @@
 
 Package: lcdproc-drivers
-Version: 0.5.9-1
+Version: 0.5.9-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +lcdproc-server +libncurses +libusb-1.0 +libusb-compat +libftdi1 +GPIO_SUPPORT:libugpio
 Conflicts: 
 Menu-Depends: 

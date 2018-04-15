@@ -6,7 +6,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +USE_U
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpcap libncurses libpcre
 Section: net
 Category: Network
 Repository: packages
@@ -29,7 +28,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +USE_U
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpcap libncurses libpcre
 Section: net
 Category: Network
 Repository: packages
@@ -52,7 +50,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +USE_U
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpcap libncurses libpcre
 Section: net
 Category: Network
 Repository: packages

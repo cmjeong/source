@@ -1,6 +1,6 @@
 Source-Makefile: package/feeds/packages/tree/Makefile
 Package: tree
-Version: 1.7.0-1
+Version: 1.7.0-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libgcc
 Conflicts: 
 Menu-Depends: 

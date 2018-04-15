@@ -1,7 +1,7 @@
 Source-Makefile: feeds/packages/net/zerotier/Makefile
 Package: zerotier
 Submenu: VPN
-Version: 1.2.4-2
+Version: 1.2.4-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpthread +libstdcpp +kmod-tun +ip +libminiupnpc +libnatpmp
 Conflicts: 
 Menu-Depends: 

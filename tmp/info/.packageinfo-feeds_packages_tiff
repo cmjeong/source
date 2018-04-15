@@ -1,6 +1,6 @@
 Source-Makefile: package/feeds/packages/tiff/Makefile
 Package: libtiff
-Version: 4.0.8-1
+Version: 4.0.9-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +zlib +libjpeg
 Conflicts: 
 Menu-Depends: 
@@ -10,7 +10,7 @@ Category: Libraries
 Repository: packages
 Title: TIFF library
 Maintainer: Jiri Slachta <jiri@slachta.eu>
-Source: tiff-4.0.8.tar.gz
+Source: tiff-4.0.9.tar.gz
 License: BSD
 LicenseFiles: COPYRIGHT
 Type: ipkg
@@ -20,7 +20,7 @@ Jiri Slachta <jiri@slachta.eu>
 @@
 
 Package: libtiffxx
-Version: 4.0.8-1
+Version: 4.0.9-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libtiff +USE_UCLIBCXX:uclibcxx +USE_LIBSTDCXX:libstdcpp
 Conflicts: 
 Menu-Depends: 
@@ -30,7 +30,7 @@ Category: Libraries
 Repository: packages
 Title: TIFF library(c++ bindings)
 Maintainer: Jiri Slachta <jiri@slachta.eu>
-Source: tiff-4.0.8.tar.gz
+Source: tiff-4.0.9.tar.gz
 License: BSD
 LicenseFiles: COPYRIGHT
 Type: ipkg
@@ -41,7 +41,7 @@ Jiri Slachta <jiri@slachta.eu>
 
 Package: tiff-utils
 Submenu: Image Manipulation
-Version: 4.0.8-1
+Version: 4.0.9-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libtiff
 Conflicts: 
 Menu-Depends: 
@@ -51,7 +51,7 @@ Category: Utilities
 Repository: packages
 Title: TIFF utilities
 Maintainer: Jiri Slachta <jiri@slachta.eu>
-Source: tiff-4.0.8.tar.gz
+Source: tiff-4.0.9.tar.gz
 License: BSD
 LicenseFiles: COPYRIGHT
 Type: ipkg

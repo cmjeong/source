@@ -1,6 +1,6 @@
 Source-Makefile: package/feeds/packages/c-ares/Makefile
 Package: libcares
-Version: 1.13.0-1
+Version: 1.14.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
@@ -10,7 +10,7 @@ Category: Libraries
 Repository: packages
 Title: Library for asyncronous DNS Requests (including name resolves)
 Maintainer: Karl Palsson <karlp@etactica.com>
-Source: c-ares-1.13.0.tar.gz
+Source: c-ares-1.14.0.tar.gz
 License: MIT
 Type: ipkg
 Description:   c-ares is a C library for asynchronous DNS requests (including name resolves)

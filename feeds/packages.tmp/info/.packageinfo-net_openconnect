@@ -1,7 +1,7 @@
 Source-Makefile: feeds/packages/net/openconnect/Makefile
 Package: openconnect
 Submenu: VPN
-Version: 7.08-6
+Version: 7.08-8
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libxml2 +kmod-tun +resolveip +vpnc-scripts +OPENCONNECT_OPENSSL:libopenssl +OPENCONNECT_OPENSSL:p11-kit +OPENCONNECT_OPENSSL:libp11 +OPENCONNECT_GNUTLS:libgnutls +OPENCONNECT_STOKEN:libstoken
 Conflicts: 
 Menu-Depends: 

@@ -2,7 +2,7 @@ Source-Makefile: package/feeds/packages/perl/Makefile
 Package: perl
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +USE_GLIBC:libbsd +PERL_THREADS:libpthread
 Conflicts: 
 Menu-Depends: 
@@ -31,7 +31,7 @@ Config:
 Package: perlbase-anydbm-file
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-essential
 Conflicts: 
 Menu-Depends: 
@@ -55,7 +55,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-app
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-autouse +perlbase-base +perlbase-config +perlbase-cpan +perlbase-essential +perlbase-file +perlbase-getopt +perlbase-if +perlbase-tap +perlbase-text
 Conflicts: 
 Menu-Depends: 
@@ -79,7 +79,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-archive
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-cwd +perlbase-essential +perlbase-file +perlbase-io
 Conflicts: 
 Menu-Depends: 
@@ -103,7 +103,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-arybase
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-xsloader
 Conflicts: 
 Menu-Depends: 
@@ -127,7 +127,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-attribute
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-essential
 Conflicts: 
 Menu-Depends: 
@@ -151,7 +151,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-attributes
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-essential +perlbase-xsloader
 Conflicts: 
 Menu-Depends: 
@@ -175,7 +175,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-autodie
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-essential
 Conflicts: 
 Menu-Depends: 
@@ -199,7 +199,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-autoloader
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-essential
 Conflicts: 
 Menu-Depends: 
@@ -223,7 +223,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-autosplit
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-config +perlbase-essential +perlbase-file
 Conflicts: 
 Menu-Depends: 
@@ -247,7 +247,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-autouse
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl
 Conflicts: 
 Menu-Depends: 
@@ -271,7 +271,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-b
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-config +perlbase-essential +perlbase-feature
 Conflicts: 
 Menu-Depends: 
@@ -295,7 +295,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-base
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-essential
 Conflicts: 
 Menu-Depends: 
@@ -319,7 +319,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-benchmark
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-essential
 Conflicts: 
 Menu-Depends: 
@@ -343,7 +343,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-bigint
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-essential
 Conflicts: 
 Menu-Depends: 
@@ -367,7 +367,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-bignum
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-bigint +perlbase-essential
 Conflicts: 
 Menu-Depends: 
@@ -391,7 +391,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-blib
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-cwd +perlbase-essential +perlbase-file
 Conflicts: 
 Menu-Depends: 
@@ -415,7 +415,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-bytes
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl
 Conflicts: 
 Menu-Depends: 
@@ -439,7 +439,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-charnames
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-bytes +perlbase-essential +perlbase-re +perlbase-unicore
 Conflicts: 
 Menu-Depends: 
@@ -463,7 +463,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-class
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-essential
 Conflicts: 
 Menu-Depends: 
@@ -487,7 +487,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-compress
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-bytes +perlbase-essential +perlbase-io +perlbase-scalar
 Conflicts: 
 Menu-Depends: 
@@ -511,7 +511,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-config
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl
 Conflicts: 
 Menu-Depends: 
@@ -535,7 +535,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-cpan
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-b +perlbase-config +perlbase-cwd +perlbase-dirhandle +perlbase-essential +perlbase-extutils +perlbase-fcntl +perlbase-file +perlbase-filehandle +perlbase-http-tiny +perlbase-net +perlbase-safe +perlbase-scalar +perlbase-sys +perlbase-text
 Conflicts: 
 Menu-Depends: 
@@ -559,7 +559,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-cwd
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-essential
 Conflicts: 
 Menu-Depends: 
@@ -583,7 +583,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-data
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-bytes +perlbase-essential
 Conflicts: 
 Menu-Depends: 
@@ -607,7 +607,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-db
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +libdb47 +perlbase-essential +perlbase-meta-notation
 Conflicts: 
 Menu-Depends: 
@@ -631,7 +631,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-db-file
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +libdb47 +perlbase-essential +perlbase-tie
 Conflicts: 
 Menu-Depends: 
@@ -655,7 +655,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-dbm-filter
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-essential
 Conflicts: 
 Menu-Depends: 
@@ -679,7 +679,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-devel
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-essential +perlbase-file +perlbase-selfloader +perlbase-xsloader
 Conflicts: 
 Menu-Depends: 
@@ -703,7 +703,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-diagnostics
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-config +perlbase-essential +perlbase-text
 Conflicts: 
 Menu-Depends: 
@@ -727,7 +727,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-digest
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-dynaloader +perlbase-essential +perlbase-fcntl +perlbase-integer
 Conflicts: 
 Menu-Depends: 
@@ -751,7 +751,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-dirhandle
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-essential +perlbase-symbol
 Conflicts: 
 Menu-Depends: 
@@ -775,7 +775,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-dumpvalue
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-essential
 Conflicts: 
 Menu-Depends: 
@@ -799,7 +799,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-dumpvar
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl
 Conflicts: 
 Menu-Depends: 
@@ -823,7 +823,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-dynaloader
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-config
 Conflicts: 
 Menu-Depends: 
@@ -847,7 +847,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-encode
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-essential +perlbase-mime +perlbase-utf8 +perlbase-xsloader
 Conflicts: 
 Menu-Depends: 
@@ -871,7 +871,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-encoding
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-encode +perlbase-essential
 Conflicts: 
 Menu-Depends: 
@@ -895,7 +895,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-english
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-essential
 Conflicts: 
 Menu-Depends: 
@@ -919,7 +919,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-env
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-config +perlbase-tie
 Conflicts: 
 Menu-Depends: 
@@ -943,7 +943,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-errno
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-config +perlbase-essential
 Conflicts: 
 Menu-Depends: 
@@ -967,7 +967,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-essential
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-config
 Conflicts: 
 Menu-Depends: 
@@ -991,7 +991,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-experimental
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-essential +perlbase-feature +perlbase-version
 Conflicts: 
 Menu-Depends: 
@@ -1015,7 +1015,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-extutils
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-autosplit +perlbase-base +perlbase-config +perlbase-cwd +perlbase-dirhandle +perlbase-encode +perlbase-essential +perlbase-file +perlbase-io +perlbase-ipc +perlbase-ostype +perlbase-symbol +perlbase-text
 Conflicts: 
 Menu-Depends: 
@@ -1039,7 +1039,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-fatal
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-autodie +perlbase-config +perlbase-essential +perlbase-scalar +perlbase-tie
 Conflicts: 
 Menu-Depends: 
@@ -1063,7 +1063,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-fcntl
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-essential +perlbase-xsloader
 Conflicts: 
 Menu-Depends: 
@@ -1087,7 +1087,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-feature
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl
 Conflicts: 
 Menu-Depends: 
@@ -1111,7 +1111,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-fields
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-essential
 Conflicts: 
 Menu-Depends: 
@@ -1135,7 +1135,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-file
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-class +perlbase-config +perlbase-cwd +perlbase-errno +perlbase-essential +perlbase-fcntl +perlbase-filehandle +perlbase-io +perlbase-locale +perlbase-params +perlbase-scalar +perlbase-symbol +perlbase-xsloader
 Conflicts: 
 Menu-Depends: 
@@ -1159,7 +1159,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-filecache
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-essential
 Conflicts: 
 Menu-Depends: 
@@ -1183,7 +1183,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-filehandle
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-essential +perlbase-io
 Conflicts: 
 Menu-Depends: 
@@ -1207,7 +1207,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-filetest
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl
 Conflicts: 
 Menu-Depends: 
@@ -1231,7 +1231,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-filter
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-dynaloader +perlbase-essential +perlbase-text
 Conflicts: 
 Menu-Depends: 
@@ -1255,7 +1255,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-findbin
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-cwd +perlbase-essential +perlbase-file
 Conflicts: 
 Menu-Depends: 
@@ -1279,7 +1279,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-gdbm-file
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +libgdbm +perlbase-essential +perlbase-tie +perlbase-xsloader
 Conflicts: 
 Menu-Depends: 
@@ -1303,7 +1303,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-getopt
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-essential
 Conflicts: 
 Menu-Depends: 
@@ -1327,7 +1327,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-hash
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-essential +perlbase-scalar +perlbase-xsloader
 Conflicts: 
 Menu-Depends: 
@@ -1351,7 +1351,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-http-tiny
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-errno +perlbase-essential +perlbase-io
 Conflicts: 
 Menu-Depends: 
@@ -1375,7 +1375,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-i18n
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-essential +perlbase-posix +perlbase-xsloader
 Conflicts: 
 Menu-Depends: 
@@ -1399,7 +1399,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-if
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl
 Conflicts: 
 Menu-Depends: 
@@ -1423,7 +1423,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-integer
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl
 Conflicts: 
 Menu-Depends: 
@@ -1447,7 +1447,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-io
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-base +perlbase-bytes +perlbase-config +perlbase-errno +perlbase-essential +perlbase-fcntl +perlbase-list +perlbase-posix +perlbase-scalar +perlbase-selectsaver +perlbase-socket +perlbase-symbol +perlbase-tie +perlbase-xsloader
 Conflicts: 
 Menu-Depends: 
@@ -1471,7 +1471,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-ipc
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-config +perlbase-essential +perlbase-file +perlbase-locale +perlbase-params +perlbase-symbol +perlbase-text
 Conflicts: 
 Menu-Depends: 
@@ -1495,7 +1495,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-json-pp
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-b +perlbase-base +perlbase-essential
 Conflicts: 
 Menu-Depends: 
@@ -1519,7 +1519,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-less
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-essential
 Conflicts: 
 Menu-Depends: 
@@ -1543,7 +1543,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-list
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-essential +perlbase-xsloader
 Conflicts: 
 Menu-Depends: 
@@ -1567,7 +1567,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-locale
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-essential +perlbase-i18n +perlbase-integer +perlbase-utf8
 Conflicts: 
 Menu-Depends: 
@@ -1591,7 +1591,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-math
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-config +perlbase-essential +perlbase-scalar +perlbase-xsloader
 Conflicts: 
 Menu-Depends: 
@@ -1615,7 +1615,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-memoize
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-config +perlbase-essential +perlbase-storable
 Conflicts: 
 Menu-Depends: 
@@ -1639,7 +1639,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-meta-notation
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-essential
 Conflicts: 
 Menu-Depends: 
@@ -1663,7 +1663,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-mime
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-essential +perlbase-xsloader
 Conflicts: 
 Menu-Depends: 
@@ -1687,7 +1687,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-module
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-essential +perlbase-file +perlbase-filehandle +perlbase-locale +perlbase-params +perlbase-version
 Conflicts: 
 Menu-Depends: 
@@ -1711,7 +1711,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-mro
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-essential +perlbase-xsloader
 Conflicts: 
 Menu-Depends: 
@@ -1735,7 +1735,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-net
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-class +perlbase-errno +perlbase-essential +perlbase-fcntl +perlbase-filehandle +perlbase-io +perlbase-posix +perlbase-socket +perlbase-symbol +perlbase-time
 Conflicts: 
 Menu-Depends: 
@@ -1759,7 +1759,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-next
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-essential
 Conflicts: 
 Menu-Depends: 
@@ -1783,7 +1783,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-o
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-b +perlbase-essential
 Conflicts: 
 Menu-Depends: 
@@ -1807,7 +1807,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-opcode
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-essential +perlbase-xsloader
 Conflicts: 
 Menu-Depends: 
@@ -1831,7 +1831,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-open
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-essential
 Conflicts: 
 Menu-Depends: 
@@ -1855,7 +1855,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-ops
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-opcode
 Conflicts: 
 Menu-Depends: 
@@ -1879,7 +1879,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-ostype
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-essential
 Conflicts: 
 Menu-Depends: 
@@ -1903,7 +1903,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-params
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-essential +perlbase-locale
 Conflicts: 
 Menu-Depends: 
@@ -1927,7 +1927,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-perl5db
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-cwd +perlbase-essential
 Conflicts: 
 Menu-Depends: 
@@ -1951,7 +1951,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-perlio
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-essential +perlbase-mime +perlbase-xsloader
 Conflicts: 
 Menu-Depends: 
@@ -1975,7 +1975,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-pod
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-config +perlbase-cwd +perlbase-encode +perlbase-essential +perlbase-fcntl +perlbase-file +perlbase-getopt +perlbase-integer +perlbase-posix +perlbase-symbol +perlbase-term +perlbase-text
 Conflicts: 
 Menu-Depends: 
@@ -1999,7 +1999,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-posix
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-essential +perlbase-fcntl +perlbase-tie +perlbase-xsloader
 Conflicts: 
 Menu-Depends: 
@@ -2023,7 +2023,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-re
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-essential
 Conflicts: 
 Menu-Depends: 
@@ -2047,7 +2047,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-safe
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-b +perlbase-essential +perlbase-opcode +perlbase-scalar +perlbase-utf8
 Conflicts: 
 Menu-Depends: 
@@ -2071,7 +2071,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-scalar
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-essential +perlbase-list
 Conflicts: 
 Menu-Depends: 
@@ -2095,7 +2095,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-sdbm-file
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-essential +perlbase-tie +perlbase-xsloader
 Conflicts: 
 Menu-Depends: 
@@ -2119,7 +2119,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-search
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-essential
 Conflicts: 
 Menu-Depends: 
@@ -2143,7 +2143,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-selectsaver
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-essential +perlbase-symbol
 Conflicts: 
 Menu-Depends: 
@@ -2167,7 +2167,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-selfloader
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-essential +perlbase-io
 Conflicts: 
 Menu-Depends: 
@@ -2191,7 +2191,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-sigtrap
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-essential +perlbase-meta-notation
 Conflicts: 
 Menu-Depends: 
@@ -2215,7 +2215,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-socket
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-essential +perlbase-xsloader
 Conflicts: 
 Menu-Depends: 
@@ -2239,7 +2239,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-sort
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-essential
 Conflicts: 
 Menu-Depends: 
@@ -2263,7 +2263,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-storable
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-essential +perlbase-xsloader
 Conflicts: 
 Menu-Depends: 
@@ -2287,7 +2287,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-symbol
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-essential
 Conflicts: 
 Menu-Depends: 
@@ -2311,7 +2311,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-sys
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-essential +perlbase-file +perlbase-posix +perlbase-socket
 Conflicts: 
 Menu-Depends: 
@@ -2335,7 +2335,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-tap
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-base +perlbase-benchmark +perlbase-config +perlbase-essential +perlbase-file +perlbase-io +perlbase-posix +perlbase-text
 Conflicts: 
 Menu-Depends: 
@@ -2359,7 +2359,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-term
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-essential
 Conflicts: 
 Menu-Depends: 
@@ -2383,7 +2383,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-test
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-base +perlbase-config +perlbase-essential +perlbase-io +perlbase-symbol +perlbase-tap +perlbase-text
 Conflicts: 
 Menu-Depends: 
@@ -2407,7 +2407,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-text
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-essential +perlbase-selfloader
 Conflicts: 
 Menu-Depends: 
@@ -2431,7 +2431,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-thread
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-essential +perlbase-scalar +perlbase-threads
 Conflicts: 
 Menu-Depends: 
@@ -2455,7 +2455,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-threads
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-config +perlbase-essential +perlbase-scalar +perlbase-xsloader
 Conflicts: 
 Menu-Depends: 
@@ -2479,7 +2479,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-tie
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-essential +perlbase-fcntl +perlbase-xsloader
 Conflicts: 
 Menu-Depends: 
@@ -2503,7 +2503,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-time
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-class +perlbase-config +perlbase-dynaloader +perlbase-essential
 Conflicts: 
 Menu-Depends: 
@@ -2527,7 +2527,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-unicode
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-base +perlbase-charnames +perlbase-dynaloader +perlbase-essential +perlbase-file
 Conflicts: 
 Menu-Depends: 
@@ -2551,7 +2551,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-unicore
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl
 Conflicts: 
 Menu-Depends: 
@@ -2575,7 +2575,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-universal
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl
 Conflicts: 
 Menu-Depends: 
@@ -2599,7 +2599,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-user
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-class +perlbase-config +perlbase-essential
 Conflicts: 
 Menu-Depends: 
@@ -2623,7 +2623,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-utf8
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-essential +perlbase-re +perlbase-unicore
 Conflicts: 
 Menu-Depends: 
@@ -2647,7 +2647,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-version
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl +perlbase-config +perlbase-essential
 Conflicts: 
 Menu-Depends: 
@@ -2671,7 +2671,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perlbase-xsloader
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread perl
 Conflicts: 
 Menu-Depends: 
@@ -2695,7 +2695,7 @@ Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
 Package: perl-tests-common
 Submenu: Perl
 Prereq-Check: 1
-Version: 5.26.1-1
+Version: 5.26.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread @PERL_TESTS
 Conflicts: 
 Menu-Depends: 

@@ -1,7 +1,7 @@
 Source-Makefile: feeds/packages/libs/elektra/Makefile
 Package: libelektra-core
 Submenu: libelektra
-Version: 0.8.19-1
+Version: 0.8.21-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpthread
 Conflicts: 
 Menu-Depends: 
@@ -13,9 +13,9 @@ Category: Libraries
 Repository: base
 Title: Elektra core library
 Maintainer: Harald Geyer <harald@ccbib.org>
-Source: elektra-0.8.19.tar.gz
+Source: elektra-0.8.21.tar.gz
 License: BSD-3-Clause
-LicenseFiles: doc/COPYING
+LicenseFiles: LICENSE.md
 Type: ipkg
 Description: Elektra provides an universal and secure framework to store
 configuration parameters in a global, hierarchical key database.
@@ -28,7 +28,7 @@ Harald Geyer <harald@ccbib.org>
 @@
 
 Package: elektra-kdb
-Version: 0.8.19-1
+Version: 0.8.21-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libelektra-core +libstdcpp
 Conflicts: 
 Menu-Depends: 
@@ -40,9 +40,9 @@ Category: Utilities
 Repository: base
 Title: Elektra kdb tool
 Maintainer: Harald Geyer <harald@ccbib.org>
-Source: elektra-0.8.19.tar.gz
+Source: elektra-0.8.21.tar.gz
 License: BSD-3-Clause
-LicenseFiles: doc/COPYING
+LicenseFiles: LICENSE.md
 Type: ipkg
 Description: Elektra provides an universal and secure framework to store
 configuration parameters in a global, hierarchical key database.
@@ -55,7 +55,7 @@ Harald Geyer <harald@ccbib.org>
 
 Package: libelektra-resolvers
 Submenu: libelektra
-Version: 0.8.19-1
+Version: 0.8.21-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libelektra-core +libpthread
 Conflicts: 
 Menu-Depends: 
@@ -67,9 +67,9 @@ Category: Libraries
 Repository: base
 Title: Elektra additional resolvers
 Maintainer: Harald Geyer <harald@ccbib.org>
-Source: elektra-0.8.19.tar.gz
+Source: elektra-0.8.21.tar.gz
 License: BSD-3-Clause
-LicenseFiles: doc/COPYING
+LicenseFiles: LICENSE.md
 Type: ipkg
 Description: Elektra provides an universal and secure framework to store
 configuration parameters in a global, hierarchical key database.
@@ -82,7 +82,7 @@ Harald Geyer <harald@ccbib.org>
 
 Package: libelektra-plugins
 Submenu: libelektra
-Version: 0.8.19-1
+Version: 0.8.21-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libelektra-core
 Conflicts: 
 Menu-Depends: 
@@ -94,9 +94,9 @@ Category: Libraries
 Repository: base
 Title: Useful elektra plugins
 Maintainer: Harald Geyer <harald@ccbib.org>
-Source: elektra-0.8.19.tar.gz
+Source: elektra-0.8.21.tar.gz
 License: BSD-3-Clause
-LicenseFiles: doc/COPYING
+LicenseFiles: LICENSE.md
 Type: ipkg
 Description: Elektra provides an universal and secure framework to store
 configuration parameters in a global, hierarchical key database.
@@ -104,17 +104,18 @@ configuration parameters in a global, hierarchical key database.
 This package contains plugins for various common configuration file
 format and optional features without heavy dependencies. Currently
 these plugins are included:
-base64 boolean cachefilter ccode conditionals csvstorage
-enum filecheck glob hexcode hidden hosts iconv keytometa
-line lineendings list mathcheck network null path profile
-shell syslog uname validation
+base64 boolean cachefilter camel ccode conditionals csvstorage
+date directoryvalue enum file filecheck glob hexcode hidden
+hosts iconv ipaddr keytometa line lineendings list mathcheck
+mini network null path profile range shell syslog uname
+validation
 http://www.libelektra.org/
 Harald Geyer <harald@ccbib.org>
 @@
 
 Package: libelektra-boost
 Submenu: libelektra
-Version: 0.8.19-1
+Version: 0.8.21-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libelektra-core +libstdcpp +boost
 Conflicts: 
 Menu-Depends: 
@@ -126,9 +127,9 @@ Category: Libraries
 Repository: base
 Title: Elektra plugins depending on boost
 Maintainer: Harald Geyer <harald@ccbib.org>
-Source: elektra-0.8.19.tar.gz
+Source: elektra-0.8.21.tar.gz
 License: BSD-3-Clause
-LicenseFiles: doc/COPYING
+LicenseFiles: LICENSE.md
 Type: ipkg
 Description: Elektra provides an universal and secure framework to store
 configuration parameters in a global, hierarchical key database.
@@ -141,7 +142,7 @@ Harald Geyer <harald@ccbib.org>
 
 Package: libelektra-cpp
 Submenu: libelektra
-Version: 0.8.19-1
+Version: 0.8.21-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libelektra-core +libstdcpp
 Conflicts: 
 Menu-Depends: 
@@ -153,9 +154,9 @@ Category: Libraries
 Repository: base
 Title: Elektra plugins depending on libstdcpp
 Maintainer: Harald Geyer <harald@ccbib.org>
-Source: elektra-0.8.19.tar.gz
+Source: elektra-0.8.21.tar.gz
 License: BSD-3-Clause
-LicenseFiles: doc/COPYING
+LicenseFiles: LICENSE.md
 Type: ipkg
 Description: Elektra provides an universal and secure framework to store
 configuration parameters in a global, hierarchical key database.
@@ -169,8 +170,8 @@ Harald Geyer <harald@ccbib.org>
 
 Package: libelektra-curlget
 Submenu: libelektra
-Version: 0.8.19-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libelektra-core +libcurl
+Version: 0.8.21-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libelektra-core +libcurl +libopenssl
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -181,9 +182,9 @@ Category: Libraries
 Repository: base
 Title: Elektra curlget plugin
 Maintainer: Harald Geyer <harald@ccbib.org>
-Source: elektra-0.8.19.tar.gz
+Source: elektra-0.8.21.tar.gz
 License: BSD-3-Clause
-LicenseFiles: doc/COPYING
+LicenseFiles: LICENSE.md
 Type: ipkg
 Description: Elektra provides an universal and secure framework to store
 configuration parameters in a global, hierarchical key database.
@@ -195,7 +196,7 @@ Harald Geyer <harald@ccbib.org>
 
 Package: libelektra-crypto
 Submenu: libelektra
-Version: 0.8.19-1
+Version: 0.8.21-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libelektra-core +libopenssl
 Conflicts: 
 Menu-Depends: 
@@ -207,9 +208,9 @@ Category: Libraries
 Repository: base
 Title: Elektra crypto plugin
 Maintainer: Harald Geyer <harald@ccbib.org>
-Source: elektra-0.8.19.tar.gz
+Source: elektra-0.8.21.tar.gz
 License: BSD-3-Clause
-LicenseFiles: doc/COPYING
+LicenseFiles: LICENSE.md
 Type: ipkg
 Description: Elektra provides an universal and secure framework to store
 configuration parameters in a global, hierarchical key database.
@@ -221,7 +222,7 @@ Harald Geyer <harald@ccbib.org>
 
 Package: libelektra-dbus
 Submenu: libelektra
-Version: 0.8.19-1
+Version: 0.8.21-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libelektra-core +libdbus
 Conflicts: 
 Menu-Depends: 
@@ -233,9 +234,9 @@ Category: Libraries
 Repository: base
 Title: Elektra dbus plugin
 Maintainer: Harald Geyer <harald@ccbib.org>
-Source: elektra-0.8.19.tar.gz
+Source: elektra-0.8.21.tar.gz
 License: BSD-3-Clause
-LicenseFiles: doc/COPYING
+LicenseFiles: LICENSE.md
 Type: ipkg
 Description: Elektra provides an universal and secure framework to store
 configuration parameters in a global, hierarchical key database.
@@ -246,9 +247,64 @@ http://www.libelektra.org/
 Harald Geyer <harald@ccbib.org>
 @@
 
+Package: libelektra-xerces
+Submenu: libelektra
+Version: 0.8.21-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libelektra-core +libstdcpp +libxerces-c
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: elektra/host swig/host
+Build-Types: host
+Section: libs
+Category: Libraries
+Repository: base
+Title: Elektra xerces based xml plugin
+Maintainer: Harald Geyer <harald@ccbib.org>
+Source: elektra-0.8.21.tar.gz
+License: BSD-3-Clause
+LicenseFiles: LICENSE.md
+Type: ipkg
+Description: Elektra provides an universal and secure framework to store
+configuration parameters in a global, hierarchical key database.
+
+The xerces plugin supplants the xmltool plugin
+and allows us to use XML files not following a specific schemata.
+Attributes are mapped to Elektra's metadata, multiple keys with the
+same names are mapped to arrays.
+http://www.libelektra.org/
+Harald Geyer <harald@ccbib.org>
+@@
+
+Package: libelektra-yamlcpp
+Submenu: libelektra
+Version: 0.8.21-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libelektra-core +libyaml-cpp
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: elektra/host swig/host
+Build-Types: host
+Section: libs
+Category: Libraries
+Repository: base
+Title: Elektra yaml plugin
+Maintainer: Harald Geyer <harald@ccbib.org>
+Source: elektra-0.8.21.tar.gz
+License: BSD-3-Clause
+LicenseFiles: LICENSE.md
+Type: ipkg
+Description: Elektra provides an universal and secure framework to store
+configuration parameters in a global, hierarchical key database.
+
+This package contains support for storing the key database as yaml files.
+http://www.libelektra.org/
+Harald Geyer <harald@ccbib.org>
+@@
+
 Package: libelektra-xml
 Submenu: libelektra
-Version: 0.8.19-1
+Version: 0.8.21-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libelektra-core +libxml2
 Conflicts: 
 Menu-Depends: 
@@ -260,9 +316,9 @@ Category: Libraries
 Repository: base
 Title: Elektra xmltool plugin
 Maintainer: Harald Geyer <harald@ccbib.org>
-Source: elektra-0.8.19.tar.gz
+Source: elektra-0.8.21.tar.gz
 License: BSD-3-Clause
-LicenseFiles: doc/COPYING
+LicenseFiles: LICENSE.md
 Type: ipkg
 Description: Elektra provides an universal and secure framework to store
 configuration parameters in a global, hierarchical key database.
@@ -274,7 +330,7 @@ Harald Geyer <harald@ccbib.org>
 
 Package: libelektra-yajl
 Submenu: libelektra
-Version: 0.8.19-1
+Version: 0.8.21-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libelektra-core +yajl
 Conflicts: 
 Menu-Depends: 
@@ -286,9 +342,9 @@ Category: Libraries
 Repository: base
 Title: Elektra yajl (json) plugin
 Maintainer: Harald Geyer <harald@ccbib.org>
-Source: elektra-0.8.19.tar.gz
+Source: elektra-0.8.21.tar.gz
 License: BSD-3-Clause
-LicenseFiles: doc/COPYING
+LicenseFiles: LICENSE.md
 Type: ipkg
 Description: Elektra provides an universal and secure framework to store
 configuration parameters in a global, hierarchical key database.
@@ -300,7 +356,7 @@ Harald Geyer <harald@ccbib.org>
 
 Package: libelektra-python2
 Submenu: libelektra
-Version: 0.8.19-1
+Version: 0.8.21-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libelektra-core +python-light +libstdcpp
 Conflicts: 
 Menu-Depends: 
@@ -312,9 +368,9 @@ Category: Libraries
 Repository: base
 Title: Elektra python2 plugin
 Maintainer: Harald Geyer <harald@ccbib.org>
-Source: elektra-0.8.19.tar.gz
+Source: elektra-0.8.21.tar.gz
 License: BSD-3-Clause
-LicenseFiles: doc/COPYING
+LicenseFiles: LICENSE.md
 Type: ipkg
 Description: Elektra provides an universal and secure framework to store
 configuration parameters in a global, hierarchical key database.
@@ -326,7 +382,7 @@ Harald Geyer <harald@ccbib.org>
 
 Package: libelektra-python3
 Submenu: libelektra
-Version: 0.8.19-1
+Version: 0.8.21-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libelektra-core +python3-light +libstdcpp
 Conflicts: 
 Menu-Depends: 
@@ -338,9 +394,9 @@ Category: Libraries
 Repository: base
 Title: Elektra python3 plugin
 Maintainer: Harald Geyer <harald@ccbib.org>
-Source: elektra-0.8.19.tar.gz
+Source: elektra-0.8.21.tar.gz
 License: BSD-3-Clause
-LicenseFiles: doc/COPYING
+LicenseFiles: LICENSE.md
 Type: ipkg
 Description: Elektra provides an universal and secure framework to store
 configuration parameters in a global, hierarchical key database.
@@ -352,7 +408,7 @@ Harald Geyer <harald@ccbib.org>
 
 Package: libelektra-lua
 Submenu: libelektra
-Version: 0.8.19-1
+Version: 0.8.21-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libelektra-core +lua +libstdcpp
 Conflicts: 
 Menu-Depends: 
@@ -364,9 +420,9 @@ Category: Libraries
 Repository: base
 Title: Elektra lua plugin
 Maintainer: Harald Geyer <harald@ccbib.org>
-Source: elektra-0.8.19.tar.gz
+Source: elektra-0.8.21.tar.gz
 License: BSD-3-Clause
-LicenseFiles: doc/COPYING
+LicenseFiles: LICENSE.md
 Type: ipkg
 Description: Elektra provides an universal and secure framework to store
 configuration parameters in a global, hierarchical key database.
@@ -378,7 +434,7 @@ Harald Geyer <harald@ccbib.org>
 
 Package: libelektra-extra
 Submenu: libelektra
-Version: 0.8.19-1
+Version: 0.8.21-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libelektra-core +libstdcpp
 Conflicts: 
 Menu-Depends: 
@@ -390,9 +446,9 @@ Category: Libraries
 Repository: base
 Title: Additional elektra plugins
 Maintainer: Harald Geyer <harald@ccbib.org>
-Source: elektra-0.8.19.tar.gz
+Source: elektra-0.8.21.tar.gz
 License: BSD-3-Clause
-LicenseFiles: doc/COPYING
+LicenseFiles: LICENSE.md
 Type: ipkg
 Description: Elektra provides an universal and secure framework to store
 configuration parameters in a global, hierarchical key database.
@@ -400,7 +456,7 @@ configuration parameters in a global, hierarchical key database.
 This package contains extra plugins that are only useful for debugging
 or as an example of what can be done. Also most experimental plugins
 are included in this package. Currently this includes:
-blockresolver c constants counter desktop dpkg error
+blockresolver c constants counter desktop dini dpkg error
 fcrypt fstab logchange mozprefs passwd rename required
 simplespeclang timeofday tracer
 http://www.libelektra.org/

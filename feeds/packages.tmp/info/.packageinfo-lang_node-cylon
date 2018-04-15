@@ -1,7 +1,7 @@
 Source-Makefile: feeds/packages/lang/node-cylon/Makefile
 Package: node-cylon
 Submenu: Node.js
-Version: 0.22.0-7
+Version: 0.24.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +node +node-npm
 Conflicts: 
 Menu-Depends: 
@@ -12,7 +12,7 @@ Category: Languages
 Repository: base
 Title: CylonJS - Core
 Maintainer: John Crispin <blogic@openwrt.org>
-Source: node-cylon-0c37da77e48b3e2cc3a8d566822a17689de91b40.tar.gz
+Source: node-cylon-a930f8446f23ec2cb28aadeff54b79ab7704e3a0.tar.gz
 License: Apache-2.0
 LicenseFiles: LICENSE
 Type: ipkg
@@ -23,7 +23,7 @@ John Crispin <blogic@openwrt.org>
 
 Package: node-cylon-i2c
 Submenu: Node.js
-Version: 0.22.0-7
+Version: 0.24.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +node +node-npm +node-cylon
 Conflicts: 
 Menu-Depends: 
@@ -34,7 +34,7 @@ Category: Languages
 Repository: base
 Title: CylonJS - I2C
 Maintainer: John Crispin <blogic@openwrt.org>
-Source: node-cylon-0c37da77e48b3e2cc3a8d566822a17689de91b40.tar.gz
+Source: node-cylon-a930f8446f23ec2cb28aadeff54b79ab7704e3a0.tar.gz
 License: Apache-2.0
 LicenseFiles: LICENSE
 Type: ipkg
@@ -45,7 +45,7 @@ John Crispin <blogic@openwrt.org>
 
 Package: node-cylon-gpio
 Submenu: Node.js
-Version: 0.22.0-7
+Version: 0.24.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +node +node-npm +node-cylon
 Conflicts: 
 Menu-Depends: 
@@ -56,7 +56,7 @@ Category: Languages
 Repository: base
 Title: CylonJS - GPIO
 Maintainer: John Crispin <blogic@openwrt.org>
-Source: node-cylon-0c37da77e48b3e2cc3a8d566822a17689de91b40.tar.gz
+Source: node-cylon-a930f8446f23ec2cb28aadeff54b79ab7704e3a0.tar.gz
 License: Apache-2.0
 LicenseFiles: LICENSE
 Type: ipkg
@@ -67,7 +67,7 @@ John Crispin <blogic@openwrt.org>
 
 Package: node-cylon-firmata
 Submenu: Node.js
-Version: 0.22.0-7
+Version: 0.24.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +node +node-npm +node-cylon-gpio +node-cylon-i2c +node-arduino-firmata
 Conflicts: 
 Menu-Depends: 
@@ -78,7 +78,7 @@ Category: Languages
 Repository: base
 Title: CylonJS - Firmata
 Maintainer: John Crispin <blogic@openwrt.org>
-Source: node-cylon-0c37da77e48b3e2cc3a8d566822a17689de91b40.tar.gz
+Source: node-cylon-a930f8446f23ec2cb28aadeff54b79ab7704e3a0.tar.gz
 License: Apache-2.0
 LicenseFiles: LICENSE
 Type: ipkg

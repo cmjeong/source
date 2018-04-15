@@ -1,7 +1,7 @@
 Source-Makefile: package/feeds/packages/tar/Makefile
 Package: tar
 Menu: 1
-Version: 1.29-3
+Version: 1.30-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +PACKAGE_TAR_POSIX_ACL:libacl +PACKAGE_TAR_XATTR:libattr +PACKAGE_TAR_BZIP2:bzip2
 Conflicts: 
 Menu-Depends: 
@@ -12,7 +12,7 @@ Category: Utilities
 Repository: packages
 Title: GNU tar
 Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
-Source: tar-1.29.tar.bz2
+Source: tar-1.30.tar.xz
 License: GPL-3.0
 LicenseFiles: COPYING
 Type: ipkg

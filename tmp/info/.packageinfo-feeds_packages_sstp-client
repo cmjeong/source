@@ -1,7 +1,7 @@
 Source-Makefile: package/feeds/packages/sstp-client/Makefile
 Package: sstp-client
 Submenu: VPN
-Version: 1.0.11-1
+Version: 1.0.12-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libevent2 +libopenssl +ppp
 Conflicts: 
 Menu-Depends: 
@@ -11,7 +11,7 @@ Category: Network
 Repository: packages
 Title: SSTP-Client is a SSTP client for Linux.
 Maintainer: Federico Di Marco <fededim@gmail.com>
-Source: sstp-client-1.0.11.tar.gz
+Source: sstp-client-1.0.12.tar.gz
 License: GPLv2
 Type: ipkg
 Description: The advantage of SSTP compared to other vpn protocols like PPTP and L2TP is that it cannot be easily blocked by firewalls since the traffic is transmitted over HTTPS on port 443.

@@ -1,7 +1,7 @@
 Source-Makefile: feeds/packages/utils/minicom/Makefile
 Package: minicom
 Submenu: Terminal
-Version: 2.7-4
+Version: 2.7.1-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +BUILD_NLS:libiconv-full +BUILD_NLS:libintl-full +libncurses
 Conflicts: 
 Menu-Depends: 
@@ -12,7 +12,7 @@ Category: Utilities
 Repository: base
 Title: Terminal emulation program
 Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
-Source: minicom-2.7.tar.gz
+Source: minicom-2.7.1.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg

@@ -1,7 +1,7 @@
 Source-Makefile: feeds/packages/libs/libgd/Makefile
 Package: libgd
 Menu: 1
-Version: 2.2.4-2
+Version: 2.2.5-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libjpeg +libpng +LIBGD_TIFF:libtiff +LIBGD_FREETYPE:libfreetype
 Conflicts: 
 Menu-Depends: 
@@ -11,7 +11,7 @@ Category: Libraries
 Repository: base
 Title: The GD graphics library
 Maintainer: Jo-Philipp Wich <jo@mein.io>
-Source: libgd-2.2.4.tar.xz
+Source: libgd-2.2.5.tar.xz
 License: MIT
 Type: ipkg
 Description:   GD is an open source code library for the dynamic creation of images by

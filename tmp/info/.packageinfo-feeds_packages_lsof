@@ -1,6 +1,6 @@
 Source-Makefile: package/feeds/packages/lsof/Makefile
 Package: lsof
-Version: 4.89-1
+Version: 4.89-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +librpc
 Conflicts: 
 Menu-Depends: 

@@ -1,7 +1,7 @@
 Source-Makefile: package/feeds/packages/shairport-sync/Makefile
 Package: shairport-sync-openssl
-Version: 2.8.6-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread @AUDIO_SUPPORT +libpthread +alsa-lib +libconfig +libdaemon +libpopt +libopenssl +libavahi-client +libsoxr
+Version: 3.1.6-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread @AUDIO_SUPPORT +libpthread +libstdcpp +alsa-lib +libconfig +libdaemon +libpopt +libopenssl +libavahi-client +libsoxr
 Conflicts: 
 Menu-Depends: 
 Provides: shairport-sync
@@ -11,7 +11,7 @@ Category: Sound
 Repository: packages
 Title: AirPlay compatible audio player (openssl)
 Maintainer: Ted Hess <thess@kitschensync.net>, Mike Brady <mikebrady@eircom.net>
-Source: 2.8.6.tar.gz
+Source: shairport-sync-3.1.6.tar.xz
 License: MIT
 LicenseFiles: COPYING LICENSES shairport.c
 Type: ipkg
@@ -28,8 +28,8 @@ Ted Hess <thess@kitschensync.net>, Mike Brady <mikebrady@eircom.net>
 @@
 
 Package: shairport-sync-mbedtls
-Version: 2.8.6-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread @AUDIO_SUPPORT +libpthread +alsa-lib +libconfig +libdaemon +libpopt +libmbedtls +libavahi-client +libsoxr
+Version: 3.1.6-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread @AUDIO_SUPPORT +libpthread +libstdcpp +alsa-lib +libconfig +libdaemon +libpopt +libmbedtls +libavahi-client +libsoxr
 Conflicts: 
 Menu-Depends: 
 Provides: shairport-sync
@@ -40,7 +40,7 @@ Category: Sound
 Repository: packages
 Title: AirPlay compatible audio player (mbed TLS)
 Maintainer: Ted Hess <thess@kitschensync.net>, Mike Brady <mikebrady@eircom.net>
-Source: 2.8.6.tar.gz
+Source: shairport-sync-3.1.6.tar.xz
 License: MIT
 LicenseFiles: COPYING LICENSES shairport.c
 Type: ipkg
@@ -57,8 +57,8 @@ Ted Hess <thess@kitschensync.net>, Mike Brady <mikebrady@eircom.net>
 @@
 
 Package: shairport-sync-mini
-Version: 2.8.6-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread @AUDIO_SUPPORT +libpthread +alsa-lib +libconfig +libdaemon +libpopt +libmbedtls
+Version: 3.1.6-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread @AUDIO_SUPPORT +libpthread +libstdcpp +alsa-lib +libconfig +libdaemon +libpopt +libmbedtls
 Conflicts: 
 Menu-Depends: 
 Provides: shairport-sync
@@ -68,7 +68,7 @@ Category: Sound
 Repository: packages
 Title: AirPlay compatible audio player (minimal)
 Maintainer: Ted Hess <thess@kitschensync.net>, Mike Brady <mikebrady@eircom.net>
-Source: 2.8.6.tar.gz
+Source: shairport-sync-3.1.6.tar.xz
 License: MIT
 LicenseFiles: COPYING LICENSES shairport.c
 Type: ipkg

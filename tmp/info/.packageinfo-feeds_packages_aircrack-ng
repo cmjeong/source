@@ -1,7 +1,7 @@
 Source-Makefile: package/feeds/packages/aircrack-ng/Makefile
 Package: aircrack-ng
 Submenu: wireless
-Version: 1.2-rc1-1
+Version: 1.2-rc1-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpcap +libpthread +libopenssl +libnl-core +libnl-genl +zlib
 Conflicts: 
 Menu-Depends: 
@@ -22,7 +22,7 @@ Rick Farina <zerochaos@gentoo.org>
 
 Package: airmon-ng
 Submenu: wireless
-Version: 1.2-rc1-1
+Version: 1.2-rc1-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +wireless-tools +ethtool +procps-ng +CONFIG_PCI_SUPPORT:pciutils +CONFIG_USB_SUPPORT:usbutils
 Conflicts: 
 Menu-Depends: 

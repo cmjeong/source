@@ -7,7 +7,7 @@ Conflicts:
 Menu-Depends: 
 Provides: lcd4linux
 Build-Variant: custom
-Build-Depends: libdbus libgd libmpdclient libmysqlclient libncurses libnmeap libsqlite3 ppp  !BUILD_NLS:libiconv !BUILD_NLS:libintl
+Build-Depends: ppp  !BUILD_NLS:libiconv !BUILD_NLS:libintl
 Section: utils
 Category: Utilities
 Repository: packages
@@ -33,7 +33,7 @@ Conflicts:
 Menu-Depends: 
 Provides: lcd4linux
 Build-Variant: full
-Build-Depends: libdbus libgd libmpdclient libmysqlclient libncurses libnmeap libsqlite3 ppp  !BUILD_NLS:libiconv !BUILD_NLS:libintl
+Build-Depends: ppp  !BUILD_NLS:libiconv !BUILD_NLS:libintl
 Section: utils
 Category: Utilities
 Repository: packages

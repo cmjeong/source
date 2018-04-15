@@ -1,7 +1,7 @@
 Source-Makefile: feeds/packages/utils/collectd/Makefile
 Package: collectd
 Menu: 1
-Version: 5.7.2-2
+Version: 5.8.0-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpthread +zlib +libltdl +libip4tc
 Conflicts: 
 Menu-Depends: 
@@ -11,16 +11,23 @@ Category: Utilities
 Repository: base
 Title: Lightweight system statistics collection daemon
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Source: collectd-5.7.2.tar.bz2
+Source: collectd-5.8.0.tar.bz2
 Type: ipkg
 Description:  collectd is a small daemon which collects system information periodically
  and provides mechanismns to store the values in a variety of ways.
 https://collectd.org/
 Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 @@
+Config:
+	config PACKAGE_COLLECTD_ENCRYPTED_NETWORK
+	bool "Enable ability to use encrypted networking"
+	default n
+	depends on PACKAGE_collectd
+	select PACKAGE_collectd-mod-network
+@@
 
 Package: collectd-mod-apache
-Version: 5.7.2-2
+Version: 5.8.0-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread collectd +PACKAGE_collectd-mod-apache:libcurl
 Conflicts: 
 Menu-Depends: 
@@ -30,7 +37,7 @@ Category: Utilities
 Repository: base
 Title: apache status input plugin
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Source: collectd-5.7.2.tar.bz2
+Source: collectd-5.8.0.tar.bz2
 Type: ipkg
 Description: apache status input plugin
 https://collectd.org/
@@ -38,7 +45,7 @@ Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 @@
 
 Package: collectd-mod-apcups
-Version: 5.7.2-2
+Version: 5.8.0-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread collectd
 Conflicts: 
 Menu-Depends: 
@@ -48,7 +55,7 @@ Category: Utilities
 Repository: base
 Title: apcups status input plugin
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Source: collectd-5.7.2.tar.bz2
+Source: collectd-5.8.0.tar.bz2
 Type: ipkg
 Description: apcups status input plugin
 https://collectd.org/
@@ -56,7 +63,7 @@ Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 @@
 
 Package: collectd-mod-ascent
-Version: 5.7.2-2
+Version: 5.8.0-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread collectd +PACKAGE_collectd-mod-ascent:libcurl +PACKAGE_collectd-mod-ascent:libxml2
 Conflicts: 
 Menu-Depends: 
@@ -66,7 +73,7 @@ Category: Utilities
 Repository: base
 Title: ascent status input plugin
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Source: collectd-5.7.2.tar.bz2
+Source: collectd-5.8.0.tar.bz2
 Type: ipkg
 Description: ascent status input plugin
 https://collectd.org/
@@ -74,7 +81,7 @@ Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 @@
 
 Package: collectd-mod-bind
-Version: 5.7.2-2
+Version: 5.8.0-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread collectd +PACKAGE_collectd-mod-bind:libcurl +PACKAGE_collectd-mod-bind:libxml2
 Conflicts: 
 Menu-Depends: 
@@ -84,7 +91,7 @@ Category: Utilities
 Repository: base
 Title: BIND server/zone input plugin
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Source: collectd-5.7.2.tar.bz2
+Source: collectd-5.8.0.tar.bz2
 Type: ipkg
 Description: BIND server/zone input plugin
 https://collectd.org/
@@ -92,7 +99,7 @@ Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 @@
 
 Package: collectd-mod-chrony
-Version: 5.7.2-2
+Version: 5.8.0-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread collectd
 Conflicts: 
 Menu-Depends: 
@@ -102,7 +109,7 @@ Category: Utilities
 Repository: base
 Title: chrony status input plugin
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Source: collectd-5.7.2.tar.bz2
+Source: collectd-5.8.0.tar.bz2
 Type: ipkg
 Description: chrony status input plugin
 https://collectd.org/
@@ -110,7 +117,7 @@ Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 @@
 
 Package: collectd-mod-conntrack
-Version: 5.7.2-2
+Version: 5.8.0-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread collectd
 Conflicts: 
 Menu-Depends: 
@@ -120,7 +127,7 @@ Category: Utilities
 Repository: base
 Title: connection tracking table size input plugin
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Source: collectd-5.7.2.tar.bz2
+Source: collectd-5.8.0.tar.bz2
 Type: ipkg
 Description: connection tracking table size input plugin
 https://collectd.org/
@@ -128,7 +135,7 @@ Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 @@
 
 Package: collectd-mod-contextswitch
-Version: 5.7.2-2
+Version: 5.8.0-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread collectd
 Conflicts: 
 Menu-Depends: 
@@ -138,7 +145,7 @@ Category: Utilities
 Repository: base
 Title: context switch input plugin
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Source: collectd-5.7.2.tar.bz2
+Source: collectd-5.8.0.tar.bz2
 Type: ipkg
 Description: context switch input plugin
 https://collectd.org/
@@ -146,7 +153,7 @@ Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 @@
 
 Package: collectd-mod-cpu
-Version: 5.7.2-2
+Version: 5.8.0-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread collectd
 Conflicts: 
 Menu-Depends: 
@@ -156,7 +163,7 @@ Category: Utilities
 Repository: base
 Title: CPU input plugin
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Source: collectd-5.7.2.tar.bz2
+Source: collectd-5.8.0.tar.bz2
 Type: ipkg
 Description: CPU input plugin
 https://collectd.org/
@@ -164,7 +171,7 @@ Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 @@
 
 Package: collectd-mod-cpufreq
-Version: 5.7.2-2
+Version: 5.8.0-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread collectd @(TARGET_x86||TARGET_x86_64||TARGET_mvebu||TARGET_ipq806x||TARGET_armvirt)
 Conflicts: 
 Menu-Depends: 
@@ -174,7 +181,7 @@ Category: Utilities
 Repository: base
 Title: CPU Freq input plugin
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Source: collectd-5.7.2.tar.bz2
+Source: collectd-5.8.0.tar.bz2
 Type: ipkg
 Description: CPU Freq input plugin
 https://collectd.org/
@@ -182,7 +189,7 @@ Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 @@
 
 Package: collectd-mod-csv
-Version: 5.7.2-2
+Version: 5.8.0-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread collectd
 Conflicts: 
 Menu-Depends: 
@@ -192,7 +199,7 @@ Category: Utilities
 Repository: base
 Title: CSV output plugin
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Source: collectd-5.7.2.tar.bz2
+Source: collectd-5.8.0.tar.bz2
 Type: ipkg
 Description: CSV output plugin
 https://collectd.org/
@@ -200,7 +207,7 @@ Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 @@
 
 Package: collectd-mod-curl
-Version: 5.7.2-2
+Version: 5.8.0-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread collectd +PACKAGE_collectd-mod-curl:libcurl
 Conflicts: 
 Menu-Depends: 
@@ -210,7 +217,7 @@ Category: Utilities
 Repository: base
 Title: cURL input plugin
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Source: collectd-5.7.2.tar.bz2
+Source: collectd-5.8.0.tar.bz2
 Type: ipkg
 Description: cURL input plugin
 https://collectd.org/
@@ -218,7 +225,7 @@ Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 @@
 
 Package: collectd-mod-df
-Version: 5.7.2-2
+Version: 5.8.0-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread collectd
 Conflicts: 
 Menu-Depends: 
@@ -228,7 +235,7 @@ Category: Utilities
 Repository: base
 Title: disk space input plugin
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Source: collectd-5.7.2.tar.bz2
+Source: collectd-5.8.0.tar.bz2
 Type: ipkg
 Description: disk space input plugin
 https://collectd.org/
@@ -236,7 +243,7 @@ Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 @@
 
 Package: collectd-mod-disk
-Version: 5.7.2-2
+Version: 5.8.0-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread collectd
 Conflicts: 
 Menu-Depends: 
@@ -246,7 +253,7 @@ Category: Utilities
 Repository: base
 Title: disk usage/timing input plugin
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Source: collectd-5.7.2.tar.bz2
+Source: collectd-5.8.0.tar.bz2
 Type: ipkg
 Description: disk usage/timing input plugin
 https://collectd.org/
@@ -254,7 +261,7 @@ Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 @@
 
 Package: collectd-mod-dns
-Version: 5.7.2-2
+Version: 5.8.0-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread collectd +PACKAGE_collectd-mod-dns:libpcap
 Conflicts: 
 Menu-Depends: 
@@ -264,7 +271,7 @@ Category: Utilities
 Repository: base
 Title: DNS traffic input plugin
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Source: collectd-5.7.2.tar.bz2
+Source: collectd-5.8.0.tar.bz2
 Type: ipkg
 Description: DNS traffic input plugin
 https://collectd.org/
@@ -272,7 +279,7 @@ Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 @@
 
 Package: collectd-mod-email
-Version: 5.7.2-2
+Version: 5.8.0-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread collectd
 Conflicts: 
 Menu-Depends: 
@@ -282,7 +289,7 @@ Category: Utilities
 Repository: base
 Title: email output plugin
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Source: collectd-5.7.2.tar.bz2
+Source: collectd-5.8.0.tar.bz2
 Type: ipkg
 Description: email output plugin
 https://collectd.org/
@@ -290,7 +297,7 @@ Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 @@
 
 Package: collectd-mod-entropy
-Version: 5.7.2-2
+Version: 5.8.0-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread collectd
 Conflicts: 
 Menu-Depends: 
@@ -300,7 +307,7 @@ Category: Utilities
 Repository: base
 Title: Entropy amount input plugin
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Source: collectd-5.7.2.tar.bz2
+Source: collectd-5.8.0.tar.bz2
 Type: ipkg
 Description: Entropy amount input plugin
 https://collectd.org/
@@ -308,7 +315,7 @@ Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 @@
 
 Package: collectd-mod-exec
-Version: 5.7.2-2
+Version: 5.8.0-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread collectd
 Conflicts: 
 Menu-Depends: 
@@ -318,7 +325,7 @@ Category: Utilities
 Repository: base
 Title: process exec input plugin
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Source: collectd-5.7.2.tar.bz2
+Source: collectd-5.8.0.tar.bz2
 Type: ipkg
 Description: process exec input plugin
 https://collectd.org/
@@ -326,7 +333,7 @@ Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 @@
 
 Package: collectd-mod-filecount
-Version: 5.7.2-2
+Version: 5.8.0-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread collectd
 Conflicts: 
 Menu-Depends: 
@@ -336,7 +343,7 @@ Category: Utilities
 Repository: base
 Title: file count input plugin
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Source: collectd-5.7.2.tar.bz2
+Source: collectd-5.8.0.tar.bz2
 Type: ipkg
 Description: file count input plugin
 https://collectd.org/
@@ -344,7 +351,7 @@ Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 @@
 
 Package: collectd-mod-fscache
-Version: 5.7.2-2
+Version: 5.8.0-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread collectd
 Conflicts: 
 Menu-Depends: 
@@ -354,7 +361,7 @@ Category: Utilities
 Repository: base
 Title: file-system based caching framework input plugin
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Source: collectd-5.7.2.tar.bz2
+Source: collectd-5.8.0.tar.bz2
 Type: ipkg
 Description: file-system based caching framework input plugin
 https://collectd.org/
@@ -362,7 +369,7 @@ Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 @@
 
 Package: collectd-mod-interface
-Version: 5.7.2-2
+Version: 5.8.0-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread collectd
 Conflicts: 
 Menu-Depends: 
@@ -372,7 +379,7 @@ Category: Utilities
 Repository: base
 Title: network interfaces input plugin
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Source: collectd-5.7.2.tar.bz2
+Source: collectd-5.8.0.tar.bz2
 Type: ipkg
 Description: network interfaces input plugin
 https://collectd.org/
@@ -380,7 +387,7 @@ Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 @@
 
 Package: collectd-mod-iptables
-Version: 5.7.2-2
+Version: 5.8.0-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread collectd +PACKAGE_collectd-mod-iptables:iptables +libiptc
 Conflicts: 
 Menu-Depends: 
@@ -390,7 +397,7 @@ Category: Utilities
 Repository: base
 Title: iptables status input plugin
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Source: collectd-5.7.2.tar.bz2
+Source: collectd-5.8.0.tar.bz2
 Type: ipkg
 Description: iptables status input plugin
 https://collectd.org/
@@ -398,7 +405,7 @@ Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 @@
 
 Package: collectd-mod-irq
-Version: 5.7.2-2
+Version: 5.8.0-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread collectd
 Conflicts: 
 Menu-Depends: 
@@ -408,7 +415,7 @@ Category: Utilities
 Repository: base
 Title: interrupt usage input plugin
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Source: collectd-5.7.2.tar.bz2
+Source: collectd-5.8.0.tar.bz2
 Type: ipkg
 Description: interrupt usage input plugin
 https://collectd.org/
@@ -416,7 +423,7 @@ Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 @@
 
 Package: collectd-mod-iwinfo
-Version: 5.7.2-2
+Version: 5.8.0-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread collectd +PACKAGE_collectd-mod-iwinfo:libiwinfo
 Conflicts: 
 Menu-Depends: 
@@ -426,7 +433,7 @@ Category: Utilities
 Repository: base
 Title: libiwinfo wireless statistics plugin
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Source: collectd-5.7.2.tar.bz2
+Source: collectd-5.8.0.tar.bz2
 Type: ipkg
 Description: libiwinfo wireless statistics plugin
 https://collectd.org/
@@ -434,7 +441,7 @@ Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 @@
 
 Package: collectd-mod-load
-Version: 5.7.2-2
+Version: 5.8.0-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread collectd
 Conflicts: 
 Menu-Depends: 
@@ -444,7 +451,7 @@ Category: Utilities
 Repository: base
 Title: system load input plugin
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Source: collectd-5.7.2.tar.bz2
+Source: collectd-5.8.0.tar.bz2
 Type: ipkg
 Description: system load input plugin
 https://collectd.org/
@@ -452,7 +459,7 @@ Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 @@
 
 Package: collectd-mod-logfile
-Version: 5.7.2-2
+Version: 5.8.0-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread collectd
 Conflicts: 
 Menu-Depends: 
@@ -462,7 +469,7 @@ Category: Utilities
 Repository: base
 Title: log files output plugin
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Source: collectd-5.7.2.tar.bz2
+Source: collectd-5.8.0.tar.bz2
 Type: ipkg
 Description: log files output plugin
 https://collectd.org/
@@ -470,7 +477,7 @@ Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 @@
 
 Package: collectd-mod-match-empty-counter
-Version: 5.7.2-2
+Version: 5.8.0-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread collectd
 Conflicts: 
 Menu-Depends: 
@@ -480,7 +487,7 @@ Category: Utilities
 Repository: base
 Title: empty-counter match plugin
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Source: collectd-5.7.2.tar.bz2
+Source: collectd-5.8.0.tar.bz2
 Type: ipkg
 Description: empty-counter match plugin
 https://collectd.org/
@@ -488,7 +495,7 @@ Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 @@
 
 Package: collectd-mod-match-hashed
-Version: 5.7.2-2
+Version: 5.8.0-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread collectd
 Conflicts: 
 Menu-Depends: 
@@ -498,7 +505,7 @@ Category: Utilities
 Repository: base
 Title: hashed match plugin
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Source: collectd-5.7.2.tar.bz2
+Source: collectd-5.8.0.tar.bz2
 Type: ipkg
 Description: hashed match plugin
 https://collectd.org/
@@ -506,7 +513,7 @@ Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 @@
 
 Package: collectd-mod-match-regex
-Version: 5.7.2-2
+Version: 5.8.0-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread collectd
 Conflicts: 
 Menu-Depends: 
@@ -516,7 +523,7 @@ Category: Utilities
 Repository: base
 Title: regex match plugin
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Source: collectd-5.7.2.tar.bz2
+Source: collectd-5.8.0.tar.bz2
 Type: ipkg
 Description: regex match plugin
 https://collectd.org/
@@ -524,7 +531,7 @@ Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 @@
 
 Package: collectd-mod-match-timediff
-Version: 5.7.2-2
+Version: 5.8.0-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread collectd
 Conflicts: 
 Menu-Depends: 
@@ -534,7 +541,7 @@ Category: Utilities
 Repository: base
 Title: timediff match plugin
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Source: collectd-5.7.2.tar.bz2
+Source: collectd-5.8.0.tar.bz2
 Type: ipkg
 Description: timediff match plugin
 https://collectd.org/
@@ -542,7 +549,7 @@ Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 @@
 
 Package: collectd-mod-match-value
-Version: 5.7.2-2
+Version: 5.8.0-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread collectd
 Conflicts: 
 Menu-Depends: 
@@ -552,7 +559,7 @@ Category: Utilities
 Repository: base
 Title: value match plugin
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Source: collectd-5.7.2.tar.bz2
+Source: collectd-5.8.0.tar.bz2
 Type: ipkg
 Description: value match plugin
 https://collectd.org/
@@ -560,7 +567,7 @@ Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 @@
 
 Package: collectd-mod-memory
-Version: 5.7.2-2
+Version: 5.8.0-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread collectd
 Conflicts: 
 Menu-Depends: 
@@ -570,7 +577,7 @@ Category: Utilities
 Repository: base
 Title: physical memory usage input plugin
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Source: collectd-5.7.2.tar.bz2
+Source: collectd-5.8.0.tar.bz2
 Type: ipkg
 Description: physical memory usage input plugin
 https://collectd.org/
@@ -578,7 +585,7 @@ Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 @@
 
 Package: collectd-mod-modbus
-Version: 5.7.2-2
+Version: 5.8.0-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread collectd +PACKAGE_collectd-mod-modbus:libmodbus
 Conflicts: 
 Menu-Depends: 
@@ -588,15 +595,33 @@ Category: Utilities
 Repository: base
 Title: read variables through libmodbus plugin
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Source: collectd-5.7.2.tar.bz2
+Source: collectd-5.8.0.tar.bz2
 Type: ipkg
 Description: read variables through libmodbus plugin
 https://collectd.org/
 Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 @@
 
+Package: collectd-mod-mqtt
+Version: 5.8.0-4
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread collectd +PACKAGE_collectd-mod-mqtt:libmosquitto
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: utils
+Category: Utilities
+Repository: base
+Title: transmit data with MQTT plugin
+Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
+Source: collectd-5.8.0.tar.bz2
+Type: ipkg
+Description: transmit data with MQTT plugin
+https://collectd.org/
+Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
+@@
+
 Package: collectd-mod-netlink
-Version: 5.7.2-2
+Version: 5.8.0-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread collectd +PACKAGE_collectd-mod-netlink:libmnl
 Conflicts: 
 Menu-Depends: 
@@ -606,7 +631,7 @@ Category: Utilities
 Repository: base
 Title: netlink input plugin
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Source: collectd-5.7.2.tar.bz2
+Source: collectd-5.8.0.tar.bz2
 Type: ipkg
 Description: netlink input plugin
 https://collectd.org/
@@ -614,8 +639,8 @@ Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 @@
 
 Package: collectd-mod-network
-Version: 5.7.2-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread collectd
+Version: 5.8.0-4
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread collectd +PACKAGE_COLLECTD_ENCRYPTED_NETWORK:libgcrypt
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -624,7 +649,7 @@ Category: Utilities
 Repository: base
 Title: network input/output plugin
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Source: collectd-5.7.2.tar.bz2
+Source: collectd-5.8.0.tar.bz2
 Type: ipkg
 Description: network input/output plugin
 https://collectd.org/
@@ -632,7 +657,7 @@ Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 @@
 
 Package: collectd-mod-nginx
-Version: 5.7.2-2
+Version: 5.8.0-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread collectd +PACKAGE_collectd-mod-nginx:libcurl
 Conflicts: 
 Menu-Depends: 
@@ -642,7 +667,7 @@ Category: Utilities
 Repository: base
 Title: nginx status input plugin
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Source: collectd-5.7.2.tar.bz2
+Source: collectd-5.8.0.tar.bz2
 Type: ipkg
 Description: nginx status input plugin
 https://collectd.org/
@@ -650,7 +675,7 @@ Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 @@
 
 Package: collectd-mod-ntpd
-Version: 5.7.2-2
+Version: 5.8.0-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread collectd
 Conflicts: 
 Menu-Depends: 
@@ -660,7 +685,7 @@ Category: Utilities
 Repository: base
 Title: NTP daemon status input plugin
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Source: collectd-5.7.2.tar.bz2
+Source: collectd-5.8.0.tar.bz2
 Type: ipkg
 Description: NTP daemon status input plugin
 https://collectd.org/
@@ -668,7 +693,7 @@ Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 @@
 
 Package: collectd-mod-nut
-Version: 5.7.2-2
+Version: 5.8.0-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread collectd +PACKAGE_collectd-mod-nut:nut-common
 Conflicts: 
 Menu-Depends: 
@@ -678,7 +703,7 @@ Category: Utilities
 Repository: base
 Title: UPS monitoring input plugin
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Source: collectd-5.7.2.tar.bz2
+Source: collectd-5.8.0.tar.bz2
 Type: ipkg
 Description: UPS monitoring input plugin
 https://collectd.org/
@@ -686,7 +711,7 @@ Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 @@
 
 Package: collectd-mod-olsrd
-Version: 5.7.2-2
+Version: 5.8.0-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread collectd
 Conflicts: 
 Menu-Depends: 
@@ -696,7 +721,7 @@ Category: Utilities
 Repository: base
 Title: OLSRd status input plugin
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Source: collectd-5.7.2.tar.bz2
+Source: collectd-5.8.0.tar.bz2
 Type: ipkg
 Description: OLSRd status input plugin
 https://collectd.org/
@@ -704,7 +729,7 @@ Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 @@
 
 Package: collectd-mod-onewire
-Version: 5.7.2-2
+Version: 5.8.0-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread collectd +PACKAGE_collectd-mod-onewire:libow-capi @BROKEN
 Conflicts: 
 Menu-Depends: 
@@ -714,7 +739,7 @@ Category: Utilities
 Repository: base
 Title: onewire sensor input plugin
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Source: collectd-5.7.2.tar.bz2
+Source: collectd-5.8.0.tar.bz2
 Type: ipkg
 Description: onewire sensor input plugin
 https://collectd.org/
@@ -722,7 +747,7 @@ Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 @@
 
 Package: collectd-mod-openvpn
-Version: 5.7.2-2
+Version: 5.8.0-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread collectd
 Conflicts: 
 Menu-Depends: 
@@ -732,7 +757,7 @@ Category: Utilities
 Repository: base
 Title: OpenVPN traffic/compression input plugin
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Source: collectd-5.7.2.tar.bz2
+Source: collectd-5.8.0.tar.bz2
 Type: ipkg
 Description: OpenVPN traffic/compression input plugin
 https://collectd.org/
@@ -740,7 +765,7 @@ Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 @@
 
 Package: collectd-mod-ping
-Version: 5.7.2-2
+Version: 5.8.0-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread collectd +PACKAGE_collectd-mod-ping:liboping
 Conflicts: 
 Menu-Depends: 
@@ -750,7 +775,7 @@ Category: Utilities
 Repository: base
 Title: ping status input plugin
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Source: collectd-5.7.2.tar.bz2
+Source: collectd-5.8.0.tar.bz2
 Type: ipkg
 Description: ping status input plugin
 https://collectd.org/
@@ -758,7 +783,7 @@ Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 @@
 
 Package: collectd-mod-postgresql
-Version: 5.7.2-2
+Version: 5.8.0-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread collectd +PACKAGE_collectd-mod-postgresql:libpq
 Conflicts: 
 Menu-Depends: 
@@ -768,7 +793,7 @@ Category: Utilities
 Repository: base
 Title: PostgreSQL status input plugin
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Source: collectd-5.7.2.tar.bz2
+Source: collectd-5.8.0.tar.bz2
 Type: ipkg
 Description: PostgreSQL status input plugin
 https://collectd.org/
@@ -776,7 +801,7 @@ Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 @@
 
 Package: collectd-mod-powerdns
-Version: 5.7.2-2
+Version: 5.8.0-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread collectd
 Conflicts: 
 Menu-Depends: 
@@ -786,7 +811,7 @@ Category: Utilities
 Repository: base
 Title: PowerDNS server status input plugin
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Source: collectd-5.7.2.tar.bz2
+Source: collectd-5.8.0.tar.bz2
 Type: ipkg
 Description: PowerDNS server status input plugin
 https://collectd.org/
@@ -794,7 +819,7 @@ Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 @@
 
 Package: collectd-mod-processes
-Version: 5.7.2-2
+Version: 5.8.0-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread collectd
 Conflicts: 
 Menu-Depends: 
@@ -804,7 +829,7 @@ Category: Utilities
 Repository: base
 Title: process status input plugin
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Source: collectd-5.7.2.tar.bz2
+Source: collectd-5.8.0.tar.bz2
 Type: ipkg
 Description: process status input plugin
 https://collectd.org/
@@ -812,7 +837,7 @@ Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 @@
 
 Package: collectd-mod-protocols
-Version: 5.7.2-2
+Version: 5.8.0-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread collectd
 Conflicts: 
 Menu-Depends: 
@@ -822,7 +847,7 @@ Category: Utilities
 Repository: base
 Title: network protocols input plugin
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Source: collectd-5.7.2.tar.bz2
+Source: collectd-5.8.0.tar.bz2
 Type: ipkg
 Description: network protocols input plugin
 https://collectd.org/
@@ -830,7 +855,7 @@ Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 @@
 
 Package: collectd-mod-rrdtool
-Version: 5.7.2-2
+Version: 5.8.0-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread collectd +PACKAGE_collectd-mod-rrdtool:librrd1
 Conflicts: 
 Menu-Depends: 
@@ -840,7 +865,7 @@ Category: Utilities
 Repository: base
 Title: RRDtool output plugin
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Source: collectd-5.7.2.tar.bz2
+Source: collectd-5.8.0.tar.bz2
 Type: ipkg
 Description: RRDtool output plugin
 https://collectd.org/
@@ -848,7 +873,7 @@ Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 @@
 
 Package: collectd-mod-sensors
-Version: 5.7.2-2
+Version: 5.8.0-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread collectd +PACKAGE_collectd-mod-sensors:libsensors
 Conflicts: 
 Menu-Depends: 
@@ -858,7 +883,7 @@ Category: Utilities
 Repository: base
 Title: lm_sensors input plugin
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Source: collectd-5.7.2.tar.bz2
+Source: collectd-5.8.0.tar.bz2
 Type: ipkg
 Description: lm_sensors input plugin
 https://collectd.org/
@@ -866,7 +891,7 @@ Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 @@
 
 Package: collectd-mod-snmp
-Version: 5.7.2-2
+Version: 5.8.0-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread collectd +PACKAGE_collectd-mod-snmp:libnetsnmp
 Conflicts: 
 Menu-Depends: 
@@ -876,7 +901,7 @@ Category: Utilities
 Repository: base
 Title: SNMP input plugin
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Source: collectd-5.7.2.tar.bz2
+Source: collectd-5.8.0.tar.bz2
 Type: ipkg
 Description: SNMP input plugin
 https://collectd.org/
@@ -884,7 +909,7 @@ Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 @@
 
 Package: collectd-mod-syslog
-Version: 5.7.2-2
+Version: 5.8.0-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread collectd
 Conflicts: 
 Menu-Depends: 
@@ -894,7 +919,7 @@ Category: Utilities
 Repository: base
 Title: syslog output plugin
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Source: collectd-5.7.2.tar.bz2
+Source: collectd-5.8.0.tar.bz2
 Type: ipkg
 Description: syslog output plugin
 https://collectd.org/
@@ -902,7 +927,7 @@ Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 @@
 
 Package: collectd-mod-tail
-Version: 5.7.2-2
+Version: 5.8.0-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread collectd
 Conflicts: 
 Menu-Depends: 
@@ -912,7 +937,7 @@ Category: Utilities
 Repository: base
 Title: tail input plugin
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Source: collectd-5.7.2.tar.bz2
+Source: collectd-5.8.0.tar.bz2
 Type: ipkg
 Description: tail input plugin
 https://collectd.org/
@@ -920,7 +945,7 @@ Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 @@
 
 Package: collectd-mod-tail-csv
-Version: 5.7.2-2
+Version: 5.8.0-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread collectd
 Conflicts: 
 Menu-Depends: 
@@ -930,7 +955,7 @@ Category: Utilities
 Repository: base
 Title: tail CSV input plugin
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Source: collectd-5.7.2.tar.bz2
+Source: collectd-5.8.0.tar.bz2
 Type: ipkg
 Description: tail CSV input plugin
 https://collectd.org/
@@ -938,7 +963,7 @@ Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 @@
 
 Package: collectd-mod-table
-Version: 5.7.2-2
+Version: 5.8.0-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread collectd
 Conflicts: 
 Menu-Depends: 
@@ -948,7 +973,7 @@ Category: Utilities
 Repository: base
 Title: table-like structured file input plugin
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Source: collectd-5.7.2.tar.bz2
+Source: collectd-5.8.0.tar.bz2
 Type: ipkg
 Description: table-like structured file input plugin
 https://collectd.org/
@@ -956,7 +981,7 @@ Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 @@
 
 Package: collectd-mod-teamspeak2
-Version: 5.7.2-2
+Version: 5.8.0-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread collectd
 Conflicts: 
 Menu-Depends: 
@@ -966,7 +991,7 @@ Category: Utilities
 Repository: base
 Title: TeamSpeak2 input plugin
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Source: collectd-5.7.2.tar.bz2
+Source: collectd-5.8.0.tar.bz2
 Type: ipkg
 Description: TeamSpeak2 input plugin
 https://collectd.org/
@@ -974,7 +999,7 @@ Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 @@
 
 Package: collectd-mod-ted
-Version: 5.7.2-2
+Version: 5.8.0-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread collectd @((!TARGET_avr32)||BROKEN)
 Conflicts: 
 Menu-Depends: 
@@ -984,7 +1009,7 @@ Category: Utilities
 Repository: base
 Title: The Energy Detective input plugin
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Source: collectd-5.7.2.tar.bz2
+Source: collectd-5.8.0.tar.bz2
 Type: ipkg
 Description: The Energy Detective input plugin
 https://collectd.org/
@@ -992,7 +1017,7 @@ Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 @@
 
 Package: collectd-mod-tcpconns
-Version: 5.7.2-2
+Version: 5.8.0-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread collectd
 Conflicts: 
 Menu-Depends: 
@@ -1002,7 +1027,7 @@ Category: Utilities
 Repository: base
 Title: TCP connection tracking input plugin
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Source: collectd-5.7.2.tar.bz2
+Source: collectd-5.8.0.tar.bz2
 Type: ipkg
 Description: TCP connection tracking input plugin
 https://collectd.org/
@@ -1010,7 +1035,7 @@ Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 @@
 
 Package: collectd-mod-thermal
-Version: 5.7.2-2
+Version: 5.8.0-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread collectd
 Conflicts: 
 Menu-Depends: 
@@ -1020,7 +1045,7 @@ Category: Utilities
 Repository: base
 Title: system temperatures input plugin
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Source: collectd-5.7.2.tar.bz2
+Source: collectd-5.8.0.tar.bz2
 Type: ipkg
 Description: system temperatures input plugin
 https://collectd.org/
@@ -1028,7 +1053,7 @@ Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 @@
 
 Package: collectd-mod-unixsock
-Version: 5.7.2-2
+Version: 5.8.0-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread collectd
 Conflicts: 
 Menu-Depends: 
@@ -1038,7 +1063,7 @@ Category: Utilities
 Repository: base
 Title: unix socket output plugin
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Source: collectd-5.7.2.tar.bz2
+Source: collectd-5.8.0.tar.bz2
 Type: ipkg
 Description: unix socket output plugin
 https://collectd.org/
@@ -1046,7 +1071,7 @@ Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 @@
 
 Package: collectd-mod-uptime
-Version: 5.7.2-2
+Version: 5.8.0-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread collectd
 Conflicts: 
 Menu-Depends: 
@@ -1056,7 +1081,7 @@ Category: Utilities
 Repository: base
 Title: uptime status input plugin
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Source: collectd-5.7.2.tar.bz2
+Source: collectd-5.8.0.tar.bz2
 Type: ipkg
 Description: uptime status input plugin
 https://collectd.org/
@@ -1064,7 +1089,7 @@ Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 @@
 
 Package: collectd-mod-users
-Version: 5.7.2-2
+Version: 5.8.0-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread collectd
 Conflicts: 
 Menu-Depends: 
@@ -1074,7 +1099,7 @@ Category: Utilities
 Repository: base
 Title: user logged in status input plugin
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Source: collectd-5.7.2.tar.bz2
+Source: collectd-5.8.0.tar.bz2
 Type: ipkg
 Description: user logged in status input plugin
 https://collectd.org/
@@ -1082,7 +1107,7 @@ Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 @@
 
 Package: collectd-mod-vmem
-Version: 5.7.2-2
+Version: 5.8.0-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread collectd
 Conflicts: 
 Menu-Depends: 
@@ -1092,7 +1117,7 @@ Category: Utilities
 Repository: base
 Title: virtual memory usage input plugin
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Source: collectd-5.7.2.tar.bz2
+Source: collectd-5.8.0.tar.bz2
 Type: ipkg
 Description: virtual memory usage input plugin
 https://collectd.org/
@@ -1100,7 +1125,7 @@ Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 @@
 
 Package: collectd-mod-wireless
-Version: 5.7.2-2
+Version: 5.8.0-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread collectd
 Conflicts: 
 Menu-Depends: 
@@ -1110,7 +1135,7 @@ Category: Utilities
 Repository: base
 Title: wireless status input plugin
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Source: collectd-5.7.2.tar.bz2
+Source: collectd-5.8.0.tar.bz2
 Type: ipkg
 Description: wireless status input plugin
 https://collectd.org/
@@ -1118,7 +1143,7 @@ Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 @@
 
 Package: collectd-mod-write-graphite
-Version: 5.7.2-2
+Version: 5.8.0-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread collectd +PACKAGE_collectd-mod-write-graphite:libpthread
 Conflicts: 
 Menu-Depends: 
@@ -1128,7 +1153,7 @@ Category: Utilities
 Repository: base
 Title: Carbon/Graphite output plugin
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Source: collectd-5.7.2.tar.bz2
+Source: collectd-5.8.0.tar.bz2
 Type: ipkg
 Description: Carbon/Graphite output plugin
 https://collectd.org/
@@ -1136,7 +1161,7 @@ Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 @@
 
 Package: collectd-mod-write-http
-Version: 5.7.2-2
+Version: 5.8.0-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread collectd +PACKAGE_collectd-mod-write-http:libcurl
 Conflicts: 
 Menu-Depends: 
@@ -1146,7 +1171,7 @@ Category: Utilities
 Repository: base
 Title: HTTP POST output plugin
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Source: collectd-5.7.2.tar.bz2
+Source: collectd-5.8.0.tar.bz2
 Type: ipkg
 Description: HTTP POST output plugin
 https://collectd.org/

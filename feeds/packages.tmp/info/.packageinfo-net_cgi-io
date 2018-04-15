@@ -1,7 +1,7 @@
 Source-Makefile: feeds/packages/net/cgi-io/Makefile
 Package: cgi-io
 Submenu: Web Servers/Proxies
-Version: 4
+Version: 5
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libubox +libubus
 Conflicts: 
 Menu-Depends: 

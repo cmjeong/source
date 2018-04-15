@@ -1,8 +1,8 @@
 Source-Makefile: package/feeds/luci/luci-app-vpnbypass/Makefile
 Package: luci-app-vpnbypass
 Submenu: 3. Applications
-Version: x-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +vpnbypass
+Version: x-4
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +luci +vpnbypass
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -15,13 +15,13 @@ Maintainer: Stan Grishin <stangri@melmac.net>
 Source: 
 License: GPL-3.0+
 Type: ipkg
-Description: VPN Bypass Web UI
+Description:    Provides Web UI for VPNBypass service.
 Stan Grishin <stangri@melmac.net>
 @@
 
 Package: luci-i18n-vpnbypass-pt-br
 Default: LUCI_LANG_pt-br||(ALL&&m)
-Version: x-1
+Version: x-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-vpnbypass
 Conflicts: 
 Menu-Depends: 
@@ -40,9 +40,30 @@ Description:     Translation for luci-app-vpnbypass - Português do Brasil (Braz
 Stan Grishin <stangri@melmac.net>
 @@
 
+Package: luci-i18n-vpnbypass-ru
+Default: LUCI_LANG_ru||(ALL&&m)
+Version: x-4
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-vpnbypass
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Repository: luci
+Title: luci-app-vpnbypass - ru translation
+Maintainer: Stan Grishin <stangri@melmac.net>
+Source: 
+License: GPL-3.0+
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-vpnbypass - Русский (Russian)
+Stan Grishin <stangri@melmac.net>
+@@
+
 Package: luci-i18n-vpnbypass-zh-cn
 Default: LUCI_LANG_zh-cn||(ALL&&m)
-Version: x-1
+Version: x-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-vpnbypass
 Conflicts: 
 Menu-Depends: 
@@ -63,7 +84,7 @@ Stan Grishin <stangri@melmac.net>
 
 Package: luci-i18n-vpnbypass-zh-tw
 Default: LUCI_LANG_zh-tw||(ALL&&m)
-Version: x-1
+Version: x-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-vpnbypass
 Conflicts: 
 Menu-Depends: 

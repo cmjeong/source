@@ -6,7 +6,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libre
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpcre libreadline
 Section: net
 Category: Network
 Repository: packages
@@ -26,7 +25,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpc
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpcre libreadline
 Section: net
 Category: Network
 Repository: packages

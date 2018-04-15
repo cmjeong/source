@@ -6,7 +6,7 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +pytho
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: python libpq python/host
+Build-Depends: python/host
 Section: lang
 Category: Languages
 Repository: base

@@ -6,7 +6,7 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpt
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libncurses libreadline
+Build-Depends: ncurses readline
 Section: net
 Category: Network
 Repository: routing
@@ -40,7 +40,7 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libre
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libncurses libreadline
+Build-Depends: ncurses readline
 Section: net
 Category: Network
 Repository: routing
@@ -73,7 +73,7 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +bird4
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libncurses libreadline
+Build-Depends: ncurses readline
 Section: net
 Category: Network
 Repository: routing
@@ -103,7 +103,7 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpt
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libncurses libreadline
+Build-Depends: ncurses readline
 Section: net
 Category: Network
 Repository: routing
@@ -137,7 +137,7 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libre
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libncurses libreadline
+Build-Depends: ncurses readline
 Section: net
 Category: Network
 Repository: routing
@@ -170,7 +170,7 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +bird6
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libncurses libreadline
+Build-Depends: ncurses readline
 Section: net
 Category: Network
 Repository: routing

@@ -6,7 +6,6 @@ Conflicts:
 Menu-Depends: 
 Provides: libzmq
 Build-Variant: nc
-Build-Depends: libuuid
 Section: libs
 Category: Libraries
 Repository: packages
@@ -28,7 +27,6 @@ Conflicts:
 Menu-Depends: 
 Provides: libzmq
 Build-Variant: curve
-Build-Depends: libuuid
 Section: libs
 Category: Libraries
 Repository: packages

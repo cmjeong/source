@@ -1,7 +1,7 @@
 Source-Makefile: feeds/routing/bird-openwrt/bird6-openwrt/Makefile
 Package: bird6-uci
 Submenu: Routing and Redirection
-Version: 0.2
+Version: 0.3-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +bird6 +libuci +uci
 Conflicts: 
 Menu-Depends: 
@@ -15,13 +15,13 @@ Source:
 License: GPL-3.0+
 Type: ipkg
 Description: bird6 UCI integration module
-https://github.com/eloicaso/bird6-openwrt/
+https://github.com/eloicaso/bird-openwrt/
 Eloi Carbo <eloicaso@openmailbox.org>
 @@
 
 Package: luci-app-bird6
 Submenu: 3. Applications
-Version: 0.2
+Version: 0.3-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +bird6-uci +luci-base
 Conflicts: 
 Menu-Depends: 
@@ -35,7 +35,7 @@ Source:
 License: GPL-3.0+
 Type: ipkg
 Description: bird6 application for LuCI
-https://github.com/eloicaso/bird6-openwrt/
+https://github.com/eloicaso/bird-openwrt/
 Eloi Carbo <eloicaso@openmailbox.org>
 @@
 

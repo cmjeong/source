@@ -1,6 +1,6 @@
 Source-Makefile: feeds/packages/utils/sysstat/Makefile
 Package: sysstat
-Version: 11.6.0-1
+Version: 11.6.0-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 

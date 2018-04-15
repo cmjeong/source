@@ -1,6 +1,6 @@
 Source-Makefile: package/feeds/packages/libxerces-c/Makefile
 Package: libxerces-c
-Version: 3.1.4-2
+Version: 3.2.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +USE_UCLIBCXX:uclibcxx +USE_LIBSTDCXX:libstdcpp +BUILD_NLS:libiconv-full +libpthread
 Conflicts: 
 Menu-Depends: 
@@ -11,7 +11,7 @@ Category: Libraries
 Repository: packages
 Title: Validating XML parser library for C++
 Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
-Source: xerces-c-3.1.4.tar.xz
+Source: xerces-c-3.2.0.tar.xz
 License: Apache-2.0
 LicenseFiles: LICENSE
 Type: ipkg
@@ -29,7 +29,7 @@ http://xerces.apache.org/
 @@
 
 Package: libxerces-c-samples
-Version: 3.1.4-2
+Version: 3.2.0-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libxerces-c
 Conflicts: 
 Menu-Depends: 
@@ -40,7 +40,7 @@ Category: Libraries
 Repository: packages
 Title: Validating XML parser library for C++ (samples)
 Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
-Source: xerces-c-3.1.4.tar.xz
+Source: xerces-c-3.2.0.tar.xz
 License: Apache-2.0
 LicenseFiles: LICENSE
 Type: ipkg

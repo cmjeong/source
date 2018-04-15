@@ -1,8 +1,8 @@
 Source-Makefile: feeds/packages/net/reaver/Makefile
 Package: reaver
 Submenu: wireless
-Version: 1.4-3
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpcap +libsqlite3
+Version: 1.6.4-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libpcap
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -11,15 +11,19 @@ Category: Network
 Repository: base
 Title: Efficient brute force attack against Wifi Protected Setup
 Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
-Source: reaver-1.4.tar.gz
+Source: reaver-1.6.4.tar.xz
 License: GPL-2.0
+LicenseFiles: docs/LICENSE
 Type: ipkg
-Description:   Reaver targets the external registrar functionality mandated by the WiFi
-  Protected Setup specification.
-  Access points will provide authenticated registrars with their current
-  wireless configuration (including the WPA PSK), and also accept a new
-  configuration from the registrar.
-https://code.google.com/p/reaver-wps/
+Description:   Reaver has been designed to be a robust and practical attack against Wi-Fi
+  Protected Setup (WPS) registrar PINs in order to recover WPA/WPA2
+  passphrases. It has been tested against a wide variety of access points and
+  WPS implementations.
+
+  This is reaver-wps-fork-t6x, a community forked version, which has included
+  various bug fixes and additional attack method (the offline Pixie Dust
+  attack).
+https://github.com/t6x/reaver-wps-fork-t6x
 Yousong Zhou <yszhou4tech@gmail.com>
 @@
 

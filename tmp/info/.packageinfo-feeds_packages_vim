@@ -1,7 +1,7 @@
 Source-Makefile: package/feeds/packages/vim/Makefile
 Package: vim
 Submenu: Editors
-Version: 8.0.586-1
+Version: 8.0.586-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libncurses
 Conflicts: 
 Menu-Depends: 
@@ -21,7 +21,7 @@ Marko Ratkaj <marko.ratkaj@sartura.hr>
 
 Package: vim-full
 Submenu: Editors
-Version: 8.0.586-1
+Version: 8.0.586-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libncurses
 Conflicts: 
 Menu-Depends: 
@@ -41,7 +41,7 @@ Marko Ratkaj <marko.ratkaj@sartura.hr>
 
 Package: vim-fuller
 Submenu: Editors
-Version: 8.0.586-1
+Version: 8.0.586-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libncurses
 Conflicts: 
 Menu-Depends: 
@@ -61,7 +61,7 @@ Marko Ratkaj <marko.ratkaj@sartura.hr>
 
 Package: vim-runtime
 Submenu: Editors
-Version: 8.0.586-1
+Version: 8.0.586-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libncurses
 Conflicts: 
 Menu-Depends: 
@@ -81,7 +81,7 @@ Marko Ratkaj <marko.ratkaj@sartura.hr>
 
 Package: vim-help
 Submenu: Editors
-Version: 8.0.586-1
+Version: 8.0.586-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libncurses
 Conflicts: 
 Menu-Depends: 
@@ -100,7 +100,7 @@ Marko Ratkaj <marko.ratkaj@sartura.hr>
 @@
 
 Package: xxd
-Version: 8.0.586-1
+Version: 8.0.586-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 

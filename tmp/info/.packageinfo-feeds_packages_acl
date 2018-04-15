@@ -1,7 +1,7 @@
 Source-Makefile: package/feeds/packages/acl/Makefile
 Package: acl
 Submenu: Filesystem
-Version: 20160519-1
+Version: 20180121-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libacl
 Conflicts: 
 Menu-Depends: 
@@ -11,7 +11,7 @@ Category: Utilities
 Repository: packages
 Title: Access control list (ACL) manipulation utils
 Maintainer: Maxim Storchak <m.storchak@gmail.com>
-Source: acl-20160519.tar.gz
+Source: acl-20180121.tar.gz
 License: LGPL-2.1 GPL-2.0
 LicenseFiles: doc/COPYING doc/COPYING.LGPL
 Type: ipkg
@@ -26,7 +26,7 @@ Maxim Storchak <m.storchak@gmail.com>
 
 Package: libacl
 Submenu: Filesystem
-Version: 20160519-1
+Version: 20180121-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libattr
 Conflicts: 
 Menu-Depends: 
@@ -36,7 +36,7 @@ Category: Libraries
 Repository: packages
 Title: Access control list (ACL) manipulation library
 Maintainer: Maxim Storchak <m.storchak@gmail.com>
-Source: acl-20160519.tar.gz
+Source: acl-20180121.tar.gz
 License: LGPL-2.1 GPL-2.0
 LicenseFiles: doc/COPYING doc/COPYING.LGPL
 Type: ipkg

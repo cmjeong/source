@@ -1,17 +1,17 @@
 Source-Makefile: package/feeds/packages/lcdgrilo/Makefile
 Package: lcdgrilo
-Version: 0.0.10-1
+Version: 0.0.12-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +grilo +grilo-plugins +libgee +libgstreamer1
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: +vala !BUILD_NLS:libiconv !BUILD_NLS:libintl
+Build-Depends: vala !BUILD_NLS:libiconv !BUILD_NLS:libintl
 Section: multimedia
 Category: Multimedia
 Repository: packages
 Title: lcdgrilo
 Maintainer: W. Michael Petullo <mike@flyn.org>
-Source: lcdgrilo-0.0.10.tar.gz
+Source: lcdgrilo-0.0.12.tar.gz
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg

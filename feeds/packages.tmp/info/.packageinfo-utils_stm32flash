@@ -17,7 +17,7 @@ LicenseFiles: gpl-2.0.txt
 Type: ipkg
 Description:   This tool can be used to burn firmware images to STM32 ARM processors
   using the built-in serial bootloader.
-http://code.google.com/p/stm32flash/
+https://sourceforge.net/projects/stm32flash
 Christian Pointner <equinox@spreadspace.org>
 @@
 

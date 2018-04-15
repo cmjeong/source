@@ -1,7 +1,7 @@
 Source-Makefile: package/feeds/packages/lua-rs232/Makefile
 Package: lua-rs232
 Submenu: Lua
-Version: 1.0.3-1
+Version: 1.0.3-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +lua
 Conflicts: 
 Menu-Depends: 

@@ -1,6 +1,6 @@
 Source-Makefile: feeds/packages/libs/libxslt/Makefile
 Package: libxslt
-Version: 1.1.31-1
+Version: 1.1.32-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libxml2
 Conflicts: 
 Menu-Depends: 
@@ -10,7 +10,7 @@ Category: Libraries
 Repository: base
 Title: Gnome XSLT library
 Maintainer: Jiri Slachta <jiri@slachta.eu>
-Source: libxslt-1.1.31.tar.gz
+Source: libxslt-1.1.32.tar.gz
 License: MIT
 LicenseFiles: COPYING
 Type: ipkg
@@ -20,7 +20,7 @@ Jiri Slachta <jiri@slachta.eu>
 @@
 
 Package: libexslt
-Version: 1.1.31-1
+Version: 1.1.32-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libxslt
 Conflicts: 
 Menu-Depends: 
@@ -30,7 +30,7 @@ Category: Libraries
 Repository: base
 Title: Gnome XSLT library Extension
 Maintainer: Jiri Slachta <jiri@slachta.eu>
-Source: libxslt-1.1.31.tar.gz
+Source: libxslt-1.1.32.tar.gz
 License: MIT
 LicenseFiles: COPYING
 Type: ipkg
@@ -40,8 +40,8 @@ Jiri Slachta <jiri@slachta.eu>
 @@
 
 Package: xsltproc
-Version: 1.1.31-1
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libxml2 +libxslt +libexslt
+Version: 1.1.32-2
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libxslt +PACKAGE_xsltproc:libexslt
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -50,7 +50,7 @@ Category: Utilities
 Repository: base
 Title: Gnome XSLT xsltproc Utility
 Maintainer: Jiri Slachta <jiri@slachta.eu>
-Source: libxslt-1.1.31.tar.gz
+Source: libxslt-1.1.32.tar.gz
 License: MIT
 LicenseFiles: COPYING
 Type: ipkg

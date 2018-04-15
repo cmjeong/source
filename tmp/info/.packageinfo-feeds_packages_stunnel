@@ -1,6 +1,6 @@
 Source-Makefile: package/feeds/packages/stunnel/Makefile
 Package: stunnel
-Version: 5.41-1
+Version: 5.44-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libopenssl +zlib +libpthread
 Conflicts: 
 Menu-Depends: 
@@ -9,8 +9,8 @@ Section: net
 Category: Network
 Repository: packages
 Title: SSL TCP Wrapper
-Maintainer: Daniel Engberg <daniel.engberg.lists@pyret.net>
-Source: stunnel-5.41.tar.gz
+Maintainer: Florian Eckert <fe@dev.tdt.de>
+Source: stunnel-5.44.tar.gz
 License: GPL-2.0+
 LicenseFiles: COPYING COPYRIGHT.GPL
 Type: ipkg
@@ -20,7 +20,7 @@ Description: 	Stunnel is a program that allows you to encrypt arbitrary TCP
 	protocols (like POP, IMAP, LDAP, etc) by having Stunnel provide the
 	encryption, requiring no changes to the daemon's code.
 http://www.stunnel.org/
-Daniel Engberg <daniel.engberg.lists@pyret.net>
+Florian Eckert <fe@dev.tdt.de>
 @@
 
 

@@ -2,7 +2,7 @@ Source-Makefile: package/feeds/packages/rp-pppoe/Makefile
 Package: rp-pppoe-common
 Submenu: dial-in/up
 Version: 3.12-3
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +ppp
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread ppp
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -51,7 +51,7 @@ Daniel Dickinson <lede@cshore.thecshore.com>
 Package: rp-pppoe-server
 Submenu: dial-in/up
 Version: 3.12-3
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +rp-pppoe-common
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +rp-pppoe-common +ppp-mod-pppoe
 Conflicts: 
 Menu-Depends: 
 Provides: 

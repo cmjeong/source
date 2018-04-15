@@ -1,7 +1,7 @@
 Source-Makefile: package/feeds/routing/babeld/Makefile
 Package: babeld
 Submenu: Routing and Redirection
-Version: 1.8.0-3
+Version: 1.8.1-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread @IPV6
 Conflicts: 
 Menu-Depends: 
@@ -11,7 +11,7 @@ Category: Network
 Repository: routing
 Title: A loop-free distance-vector routing protocol
 Maintainer: Gabriel Kerneis <gabriel@kerneis.info>, Baptiste Jonglez <openwrt-pkg@bitsofnetworks.org>
-Source: babeld-1.8.0.tar.gz
+Source: babeld-1.8.1.tar.gz
 License: MIT
 Type: ipkg
 Description:  Babel is a loop-avoiding distance-vector routing protocol roughly based

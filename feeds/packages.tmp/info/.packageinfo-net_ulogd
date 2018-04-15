@@ -23,7 +23,7 @@ Nicolas Thill <nico@openwrt.org>
 
 Package: ulogd-mod-dbi
 Version: 2.0.5-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread ulogd +libdbi
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread ulogd +PACKAGE_ulogd-mod-dbi:libdbi
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -44,7 +44,7 @@ Nicolas Thill <nico@openwrt.org>
 
 Package: ulogd-mod-json
 Version: 2.0.5-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread ulogd +jansson
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread ulogd +PACKAGE_ulogd-mod-json:jansson
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -65,7 +65,7 @@ Nicolas Thill <nico@openwrt.org>
 
 Package: ulogd-mod-mysql
 Version: 2.0.5-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread ulogd +libmysqlclient
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread ulogd +PACKAGE_ulogd-mod-mysql:libmysqlclient
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -86,7 +86,7 @@ Nicolas Thill <nico@openwrt.org>
 
 Package: ulogd-mod-nfacct
 Version: 2.0.5-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread ulogd +libnetfilter-acct
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread ulogd +PACKAGE_ulogd-mod-nfacct:libnetfilter-acct
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -107,7 +107,7 @@ Nicolas Thill <nico@openwrt.org>
 
 Package: ulogd-mod-nfct
 Version: 2.0.5-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread ulogd +libnetfilter-conntrack
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread ulogd +PACKAGE_ulogd-mod-nfct:libnetfilter-conntrack
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -128,7 +128,7 @@ Nicolas Thill <nico@openwrt.org>
 
 Package: ulogd-mod-nflog
 Version: 2.0.5-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread ulogd +libnetfilter-log
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread ulogd +PACKAGE_ulogd-mod-nflog:libnetfilter-log
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -149,7 +149,7 @@ Nicolas Thill <nico@openwrt.org>
 
 Package: ulogd-mod-pcap
 Version: 2.0.5-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread ulogd +libpcap
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread ulogd +PACKAGE_ulogd-mod-pcap:libpcap
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -170,7 +170,7 @@ Nicolas Thill <nico@openwrt.org>
 
 Package: ulogd-mod-pgsql
 Version: 2.0.5-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread ulogd +libpq
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread ulogd +PACKAGE_ulogd-mod-pgsql:libpq
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -191,7 +191,7 @@ Nicolas Thill <nico@openwrt.org>
 
 Package: ulogd-mod-sqlite
 Version: 2.0.5-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread ulogd +libsqlite3
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread ulogd +PACKAGE_ulogd-mod-sqlite:libsqlite3
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -233,7 +233,7 @@ Nicolas Thill <nico@openwrt.org>
 
 Package: ulogd-mod-xml
 Version: 2.0.5-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread ulogd +libnetfilter-acct +libnetfilter-conntrack +libnetfilter-log
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread ulogd +PACKAGE_ulogd-mod-xml:libnetfilter-acct +PACKAGE_ulogd-mod-xml:libnetfilter-conntrack +PACKAGE_ulogd-mod-xml:libnetfilter-log
 Conflicts: 
 Menu-Depends: 
 Provides: 

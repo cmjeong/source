@@ -1,6 +1,6 @@
 Source-Makefile: package/feeds/packages/flashrom/Makefile
 Package: flashrom
-Version: 0.9.9-2
+Version: 0.9.9.1-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +(TARGET_x86||TARGET_x86_64):dmidecode +libftdi1 +libusb-1.0 +libusb-compat +pciutils
 Conflicts: 
 Menu-Depends: 
@@ -12,7 +12,7 @@ Category: Utilities
 Repository: packages
 Title: FlashROM Utility (full)
 Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
-Source: flashrom-0.9.9.tar.bz2
+Source: flashrom-0.9.9.1.tar.bz2
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
@@ -24,7 +24,7 @@ http://www.flashrom.org/
 @@
 
 Package: flashrom-pci
-Version: 0.9.9-2
+Version: 0.9.9.1-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +(TARGET_x86||TARGET_x86_64):dmidecode +pciutils
 Conflicts: 
 Menu-Depends: 
@@ -35,7 +35,7 @@ Category: Utilities
 Repository: packages
 Title: FlashROM Utility (pci)
 Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
-Source: flashrom-0.9.9.tar.bz2
+Source: flashrom-0.9.9.1.tar.bz2
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
@@ -47,7 +47,7 @@ http://www.flashrom.org/
 @@
 
 Package: flashrom-spi
-Version: 0.9.9-2
+Version: 0.9.9.1-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
@@ -58,7 +58,7 @@ Category: Utilities
 Repository: packages
 Title: FlashROM Utility (spi)
 Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
-Source: flashrom-0.9.9.tar.bz2
+Source: flashrom-0.9.9.1.tar.bz2
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg
@@ -70,7 +70,7 @@ http://www.flashrom.org/
 @@
 
 Package: flashrom-usb
-Version: 0.9.9-2
+Version: 0.9.9.1-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libftdi1 +libusb-1.0 +libusb-compat
 Conflicts: 
 Menu-Depends: 
@@ -81,7 +81,7 @@ Category: Utilities
 Repository: packages
 Title: FlashROM Utility (usb)
 Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
-Source: flashrom-0.9.9.tar.bz2
+Source: flashrom-0.9.9.1.tar.bz2
 License: GPL-2.0
 LicenseFiles: COPYING
 Type: ipkg

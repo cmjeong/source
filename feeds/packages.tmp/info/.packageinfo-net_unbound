@@ -1,19 +1,18 @@
 Source-Makefile: feeds/packages/net/unbound/Makefile
 Package: unbound
 Submenu: IP Addresses and Names
-Version: 1.6.7-1
+Version: 1.7.0-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libopenssl +libunbound
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libexpat
 Section: net
 Category: Network
 Repository: base
 Title: Validating Recursive DNS Server (daemon)
 Maintainer: Eric Luehrsen <ericluehrsen@hotmail.com>
 Require-User: unbound=553:unbound=553
-Source: unbound-1.6.7.tar.gz
+Source: unbound-1.7.0.tar.gz
 License: BSD-3-Clause
 LicenseFiles: LICENSE
 Type: ipkg
@@ -24,18 +23,17 @@ Eric Luehrsen <ericluehrsen@hotmail.com>
 
 Package: unbound-anchor
 Submenu: IP Addresses and Names
-Version: 1.6.7-1
+Version: 1.7.0-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libopenssl +unbound +libexpat
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libexpat
 Section: net
 Category: Network
 Repository: base
 Title: Validating Recursive DNS Server (DSKEY utility)
 Maintainer: Eric Luehrsen <ericluehrsen@hotmail.com>
-Source: unbound-1.6.7.tar.gz
+Source: unbound-1.7.0.tar.gz
 License: BSD-3-Clause
 LicenseFiles: LICENSE
 Type: ipkg
@@ -46,18 +44,17 @@ Eric Luehrsen <ericluehrsen@hotmail.com>
 
 Package: unbound-control
 Submenu: IP Addresses and Names
-Version: 1.6.7-1
+Version: 1.7.0-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libopenssl +unbound
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libexpat
 Section: net
 Category: Network
 Repository: base
 Title: Validating Recursive DNS Server (control utility)
 Maintainer: Eric Luehrsen <ericluehrsen@hotmail.com>
-Source: unbound-1.6.7.tar.gz
+Source: unbound-1.7.0.tar.gz
 License: BSD-3-Clause
 LicenseFiles: LICENSE
 Type: ipkg
@@ -68,18 +65,17 @@ Eric Luehrsen <ericluehrsen@hotmail.com>
 
 Package: unbound-control-setup
 Submenu: IP Addresses and Names
-Version: 1.6.7-1
+Version: 1.7.0-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libopenssl +unbound-control +openssl-util
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libexpat
 Section: net
 Category: Network
 Repository: base
 Title: Validating Recursive DNS Server (control setup)
 Maintainer: Eric Luehrsen <ericluehrsen@hotmail.com>
-Source: unbound-1.6.7.tar.gz
+Source: unbound-1.7.0.tar.gz
 License: BSD-3-Clause
 LicenseFiles: LICENSE
 Type: ipkg
@@ -90,18 +86,17 @@ Eric Luehrsen <ericluehrsen@hotmail.com>
 
 Package: unbound-host
 Submenu: IP Addresses and Names
-Version: 1.6.7-1
+Version: 1.7.0-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libopenssl +libunbound
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libexpat
 Section: net
 Category: Network
 Repository: base
 Title: Validating Recursive DNS Server (lookup utility)
 Maintainer: Eric Luehrsen <ericluehrsen@hotmail.com>
-Source: unbound-1.6.7.tar.gz
+Source: unbound-1.7.0.tar.gz
 License: BSD-3-Clause
 LicenseFiles: LICENSE
 Type: ipkg
@@ -111,18 +106,17 @@ Eric Luehrsen <ericluehrsen@hotmail.com>
 @@
 
 Package: libunbound
-Version: 1.6.7-1
+Version: 1.7.0-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libopenssl +libpthread
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libexpat
 Section: libs
 Category: Libraries
 Repository: base
 Title: Validating Recursive DNS Server (library)
 Maintainer: Eric Luehrsen <ericluehrsen@hotmail.com>
-Source: unbound-1.6.7.tar.gz
+Source: unbound-1.7.0.tar.gz
 License: BSD-3-Clause
 LicenseFiles: LICENSE
 Type: ipkg

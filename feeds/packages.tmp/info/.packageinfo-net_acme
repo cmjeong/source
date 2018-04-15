@@ -1,6 +1,6 @@
 Source-Makefile: feeds/packages/net/acme/Makefile
 Package: acme
-Version: 1.6-3
+Version: 1.6-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +curl +ca-bundle +openssl-util +netcat
 Conflicts: 
 Menu-Depends: 
@@ -10,7 +10,7 @@ Category: Network
 Repository: base
 Title: ACME (Letsencrypt) client
 Maintainer: Toke Høiland-Jørgensen <toke@toke.dk>
-Source: acme-1.6-3.tar.xz
+Source: acme-1.6-4.tar.xz
 License: GPLv3
 Type: ipkg
 Description:  A client for issuing Letsencrypt certificates.
@@ -19,7 +19,7 @@ Toke Høiland-Jørgensen <toke@toke.dk>
 
 Package: luci-app-acme
 Submenu: 3. Applications
-Version: 1.6-3
+Version: 1.6-4
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread lua luci-base +acme luci-app-uhttpd
 Conflicts: 
 Menu-Depends: 
@@ -29,7 +29,7 @@ Category: LuCI
 Repository: base
 Title: ACME package - LuCI interface
 Maintainer: Toke Høiland-Jørgensen <toke@toke.dk>
-Source: acme-1.6-3.tar.xz
+Source: acme-1.6-4.tar.xz
 License: GPLv3
 Type: ipkg
 Description: 	Control the ACME Letsencrypt certificate interface

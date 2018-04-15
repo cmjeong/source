@@ -6,7 +6,7 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libop
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: +libpcsclite libtool libintl libiconv
+Build-Depends: pcsc-lite libtool libintl libiconv
 Section: libs
 Category: Libraries
 Repository: packages
@@ -30,7 +30,7 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread libope
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: +libpcsclite libtool libintl libiconv
+Build-Depends: pcsc-lite libtool libintl libiconv
 Section: libs
 Category: Libraries
 Repository: packages
@@ -51,7 +51,7 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libop
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: +libpcsclite libtool libintl libiconv
+Build-Depends: pcsc-lite libtool libintl libiconv
 Section: libs
 Category: Libraries
 Repository: packages
@@ -73,7 +73,7 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libop
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: +libpcsclite libtool libintl libiconv
+Build-Depends: pcsc-lite libtool libintl libiconv
 Section: utils
 Category: Utilities
 Repository: packages
@@ -94,7 +94,7 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread opensc
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: +libpcsclite libtool libintl libiconv
+Build-Depends: pcsc-lite libtool libintl libiconv
 Section: utils
 Category: Utilities
 Repository: packages
@@ -115,7 +115,7 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread opensc
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: +libpcsclite libtool libintl libiconv
+Build-Depends: pcsc-lite libtool libintl libiconv
 Section: utils
 Category: Utilities
 Repository: packages
@@ -136,7 +136,7 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread opensc
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: +libpcsclite libtool libintl libiconv
+Build-Depends: pcsc-lite libtool libintl libiconv
 Section: utils
 Category: Utilities
 Repository: packages
@@ -157,7 +157,7 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread opensc
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: +libpcsclite libtool libintl libiconv
+Build-Depends: pcsc-lite libtool libintl libiconv
 Section: utils
 Category: Utilities
 Repository: packages
@@ -178,7 +178,7 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread opensc
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: +libpcsclite libtool libintl libiconv
+Build-Depends: pcsc-lite libtool libintl libiconv
 Section: utils
 Category: Utilities
 Repository: packages
@@ -199,7 +199,7 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread opensc
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: +libpcsclite libtool libintl libiconv
+Build-Depends: pcsc-lite libtool libintl libiconv
 Section: utils
 Category: Utilities
 Repository: packages
@@ -220,7 +220,7 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread opensc
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: +libpcsclite libtool libintl libiconv
+Build-Depends: pcsc-lite libtool libintl libiconv
 Section: utils
 Category: Utilities
 Repository: packages
@@ -241,7 +241,7 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread opensc
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: +libpcsclite libtool libintl libiconv
+Build-Depends: pcsc-lite libtool libintl libiconv
 Section: utils
 Category: Utilities
 Repository: packages
@@ -262,7 +262,7 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread opensc
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: +libpcsclite libtool libintl libiconv
+Build-Depends: pcsc-lite libtool libintl libiconv
 Section: utils
 Category: Utilities
 Repository: packages
@@ -283,7 +283,7 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread opensc
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: +libpcsclite libtool libintl libiconv
+Build-Depends: pcsc-lite libtool libintl libiconv
 Section: utils
 Category: Utilities
 Repository: packages
@@ -304,7 +304,7 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread opensc
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: +libpcsclite libtool libintl libiconv
+Build-Depends: pcsc-lite libtool libintl libiconv
 Section: utils
 Category: Utilities
 Repository: packages
@@ -325,7 +325,7 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread opensc
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: +libpcsclite libtool libintl libiconv
+Build-Depends: pcsc-lite libtool libintl libiconv
 Section: utils
 Category: Utilities
 Repository: packages
@@ -346,7 +346,7 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread opensc
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: +libpcsclite libtool libintl libiconv
+Build-Depends: pcsc-lite libtool libintl libiconv
 Section: utils
 Category: Utilities
 Repository: packages
@@ -367,7 +367,7 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread opensc
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: +libpcsclite libtool libintl libiconv
+Build-Depends: pcsc-lite libtool libintl libiconv
 Section: utils
 Category: Utilities
 Repository: packages
@@ -388,7 +388,7 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread opensc
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: +libpcsclite libtool libintl libiconv
+Build-Depends: pcsc-lite libtool libintl libiconv
 Section: utils
 Category: Utilities
 Repository: packages
@@ -409,7 +409,7 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread opensc
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: +libpcsclite libtool libintl libiconv
+Build-Depends: pcsc-lite libtool libintl libiconv
 Section: utils
 Category: Utilities
 Repository: packages
@@ -430,7 +430,7 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread libope
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: +libpcsclite libtool libintl libiconv
+Build-Depends: pcsc-lite libtool libintl libiconv
 Section: libs
 Category: Libraries
 Repository: packages
@@ -451,7 +451,7 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread libope
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: +libpcsclite libtool libintl libiconv
+Build-Depends: pcsc-lite libtool libintl libiconv
 Section: libs
 Category: Libraries
 Repository: packages
@@ -472,7 +472,7 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread libope
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: +libpcsclite libtool libintl libiconv
+Build-Depends: pcsc-lite libtool libintl libiconv
 Section: libs
 Category: Libraries
 Repository: packages
@@ -493,7 +493,7 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread libope
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: +libpcsclite libtool libintl libiconv
+Build-Depends: pcsc-lite libtool libintl libiconv
 Section: libs
 Category: Libraries
 Repository: packages
@@ -514,7 +514,7 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread libope
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: +libpcsclite libtool libintl libiconv
+Build-Depends: pcsc-lite libtool libintl libiconv
 Section: libs
 Category: Libraries
 Repository: packages
@@ -535,7 +535,7 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread libope
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: +libpcsclite libtool libintl libiconv
+Build-Depends: pcsc-lite libtool libintl libiconv
 Section: libs
 Category: Libraries
 Repository: packages
@@ -556,7 +556,7 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread libope
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: +libpcsclite libtool libintl libiconv
+Build-Depends: pcsc-lite libtool libintl libiconv
 Section: libs
 Category: Libraries
 Repository: packages
@@ -577,7 +577,7 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread libope
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: +libpcsclite libtool libintl libiconv
+Build-Depends: pcsc-lite libtool libintl libiconv
 Section: libs
 Category: Libraries
 Repository: packages
@@ -598,7 +598,7 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread libope
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: +libpcsclite libtool libintl libiconv
+Build-Depends: pcsc-lite libtool libintl libiconv
 Section: libs
 Category: Libraries
 Repository: packages
@@ -619,7 +619,7 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread libope
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: +libpcsclite libtool libintl libiconv
+Build-Depends: pcsc-lite libtool libintl libiconv
 Section: libs
 Category: Libraries
 Repository: packages
@@ -640,7 +640,7 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread libope
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: +libpcsclite libtool libintl libiconv
+Build-Depends: pcsc-lite libtool libintl libiconv
 Section: libs
 Category: Libraries
 Repository: packages
@@ -661,7 +661,7 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread libope
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: +libpcsclite libtool libintl libiconv
+Build-Depends: pcsc-lite libtool libintl libiconv
 Section: libs
 Category: Libraries
 Repository: packages
@@ -682,7 +682,7 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread libope
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: +libpcsclite libtool libintl libiconv
+Build-Depends: pcsc-lite libtool libintl libiconv
 Section: libs
 Category: Libraries
 Repository: packages
@@ -703,7 +703,7 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread libope
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: +libpcsclite libtool libintl libiconv
+Build-Depends: pcsc-lite libtool libintl libiconv
 Section: libs
 Category: Libraries
 Repository: packages
@@ -724,7 +724,7 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread libope
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: +libpcsclite libtool libintl libiconv
+Build-Depends: pcsc-lite libtool libintl libiconv
 Section: libs
 Category: Libraries
 Repository: packages
@@ -745,7 +745,7 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread libope
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: +libpcsclite libtool libintl libiconv
+Build-Depends: pcsc-lite libtool libintl libiconv
 Section: libs
 Category: Libraries
 Repository: packages
@@ -766,7 +766,7 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread libope
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: +libpcsclite libtool libintl libiconv
+Build-Depends: pcsc-lite libtool libintl libiconv
 Section: libs
 Category: Libraries
 Repository: packages
@@ -787,7 +787,7 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread libope
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: +libpcsclite libtool libintl libiconv
+Build-Depends: pcsc-lite libtool libintl libiconv
 Section: libs
 Category: Libraries
 Repository: packages
@@ -808,7 +808,7 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread libope
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: +libpcsclite libtool libintl libiconv
+Build-Depends: pcsc-lite libtool libintl libiconv
 Section: libs
 Category: Libraries
 Repository: packages
@@ -829,7 +829,7 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread libope
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: +libpcsclite libtool libintl libiconv
+Build-Depends: pcsc-lite libtool libintl libiconv
 Section: libs
 Category: Libraries
 Repository: packages
@@ -850,7 +850,7 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread libope
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: +libpcsclite libtool libintl libiconv
+Build-Depends: pcsc-lite libtool libintl libiconv
 Section: libs
 Category: Libraries
 Repository: packages
@@ -871,7 +871,7 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread libope
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: +libpcsclite libtool libintl libiconv
+Build-Depends: pcsc-lite libtool libintl libiconv
 Section: libs
 Category: Libraries
 Repository: packages
@@ -892,7 +892,7 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread libope
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: +libpcsclite libtool libintl libiconv
+Build-Depends: pcsc-lite libtool libintl libiconv
 Section: libs
 Category: Libraries
 Repository: packages
@@ -913,7 +913,7 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread libope
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: +libpcsclite libtool libintl libiconv
+Build-Depends: pcsc-lite libtool libintl libiconv
 Section: libs
 Category: Libraries
 Repository: packages
@@ -934,7 +934,7 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread libope
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: +libpcsclite libtool libintl libiconv
+Build-Depends: pcsc-lite libtool libintl libiconv
 Section: libs
 Category: Libraries
 Repository: packages
@@ -955,7 +955,7 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread libope
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: +libpcsclite libtool libintl libiconv
+Build-Depends: pcsc-lite libtool libintl libiconv
 Section: libs
 Category: Libraries
 Repository: packages
@@ -976,7 +976,7 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread libope
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: +libpcsclite libtool libintl libiconv
+Build-Depends: pcsc-lite libtool libintl libiconv
 Section: libs
 Category: Libraries
 Repository: packages
@@ -997,7 +997,7 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread libope
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: +libpcsclite libtool libintl libiconv
+Build-Depends: pcsc-lite libtool libintl libiconv
 Section: libs
 Category: Libraries
 Repository: packages
@@ -1018,7 +1018,7 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread libope
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: +libpcsclite libtool libintl libiconv
+Build-Depends: pcsc-lite libtool libintl libiconv
 Section: libs
 Category: Libraries
 Repository: packages

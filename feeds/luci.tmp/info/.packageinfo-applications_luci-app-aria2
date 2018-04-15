@@ -48,6 +48,27 @@ Description:     Translation for luci-app-aria2 - Português do Brasil (Braziali
 Hsing-Wang Liao <kuoruan@gmail.com>
 @@
 
+Package: luci-i18n-aria2-ru
+Default: LUCI_LANG_ru||(ALL&&m)
+Version: 1.0.1-2
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread luci-app-aria2
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: lua/host luci-base/host 
+Section: luci
+Category: LuCI
+Repository: base
+Title: luci-app-aria2 - ru translation
+Maintainer: Hsing-Wang Liao <kuoruan@gmail.com>
+Source: 
+License: Apache-2.0
+Type: ipkg
+Hidden: 1
+Description:     Translation for luci-app-aria2 - Русский (Russian)
+Hsing-Wang Liao <kuoruan@gmail.com>
+@@
+
 Package: luci-i18n-aria2-sv
 Default: LUCI_LANG_sv||(ALL&&m)
 Version: 1.0.1-2

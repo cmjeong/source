@@ -1,7 +1,7 @@
 Source-Makefile: feeds/packages/libs/libmad/Makefile
 Package: libmad
-Version: 0.15.1b-3
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread @BUILD_PATENTED
+Version: 0.15.1b-4
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
 Provides: 

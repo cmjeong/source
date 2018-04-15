@@ -6,7 +6,7 @@ Conflicts:
 Menu-Depends: 
 Provides: 
 Build-Variant: dbus
-Build-Depends: libexpat libdaemon libgdbm intltool/host libpthread dbus
+Build-Depends: intltool/host
 Section: libs
 Category: Libraries
 Repository: packages
@@ -39,7 +39,7 @@ Conflicts:
 Menu-Depends: 
 Provides: 
 Build-Variant: dbus
-Build-Depends: libexpat libdaemon libgdbm intltool/host libpthread dbus
+Build-Depends: intltool/host
 Section: libs
 Category: Libraries
 Repository: packages
@@ -72,7 +72,7 @@ Conflicts:
 Menu-Depends: 
 Provides: 
 Build-Variant: dbus
-Build-Depends: libexpat libdaemon libgdbm intltool/host libpthread dbus
+Build-Depends: intltool/host
 Section: net
 Category: Network
 Repository: packages
@@ -105,7 +105,7 @@ Conflicts:
 Menu-Depends: 
 Provides: libavahi
 Build-Variant: dbus
-Build-Depends: libexpat libdaemon libgdbm intltool/host libpthread dbus
+Build-Depends: intltool/host
 Section: libs
 Category: Libraries
 Repository: packages
@@ -148,7 +148,7 @@ Conflicts:
 Menu-Depends: 
 Provides: libavahi
 Build-Variant: nodbus
-Build-Depends: libexpat libdaemon libgdbm intltool/host libpthread dbus
+Build-Depends: intltool/host
 Section: libs
 Category: Libraries
 Repository: packages
@@ -184,7 +184,7 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libda
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libexpat libdaemon libgdbm intltool/host libpthread dbus
+Build-Depends: intltool/host
 Section: net
 Category: Network
 Repository: packages
@@ -219,7 +219,7 @@ Conflicts:
 Menu-Depends: 
 Provides: avahi-daemon
 Build-Variant: dbus
-Build-Depends: libexpat libdaemon libgdbm intltool/host libpthread dbus
+Build-Depends: intltool/host
 Section: net
 Category: Network
 Repository: packages
@@ -250,7 +250,7 @@ Conflicts:
 Menu-Depends: 
 Provides: avahi-daemon
 Build-Variant: nodbus
-Build-Depends: libexpat libdaemon libgdbm intltool/host libpthread dbus
+Build-Depends: intltool/host
 Section: net
 Category: Network
 Repository: packages
@@ -281,7 +281,7 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +avahi
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libexpat libdaemon libgdbm intltool/host libpthread dbus
+Build-Depends: intltool/host
 Section: net
 Category: Network
 Repository: packages
@@ -311,7 +311,7 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +avahi
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libexpat libdaemon libgdbm intltool/host libpthread dbus
+Build-Depends: intltool/host
 Section: net
 Category: Network
 Repository: packages
@@ -341,7 +341,7 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libav
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libexpat libdaemon libgdbm intltool/host libpthread dbus
+Build-Depends: intltool/host
 Section: net
 Category: Network
 Repository: packages

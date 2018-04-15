@@ -1,7 +1,7 @@
 Source-Makefile: package/feeds/packages/ntpd/Makefile
 Package: ntpd
 Submenu: Time Synchronization
-Version: 4.2.8p10-2
+Version: 4.2.8p11-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libopenssl +libpthread +libcap +ntp-utils
 Conflicts: 
 Menu-Depends: 
@@ -12,7 +12,7 @@ Repository: packages
 Title: ISC ntp server
 Maintainer: Peter Wagner <tripolar@gmx.at>
 Require-User: ntp=123:ntp=123
-Source: ntp-4.2.8p10.tar.gz
+Source: ntp-4.2.8p11.tar.gz
 License: Unique
 LicenseFiles: COPYRIGHT html/copyright.html
 Type: ipkg
@@ -27,7 +27,7 @@ Peter Wagner <tripolar@gmx.at>
 
 Package: ntpdate
 Submenu: Time Synchronization
-Version: 4.2.8p10-2
+Version: 4.2.8p11-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libopenssl +libpthread +libcap
 Conflicts: 
 Menu-Depends: 
@@ -37,7 +37,7 @@ Category: Network
 Repository: packages
 Title: ISC ntp date
 Maintainer: Peter Wagner <tripolar@gmx.at>
-Source: ntp-4.2.8p10.tar.gz
+Source: ntp-4.2.8p11.tar.gz
 License: Unique
 LicenseFiles: COPYRIGHT html/copyright.html
 Type: ipkg
@@ -52,7 +52,7 @@ Peter Wagner <tripolar@gmx.at>
 
 Package: ntp-utils
 Submenu: Time Synchronization
-Version: 4.2.8p10-2
+Version: 4.2.8p11-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libopenssl +libpthread +libcap
 Conflicts: 
 Menu-Depends: 
@@ -62,7 +62,7 @@ Category: Network
 Repository: packages
 Title: ISC ntp utilities
 Maintainer: Peter Wagner <tripolar@gmx.at>
-Source: ntp-4.2.8p10.tar.gz
+Source: ntp-4.2.8p11.tar.gz
 License: Unique
 LicenseFiles: COPYRIGHT html/copyright.html
 Type: ipkg
@@ -77,7 +77,7 @@ Peter Wagner <tripolar@gmx.at>
 
 Package: ntp-keygen
 Submenu: Time Synchronization
-Version: 4.2.8p10-2
+Version: 4.2.8p11-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libopenssl +libpthread +libcap +libevent2-core
 Conflicts: 
 Menu-Depends: 
@@ -87,7 +87,7 @@ Category: Network
 Repository: packages
 Title: ISC ntp keygen
 Maintainer: Peter Wagner <tripolar@gmx.at>
-Source: ntp-4.2.8p10.tar.gz
+Source: ntp-4.2.8p11.tar.gz
 License: Unique
 LicenseFiles: COPYRIGHT html/copyright.html
 Type: ipkg

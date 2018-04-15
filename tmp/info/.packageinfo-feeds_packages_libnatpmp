@@ -1,6 +1,6 @@
 Source-Makefile: package/feeds/packages/libnatpmp/Makefile
 Package: libnatpmp
-Version: 20140401-1
+Version: 20150609-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
 Conflicts: 
 Menu-Depends: 
@@ -10,7 +10,7 @@ Category: Libraries
 Repository: packages
 Title: NAT Port Mapping Protocol (NAT-PMP) library
 Maintainer: Hauke Mehrtens <hauke@hauke-m.de>
-Source: libnatpmp-20140401.tar.gz
+Source: libnatpmp-20150609.tar.gz
 License: BSD-3c
 LicenseFiles: LICENSE
 Type: ipkg
@@ -25,7 +25,7 @@ Hauke Mehrtens <hauke@hauke-m.de>
 
 Package: natpmpc
 Submenu: Firewall
-Version: 20140401-1
+Version: 20150609-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libnatpmp
 Conflicts: 
 Menu-Depends: 
@@ -35,7 +35,7 @@ Category: Network
 Repository: packages
 Title: NAT Port Mapping Protocol (NAT-PMP) client
 Maintainer: Hauke Mehrtens <hauke@hauke-m.de>
-Source: libnatpmp-20140401.tar.gz
+Source: libnatpmp-20150609.tar.gz
 License: BSD-3c
 LicenseFiles: LICENSE
 Type: ipkg

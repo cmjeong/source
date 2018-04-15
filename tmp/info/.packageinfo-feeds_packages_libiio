@@ -1,7 +1,8 @@
 Source-Makefile: package/feeds/packages/libiio/Makefile
 Package: libiio
-Version: 0.11-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +PACKAGE_libaio:libaio +PACKAGE_libusb-1.0:libusb-1.0 +PACKAGE_libavahi-common:libavahi-common +PACKAGE_libavahi-client:libavahi-client +libxml2
+Menu: 1
+Version: 0.14-2
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +LIBIIO_USB_BACKEND:libusb-1.0 +LIBIIO_NETWORK_BACKEND:libavahi-client +LIBIIO_XML_BACKEND:libxml2
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -10,7 +11,7 @@ Category: Libraries
 Repository: packages
 Title: Library for interfacing with Linux IIO devices
 Maintainer: Michael Heimpold <mhei@heimpold.de>
-Source: libiio-0.11.tar.gz
+Source: libiio-0.14.tar.gz
 License: LGPL-2.1
 LicenseFiles: COPYING.txt
 Type: ipkg
@@ -27,9 +28,32 @@ Description:   libiio is used to interface to the Linux Industrial Input/Output 
 https://github.com/analogdevicesinc/libiio
 Michael Heimpold <mhei@heimpold.de>
 @@
+Config:
+config LIBIIO_LOCAL_BACKEND
+	bool "Enable local backend"
+	depends on PACKAGE_libiio
+	default y
+
+config LIBIIO_NETWORK_BACKEND
+	bool "Enable network backend"
+	depends on PACKAGE_libiio
+	select LIBIIO_XML_BACKEND
+	default n
+
+config LIBIIO_USB_BACKEND
+	bool "Enable USB backend"
+	depends on PACKAGE_libiio
+	select LIBIIO_XML_BACKEND
+	default n
+
+config LIBIIO_XML_BACKEND
+	bool "Enable XML backend"
+	depends on PACKAGE_libiio
+	default n
+@@
 
 Package: iiod
-Version: 0.11-2
+Version: 0.14-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libiio
 Conflicts: 
 Menu-Depends: 
@@ -39,7 +63,7 @@ Category: Network
 Repository: packages
 Title: Linux IIO daemon
 Maintainer: Michael Heimpold <mhei@heimpold.de>
-Source: libiio-0.11.tar.gz
+Source: libiio-0.14.tar.gz
 License: LGPL-2.1
 LicenseFiles: COPYING.txt
 Type: ipkg
@@ -49,7 +73,7 @@ Michael Heimpold <mhei@heimpold.de>
 @@
 
 Package: iio-utils
-Version: 0.11-2
+Version: 0.14-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +libiio
 Conflicts: 
 Menu-Depends: 
@@ -59,7 +83,7 @@ Category: Utilities
 Repository: packages
 Title: Linux IIO tools
 Maintainer: Michael Heimpold <mhei@heimpold.de>
-Source: libiio-0.11.tar.gz
+Source: libiio-0.14.tar.gz
 License: LGPL-2.1
 LicenseFiles: COPYING.txt
 Type: ipkg

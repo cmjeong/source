@@ -6,7 +6,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -27,7 +26,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -46,7 +44,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -65,7 +62,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -84,7 +80,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -103,7 +98,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -122,7 +116,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -141,7 +134,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -160,7 +152,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -179,7 +170,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -198,7 +188,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -217,7 +206,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -236,7 +224,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -255,7 +242,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -274,7 +260,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -293,7 +278,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -312,7 +296,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -331,7 +314,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -350,7 +332,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -369,7 +350,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -388,7 +368,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -407,7 +386,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -426,7 +404,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -445,7 +422,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -464,7 +440,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -483,7 +458,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -502,7 +476,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -521,7 +494,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -540,7 +512,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -559,7 +530,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -578,7 +548,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -597,7 +566,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -616,7 +584,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -635,7 +602,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -654,7 +620,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -673,7 +638,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -692,7 +656,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -711,7 +674,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -730,7 +692,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -749,7 +710,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -768,7 +728,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -787,7 +746,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -806,7 +764,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -825,7 +782,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -844,7 +800,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -863,7 +818,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -882,7 +836,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -901,7 +854,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -920,7 +872,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -939,7 +890,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -958,7 +908,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -977,7 +926,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -996,7 +944,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -1015,7 +962,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -1034,7 +980,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -1053,7 +998,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -1072,7 +1016,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -1091,7 +1034,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -1110,7 +1052,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -1129,7 +1070,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -1148,7 +1088,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -1167,7 +1106,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -1186,7 +1124,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -1205,7 +1142,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -1224,7 +1160,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -1243,7 +1178,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -1262,7 +1196,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -1281,7 +1214,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -1300,7 +1232,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -1319,7 +1250,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -1338,7 +1268,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -1357,7 +1286,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -1376,7 +1304,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -1395,7 +1322,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -1414,7 +1340,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -1433,7 +1358,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -1452,7 +1376,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -1471,7 +1394,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -1490,7 +1412,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -1509,7 +1430,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -1528,7 +1448,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -1547,7 +1466,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -1566,7 +1484,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -1585,7 +1502,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -1604,7 +1520,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -1623,7 +1538,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -1642,7 +1556,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -1661,7 +1574,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -1680,7 +1592,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -1699,7 +1610,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -1718,7 +1628,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -1737,7 +1646,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -1756,7 +1664,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -1775,7 +1682,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -1794,7 +1700,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -1813,7 +1718,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -1832,7 +1736,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -1851,7 +1754,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -1870,7 +1772,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -1889,7 +1790,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base
@@ -1908,7 +1808,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread coreut
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: libpthread
 Section: utils
 Category: Utilities
 Repository: base

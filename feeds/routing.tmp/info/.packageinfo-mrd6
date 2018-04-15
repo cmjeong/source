@@ -1,6 +1,6 @@
 Source-Makefile: feeds/routing/mrd6/Makefile
 Package: mrd6
-Version: 2013-11-30-c805eb33255dbc0b6647d463c6c67d1c9d3105a0-1
+Version: 2013-11-30-c805eb33255dbc0b6647d463c6c67d1c9d3105a0-2
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread @IPV6 +libstdcpp
 Conflicts: 
 Menu-Depends: 

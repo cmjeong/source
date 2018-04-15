@@ -1,7 +1,7 @@
 Source-Makefile: feeds/packages/net/ola/Makefile
 Package: ola
-Version: 0.10.1-2
-Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +protobuf +libusb-1.0 +libuuid +libstdcpp +libpthread +librt +zlib +libncurses +liblo +sudo
+Version: 0.10.5-2
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +protobuf +libusb-1.0 +libuuid +libstdcpp +libpthread +librt +zlib +libncurses +liblo
 Conflicts: 
 Menu-Depends: 
 Provides: 
@@ -13,7 +13,7 @@ Category: Network
 Repository: base
 Title: Open Lighting Architecture Daemon
 Maintainer: Christian Beier <dontmind@freeshell.org>
-Source: ola-0.10.1-5b86f5802e2e5b23c6a010dc8d10788e6dc57614.tar.gz
+Source: ola-0.10.5-32db3c49d435398d017c6b5c0b25e02a7a831f5c.tar.gz
 License: LGPL-2.1+
 Type: ipkg
 Description:   OLA (Open Lighting Architecture) is a framework that allows applications to

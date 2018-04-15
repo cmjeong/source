@@ -1,7 +1,7 @@
 Source-Makefile: feeds/telephony/libs/dahdi-tools/Makefile
 Package: dahdi-cfg
 Submenu: Telephony
-Version: 2.11.1-2
+Version: 2.11.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +kmod-dahdi +libpthread +dahdi-tools-libtonezone
 Conflicts: 
 Menu-Depends: 
@@ -21,7 +21,7 @@ Vittorio Gambaletta <openwrt@vittgam.net>
 
 Package: dahdi-monitor
 Submenu: Telephony
-Version: 2.11.1-2
+Version: 2.11.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +kmod-dahdi
 Conflicts: 
 Menu-Depends: 
@@ -41,7 +41,7 @@ Vittorio Gambaletta <openwrt@vittgam.net>
 
 Package: dahdi-tools-libtonezone
 Submenu: Telephony
-Version: 2.11.1-2
+Version: 2.11.1-3
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +kmod-dahdi
 Conflicts: 
 Menu-Depends: 

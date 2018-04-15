@@ -5,7 +5,6 @@ Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +pytho
 Conflicts: 
 Menu-Depends: 
 Provides: 
-Build-Depends: python python-setuptools
 Section: net
 Category: Network
 Repository: packages

@@ -7,7 +7,6 @@ Conflicts:
 Menu-Depends: 
 Provides: squeezelite
 Build-Variant: mini
-Build-Depends: libflac libvorbis libmpg123 libfaad2 SQUEEZELITE_WMA:libffmpeg-audio-dec
 Section: sound
 Category: Sound
 Repository: base
@@ -60,7 +59,6 @@ Conflicts:
 Menu-Depends: 
 Provides: squeezelite
 Build-Variant: full
-Build-Depends: libflac libvorbis libmpg123 libfaad2 SQUEEZELITE_WMA:libffmpeg-audio-dec
 Section: sound
 Category: Sound
 Repository: base

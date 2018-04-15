@@ -187,6 +187,27 @@ http://lxc.sourceforge.net/
 Marko Ratkaj <marko.ratkaj@sartura.hr>
 @@
 
+Package: lxc-unprivileged
+Version: 2.1.1-1
+Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread +shadow-utils +shadow-newuidmap +shadow-newgidmap
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Build-Depends: lua
+Section: utils
+Category: Utilities
+Repository: base
+Title: Helper script for unprivileged containers support
+Maintainer: Marko Ratkaj <marko.ratkaj@sartura.hr>
+Source: lxc-2.1.1.tar.gz
+License: LGPL-2.1+ BSD-2-Clause GPL-2.0
+Type: ipkg
+Description:  Support for unprivileged containers requires newuidmap and newguidmap.
+ This package makes sure they are available & have correct permissions.
+http://lxc.sourceforge.net/
+Marko Ratkaj <marko.ratkaj@sartura.hr>
+@@
+
 Package: lxc-attach
 Version: 2.1.1-1
 Depends: +libc +SSP_SUPPORT:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread lxc +lxc-common +libpthread +libcap +liblxc
